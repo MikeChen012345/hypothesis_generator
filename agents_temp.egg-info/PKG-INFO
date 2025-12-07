@@ -1,0 +1,57 @@
+Metadata-Version: 2.4
+Name: agents-temp
+Version: 0.0.1
+Summary: A virtual environment for building the agent project
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Requires-Dist: langchain>=1.0.3
+Requires-Dist: langchain-openai>=1.0.1
+Requires-Dist: langchain_community>=0.4.1
+Requires-Dist: psycopg[binary,pool]
+Requires-Dist: langgraph
+Requires-Dist: langgraph-checkpoint-postgres
+Requires-Dist: pyyaml>=6.0
+Requires-Dist: python-dotenv>=1.2.1
+Requires-Dist: pydantic==2.12.3
+Requires-Dist: google-api-python-client==2.187.0
+Requires-Dist: beautifulsoup4==4.14.3
+Requires-Dist: qdrant-client==1.16.1
+Requires-Dist: sentence-transformers==5.1.2
+Provides-Extra: dev
+Requires-Dist: pytest>=7.0.0; extra == "dev"
+Requires-Dist: black>=23.1.0; extra == "dev"
+Requires-Dist: flake8>=6.0.0; extra == "dev"
+Requires-Dist: mypy>=1.0.0; extra == "dev"
+Requires-Dist: isort>=5.10.0; extra == "dev"
+
+# agent-helper
+An agent helper to provide understanding on daily-life matters
+
+## Overview
+This repository contains an agent helper built using LangGraph and LangChain. The agent is designed to assist users in exploring and addressing various daily-life matters through a structured workflow.
+
+## Getting Started
+To get started with the agent helper, follow these steps:
+1. Clone the repository:
+   ```bash
+    git clone git@github.com:MikeChen012345/agent-helper.git
+    cd agent-helper
+    ```
+2. Setup the virtual environment and build the project:
+   ```bash
+   python -m venv venv
+   source venv/bin/activate  # On Windows use `venv\Scripts\activate`
+   pip install -e .
+   ```
+3. Create a `.env` file in the root directory and add your OpenAI API key:
+   ```plaintext
+   OPENAI_API_ENDPOINT=your_openai_api_endpoint_here
+   OPENAI_API_KEY=your_openai_api_key_here
+   POSTGRESQL_CONNECTION_STRING=your_postgresql_connection_string_here
+   GOOGLE_SEARCH_API_KEY=your_google_search_api_key_here
+   GOOGLE_SEARCH_CX=your_google_search_cx_here
+   ```
+4. Run the workflow agent:
+   ```bash
+   python agents/workflow.py
+   ```
