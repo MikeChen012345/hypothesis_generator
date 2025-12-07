@@ -36,8 +36,8 @@ Additional API keys (e.g., SERP providers) can be added as needed.
 ## Installation & Usage
 1. Clone and install:
    ```bash
-   git clone git@github.com:MikeChen012345/agent-helper.git
-   cd agent-helper
+   git clone git@github.com:MikeChen012345/hypothesis_generator.git
+   cd hypothesis_generator
    python -m venv venv
    venv\Scripts\activate   # or source venv/bin/activate
    pip install -e .
