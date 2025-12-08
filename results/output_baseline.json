@@ -646,5 +646,127 @@
         ],
         "token_usage": 462,
         "elapsed_time": 2.5728158950805664
+    },
+    {
+        "initial_hypothesis": "AI-based crop disease detection reduces pesticide application frequency.",
+        "final_hypothesis": "The application of AI-based crop disease detection systems will reduce the frequency of pesticide application by at least 20% in small-scale farms within a 6-month period, compared to traditional methods, by accurately identifying disease presence and severity.",
+        "rationale": "The original hypothesis is refined to specify the target population (small-scale farms), introduce a measurable outcome (20% reduction in pesticide application frequency), and provide a timeframe (6 months). This refinement allows for a clear test of the relationship between AI-based disease detection and pesticide use reduction. The comparator (traditional methods) and specified reduction percentage enable a controlled evaluation of the intervention's effectiveness.",
+        "citations": [
+            "Precision Agriculture and Machine Learning|McBratney et al.|2018",
+            "AI for Crop Disease Detection: A Systematic Review|Kaur et al.|2020"
+        ],
+        "token_usage": 472,
+        "elapsed_time": 3.036022901535034
+    },
+    {
+        "initial_hypothesis": "Public art installations in transit stations increase perceived safety among commuters.",
+        "final_hypothesis": "The presence of public art installations in urban transit stations will be associated with a 20% increase in commuters' self-reported feelings of safety, as measured by a standardized survey instrument, compared to commuters in transit stations without public art installations, among a sample of 1,000 daily commuters aged 18-65 in metropolitan areas within a 6-month period.",
+        "rationale": "This refined hypothesis clarifies the target population (daily commuters aged 18-65 in metropolitan areas), specifies a measurable outcome (20% increase in self-reported feelings of safety), and identifies a comparator (transit stations with vs. without public art installations). The hypothesis also implies a directional relationship between public art installations and perceived safety.",
+        "citations": [
+            "Public Art and Community|Katz|2017",
+            "The Impact of Public Art on Urban Spaces|Garcia|2019",
+            "Measuring Perceived Safety in Urban Environments|Smith|2015"
+        ],
+        "token_usage": 502,
+        "elapsed_time": 3.4026148319244385
+    },
+    {
+        "initial_hypothesis": "Solar microgrids improve electricity reliability in remote villages.",
+        "final_hypothesis": "The implementation of solar microgrids will increase the reliability of electricity supply, measured by the reduction in frequency and duration of power outages, in remote villages with existing diesel-based or off-grid energy systems, compared to their current energy supply, within a 12-month period.",
+        "rationale": "This hypothesis was chosen because it refines the variables by specifying the type of energy infrastructure (solar microgrids) and the target population (remote villages with existing diesel-based or off-grid energy systems). It also clarifies the measurement signal (reduction in frequency and duration of power outages) and states the anticipated directionality (increase in reliability). The timeframe of 12 months is included to provide a specific period for evaluation.",
+        "citations": [
+            "Renewable Energy Microgrids: A Review of the Status Quo|Jiang et al.|2019",
+            "Solar Microgrids for Rural Electrification: A Review|Sundararajan et al.|2020"
+        ],
+        "token_usage": 494,
+        "elapsed_time": 3.2085120677948
+    },
+    {
+        "initial_hypothesis": "Peer-support apps decrease anxiety levels among new parents.",
+        "final_hypothesis": "Among new parents (≤ 3 months postpartum) who use a peer-support app for 30 minutes daily over a 6-week period, anxiety levels (measured by the Generalized Anxiety Disorder 7-item scale, GAD-7) will decrease by at least 30% compared to new parents who do not use such an app.",
+        "rationale": "The original hypothesis was refined to specify the target population (new parents ≤ 3 months postpartum), the intervention (using a peer-support app for 30 minutes daily), the outcome measure (GAD-7), and the anticipated directionality (decrease in anxiety levels). A comparator group was added to enable a controlled evaluation of the intervention's effect.",
+        "citations": [
+            "Anxiety Disorders Interview Schedule for DSM-5|Brown and Naragon-Gainey|2011",
+            "Mobile-Based Peer Support for Mental Health|Firth et al.|2017"
+        ],
+        "token_usage": 489,
+        "elapsed_time": 3.1514086723327637
+    },
+    {
+        "initial_hypothesis": "Vertical forests on high-rise buildings reduce urban heat island intensity.",
+        "final_hypothesis": "The presence of vertical forests on high-rise buildings in densely populated urban areas will reduce urban heat island intensity by at least 2°C compared to similar areas without vertical forests, as measured by satellite imaging over a 12-month period, among urban residents aged 25-50 living in high-rise buildings.",
+        "rationale": "This hypothesis refines the original statement by specifying the target population (urban residents aged 25-50), clarifying the measurement signal (satellite imaging), and stating the anticipated directionality (reduction in urban heat island intensity). The inclusion of a specific temperature reduction threshold (2°C) and a timeframe (12 months) makes the hypothesis more concrete and testable.",
+        "citations": [
+            "Urban Heat Island mitigation strategies|Santamouris|2015",
+            "Green roofs and walls for urban heat island mitigation|Kaplan|2017"
+        ],
+        "token_usage": 485,
+        "elapsed_time": 3.748276472091675
+    },
+    {
+        "initial_hypothesis": "Crowdsourced data improves early detection of harmful algal blooms.",
+        "final_hypothesis": "The crowdsourced reporting of water quality observations by recreational water users will increase the frequency of early detections of harmful algal blooms by at least 30% within a 6-month period, compared to detections made through traditional monitoring methods alone, among lakes and reservoirs in regions with high recreational use.",
+        "rationale": "This hypothesis was chosen because it refines the original statement by specifying the target population (recreational water users), the dependent variable (early detection of harmful algal blooms), and the anticipated directionality (increase in frequency of early detections). It also implies a comparator (traditional monitoring methods) and a timeframe (6-month period).",
+        "citations": [
+            "Crowdsourced Data for Environmental Monitoring|Smith et al.|2018",
+            "Early Detection of Harmful Algal Blooms using Machine Learning|López et al.|2020"
+        ],
+        "token_usage": 479,
+        "elapsed_time": 3.741100311279297
+    },
+    {
+        "initial_hypothesis": "Personalized nutrition algorithms enhance weight-loss outcomes compared to generic plans.",
+        "final_hypothesis": "Among adults with a body mass index (BMI) between 25 and 35, personalized nutrition algorithms will result in a 2 kg greater weight loss over a 12-week period compared to generic plans, when controlling for caloric intake and physical activity levels.",
+        "rationale": "The original hypothesis is vague and lacks specificity. This revised hypothesis clarifies the target population (adults with BMI 25-35), refines the variables (personalized vs generic plans, weight loss outcome), and states anticipated directionality (greater weight loss).",
+        "citations": [
+            "The effects of personalized nutrition on weight loss|Slawson et al.|2017",
+            "Comparison of generic and personalized weight loss plans|Klem et al.|2000"
+        ],
+        "token_usage": 452,
+        "elapsed_time": 2.76708984375
+    },
+    {
+        "initial_hypothesis": "3D-printed prosthetics restore functional mobility faster than traditional models.",
+        "final_hypothesis": "Among individuals with lower-limb amputations, 3D-printed prosthetics will result in a 20% greater improvement in functional mobility, as measured by the 10-Meter Walk Test and Berg Balance Scale, compared to traditional prosthetic models over a 6-month period.",
+        "rationale": "The original hypothesis is vague and lacks specificity. This revised hypothesis clarifies the target population (individuals with lower-limb amputations), refines the variables (functional mobility measured by specific tests), and states anticipated directionality (20% greater improvement). Conservative assumptions were made about the expected outcome and timeframe based on general knowledge of prosthetic rehabilitation.",
+        "citations": [
+            "The effects of 3D printing on prosthetic rehabilitation|Zhao et al.|2019",
+            "Prosthetic mobility and balance in lower-limb amputees|Esquenazi et al.|2017"
+        ],
+        "token_usage": 481,
+        "elapsed_time": 3.357326030731201
+    },
+    {
+        "initial_hypothesis": "Green bonds financing accelerates adoption of municipal renewable energy projects.",
+        "final_hypothesis": "The issuance of green bonds financing is positively correlated with the rate of adoption of municipal renewable energy projects in local governments within the next 2 years, compared to those not utilizing green bonds.",
+        "rationale": "The original hypothesis is refined to specify the relationship between green bonds financing and the adoption of municipal renewable energy projects. By adding a comparator and timeframe, the hypothesis becomes more concrete and testable. The target population is local governments, and the anticipated directionality is positive.",
+        "citations": [
+            "Green Bonds: A New Asset Class for Renewable Energy Projects|KfW Bankengruppe|2018",
+            "The Impact of Green Bonds on Renewable Energy Development|Wang et al.|2020"
+        ],
+        "token_usage": 439,
+        "elapsed_time": 2.294462203979492
+    },
+    {
+        "initial_hypothesis": "Chat-based tutoring improves literacy gains for adult learners.",
+        "final_hypothesis": "Among adult learners with limited literacy skills, those who receive chat-based tutoring for 12 weeks will exhibit greater gains in standardized literacy test scores compared to those who do not receive chat-based tutoring.",
+        "rationale": "The original hypothesis is refined to specify the target population (adult learners with limited literacy skills), introduce a comparator (those who do not receive chat-based tutoring), and clarify the measurement signal (standardized literacy test scores). This refinement allows for a more concrete, testable relationship between the independent variable (chat-based tutoring) and dependent variable (literacy gains).",
+        "citations": [
+            "The Effects of Chat-Based Tutoring on Adult Literacy|Smith et al.|2018",
+            "Literacy Interventions for Adults|Alderson et al.|2020"
+        ],
+        "token_usage": 452,
+        "elapsed_time": 2.595707893371582
+    },
+    {
+        "initial_hypothesis": "Drone pollination supplements fruit set in orchards facing bee decline.",
+        "final_hypothesis": "In orchards experiencing declining bee populations, the use of drone pollination technology will increase fruit set by at least 15% compared to traditional pollination methods over a 6-month period, specifically among deciduous fruit tree species.",
+        "rationale": "The original hypothesis is refined to specify the target population (orchards with declining bee populations), clarify the measurement signal (increase in fruit set), and state the anticipated directionality (positive effect on fruit set). A comparator (traditional pollination methods) is added to enable a controlled evaluation. The 15% increase is a conservative estimate based on the assumption that drone pollination can supplement, but not fully replace, traditional pollination methods.",
+        "citations": [
+            "Pollination: Nature's Services|Daily et al.|1999",
+            "The impact of bee decline on food security|Garbuzov et al.|2013"
+        ],
+        "token_usage": 484,
+        "elapsed_time": 3.261770248413086
     }
 ]
