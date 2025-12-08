@@ -1,0 +1,12 @@
+{
+    "num_entries": 106,
+    "average_token_usage": 520.4716981132076,
+    "average_elapsed_time": 8.251088432545933,
+    "format_error_rate": 0.0,
+    "citation_validity_rate": 0,
+    "verifiability": 4.4764150943396235,
+    "logical_soundness": 4.995283018867925,
+    "novelty": 3.0117924528301887,
+    "relevance": 5.0,
+    "clarity": 5.0
+}

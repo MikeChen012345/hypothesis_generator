@@ -155,7 +155,7 @@ def retrieve_user_memory_keyword(store: BaseStore, agent_memory_config: dict, co
         memories = store.search(namespace, query=str(query), limit=top_k)
         info = "\n".join([memory.value["data"] for memory in memories])
         info = f"Memories of user: {info}" if info else ""
-        logging.info(f"Retrieved memories for user {user_id} with query {query}: {info}")
+        logger.info(f"Retrieved memories for user {user_id} with query {query}: {info}")
         return info
     return ""
 
@@ -176,7 +176,7 @@ def store_user_memory_keyword(store: BaseStore, agent_memory_config: dict, confi
         memory = query.lower() # use summary of query as memory instead?
         uid = str(uuid.uuid4())
         store.put(namespace, uid, {"data": memory})
-        logging.info(f"User {user_id} stored memory {uid}: {memory}")
+        logger.info(f"User {user_id} stored memory {uid}: {memory}")
         return True
     return False
 
@@ -198,7 +198,7 @@ def forget_user_memory_keyword(store: BaseStore, agent_memory_config: dict, conf
 
     """
     if store is None:
-        logging.info("Keyword memory store is not configured; nothing to forget")
+        logger.info("Keyword memory store is not configured; nothing to forget")
         return 0
 
     user_id = config["configurable"]["user_id"]
@@ -222,9 +222,9 @@ def forget_user_memory_keyword(store: BaseStore, agent_memory_config: dict, conf
             store.delete(namespace, key)
             deleted += 1
         except Exception as exc:
-            logging.error("Failed to delete keyword memory %s for user %s: %s", key, user_id, exc)
+            logger.error("Failed to delete keyword memory %s for user %s: %s", key, user_id, exc)
 
-    logging.info("Deleted %s keyword memories for user %s", deleted, user_id)
+    logger.info("Deleted %s keyword memories for user %s", deleted, user_id)
     return deleted
 
 
@@ -280,7 +280,7 @@ def retrieve_user_memory_vector(agent_memory_config: dict, config: dict, query: 
         user_namespace = agent_memory_config.get("vector_store", {}).get(
             "namespace", "user:{user_id}").format(user_id=config["configurable"]["user_id"])
         if not client.collection_exists(user_namespace):
-            logging.warning(f"Vector collection {user_namespace} does not exist.")
+            logger.warning(f"Vector collection {user_namespace} does not exist.")
             return ""
 
         res = client.query_points(collection_name=user_namespace, 
@@ -289,10 +289,10 @@ def retrieve_user_memory_vector(agent_memory_config: dict, config: dict, query: 
         res = [point.payload["text"] for point in res]
         info = "\n".join(res)
         info = f"Memories of user: {info}" if info else ""
-        logging.info(f"Retrieved vector memories for user {user_id} with query {query}: {info}")
+        logger.info(f"Retrieved vector memories for user {user_id} with query {query}: {info}")
         return info
     except Exception as e:
-        logging.error(f"Error retrieving vector memories for user {user_id} with query {query}: {e}")
+        logger.error(f"Error retrieving vector memories for user {user_id} with query {query}: {e}")
         return ""
 
 
@@ -323,7 +323,7 @@ def store_user_memory_vector(agent_memory_config: dict, config: dict, query: str
         elif distance_type == "MANHATTAN":
             distance = Distance.MANHATTAN
         else:
-            logging.warning(f"Unknown distance type {distance_type}, defaulting to COSINE")
+            logger.warning(f"Unknown distance type {distance_type}, defaulting to COSINE")
             distance = Distance.COSINE
 
         vector_params = VectorParams(
@@ -339,7 +339,7 @@ def store_user_memory_vector(agent_memory_config: dict, config: dict, query: str
                 collection_name=user_namespace,
                 vectors_config=vector_params,
             )
-            logging.info(f"Vector collection {user_namespace} for user {user_id} does not exist. Created new collection.")
+            logger.info(f"Vector collection {user_namespace} for user {user_id} does not exist. Created new collection.")
 
         vector = embedding_model.encode([query])[0].tolist()
         uid = str(uuid.uuid4())
@@ -353,10 +353,10 @@ def store_user_memory_vector(agent_memory_config: dict, config: dict, query: str
                 )
             ]
         )
-        logging.info(f"User {user_id} stored vector memory {uid}: {query}")
+        logger.info(f"User {user_id} stored vector memory {uid}: {query}")
         return True
     except Exception as e:
-        logging.error(f"Error storing vector memory for user {user_id} with query {query}: {e}")
+        logger.error(f"Error storing vector memory for user {user_id} with query {query}: {e}")
         return False
 
 
@@ -391,7 +391,7 @@ def forget_user_memory_vector(
         ).format(user_id=user_id)
 
         if not client.collection_exists(user_namespace):
-            logging.warning("Vector collection %s does not exist; nothing to forget", user_namespace)
+            logger.warning("Vector collection %s does not exist; nothing to forget", user_namespace)
             return 0
 
         ids_to_delete: set[str] = set(point_ids or [])
@@ -409,15 +409,15 @@ def forget_user_memory_vector(
             ids_to_delete.update(str(point.id) for point in points if point.id is not None)
 
         if not ids_to_delete:
-            logging.info("No vector memories matched the forget criteria for user %s", user_id)
+            logger.info("No vector memories matched the forget criteria for user %s", user_id)
             return 0
 
         selector = PointIdsList(points=list(ids_to_delete))
         client.delete(collection_name=user_namespace, points_selector=selector)
-        logging.info("Deleted %s vector memories for user %s", len(ids_to_delete), user_id)
+        logger.info("Deleted %s vector memories for user %s", len(ids_to_delete), user_id)
         return len(ids_to_delete)
     except Exception as exc:
-        logging.error("Error forgetting vector memories for user %s: %s", config["configurable"]["user_id"], exc)
+        logger.error("Error forgetting vector memories for user %s: %s", config["configurable"]["user_id"], exc)
         return 0
     
 

@@ -1,13 +1,41 @@
+Hypothesis:
+  candidate_count: 2
+  archive_candidates: true
+  show_all_candidates: true
+
+
+Model:
+  name: "meta-llama/Llama-4-Scout-17B-16E-Instruct" # "google/gemma-3-27b-it" # "openai/gpt-oss-120b" # 
+  temperature: 0.5
+  timeout: 30
+  max_retries: 7
+  max_tokens: 4096
+  base_url: "${OPENAI_API_ENDPOINT}"
+  api_key: "${OPENAI_API_KEY}"
+
+
+Graph:
+  use_simulated_user: true
+  max_iterations: 100
+  max_phase_rounds: 2
+  max_consecutive_tool_calls: 3
+
+
 Logging:
-  filename: "workflow.log"
+  filename: "logs/workflow.log"
   level: INFO
   format: "%(asctime)s - %(levelname)s - %(message)s"
+  
+  chat_history:
+    filename: "logs/chat_history.log"
+    level: INFO
+    format: "%(asctime)s - %(message)s"
 
 AgentMemory:
   message_history:
     phase_independent: false
   vector_store:
-    use: true
+    use: false
     connection_url: "${QDRANT_URL}"
     namespace: "{user_id}"
     embedding_model: "sentence-transformers/paraphrase-albert-small-v2"
@@ -18,7 +46,7 @@ AgentMemory:
     type: "postgresql"
     connection_string: "${POSTGRESQL_CONNECTION_STRING}"
     long_term: # for user-specific persistent memory
-      use: true
+      use: false
       namespace: "user:{user_id}"
       top_k: 5
       forget_k: 1
@@ -26,23 +54,25 @@ AgentMemory:
       use: false
 
 
-Hypothesis:
-  candidate_count: 3
-  archive_candidates: true
-  show_all_candidates: true
-
+RAG: # only support qdrant
+  use: true
+  endpoint: "http://localhost:13031"
+  
 
 WebSearch:
-  use: true
+  use: false
   default_search_endpoint: "https://www.google.com/search"
 
 
 APIs:
   google_search:
-    use_api: true
+    use_api: false
     api_key: "${GOOGLE_SEARCH_API_KEY}"
     engine_id: "${GOOGLE_SEARCH_ENGINE_ID}"
   semantic_scholar:
     use_api: true
     api_key: "${SEMANTIC_SCHOLAR_API_KEY}"
     endpoint: "https://api.semanticscholar.org/graph/v1"
+  arxiv:
+    use_api: true
+    endpoint: "http://export.arxiv.org/api/query"

@@ -4,29 +4,46 @@ from typing import Any, Dict, Optional
 
 from langchain.tools import tool
 from langgraph.store.base import BaseStore
+import feedparser
+from qdrant_client import QdrantClient
 
 import logging_config # apply logging configuration when importing
 import memory_manager
+import apis
+import rag
 
 logger = logging.getLogger(__name__)
 
 app_config = logging_config.get_app_config()
+api_sections = app_config.get("APIs", {})
+google_search_config = api_sections.get("google_search", {})
+semantic_scholar_config = api_sections.get("semantic_scholar", {})
+arxiv_config = api_sections.get("arxiv", {})
+web_search_config = app_config.get("WebSearch", {})
+rag_config = app_config.get("RAG", {})
 
 
 def get_all_tools() -> list:
     """Return a list of all available tools."""
     logger.debug("Retrieving all available tools")
-    return [
-        retrieve_user_memory,
-        store_user_memory,
-        forget_user_memory,
-        web_search,
-        semantic_paper_search,
-        hypothesis_groundedness_check,
+    tools = [
+        # retrieve_user_memory,
+        # store_user_memory,
+        # forget_user_memory,
     ]
 
+    if web_search_config.get("use", True):
+        tools.append(web_search)
+    if semantic_scholar_config.get("use_api", True):
+        tools.append(semantic_paper_search)
+    if arxiv_config.get("use_api", True):
+        tools.append(arxiv_paper_search)
+    logger.info("Tools available: %d", len(tools))
+    
+    return tools
 
-###------------Memory Tools------------###
+
+###------------User Memory Tools------------###
 _DEFAULT_STORE: BaseStore | None = None
 _DEFAULT_AGENT_MEMORY_CONFIG: Dict[str, Any] | None = None
 _DEFAULT_CONFIG: Dict[str, Any] | None = None
@@ -115,10 +132,6 @@ def forget_user_memory(query: str, memory_ids: list[str] | None = None) -> int:
 
 
 ###------------Web Search Tools------------###
-api_sections = app_config.get("APIs", {})
-google_search_config = api_sections.get("google_search", {})
-semantic_scholar_config = api_sections.get("semantic_scholar", {})
-web_search_config = app_config.get("WebSearch", {})
 
 @tool
 def web_search(query: str) -> str:
@@ -143,47 +156,17 @@ def web_search(query: str) -> str:
     # prefer API-based search if API keys are available.
     import os
     if os.getenv("GOOGLE_SEARCH_API_KEY") and os.getenv("GOOGLE_SEARCH_ENGINE_ID"):
-        result = web_search_google_api(query)
+        result = apis.web_search_google_api(query)
         if result != "Web search configuration is missing." and result != "No results found.":
             return result
     
     return web_search_scrap(query)
 
-def web_search_google_api(query: str) -> str:
-    """Perform a web search for the given query using Google Custom Search API and 
-    return a summary of results.
-
-    Args:
-        query: The search query string.
-    Returns:
-        A string summarizing the search results.
-    """
-    import os
-    from googleapiclient.discovery import build
-    logger.info("Using Google Custom Search API for query: %s", query)
-    api_key = os.getenv("GOOGLE_SEARCH_API_KEY")
-    search_engine_id = os.getenv("GOOGLE_SEARCH_ENGINE_ID")
-
-    if not api_key or not search_engine_id:
-        logger.error("Google Search API key or Search Engine ID not set in environment variables")
-        return "Web search configuration is missing."
-
-    service = build("customsearch", "v1", developerKey=api_key)
-    res = service.cse().list(q=query, cx=search_engine_id, num=5).execute()
-
-    results = []
-    for item in res.get("items", []):
-        title = item.get("title")
-        link = item.get("link")
-        snippet = item.get("snippet")
-        results.append(f"Title: {title}\nLink: {link}\nSnippet: {snippet}\n")
-
-    return "\n".join(results) if results else "No results found."
-
 
 def web_search_scrap(query: str) -> str:
     """Perform a web search for the given query with web scraping and return a summary of results.
     May be used when API-based search is not available.
+    (Currently not working due to anti-scraping measures on search engines.)
 
     Args:
         query: The search query string.
@@ -206,7 +189,9 @@ def web_search_scrap(query: str) -> str:
         return "Web search failed."
     soup = BeautifulSoup(response.text, 'html.parser')
     results = []
-    for g in soup.find_all('div', class_='g'):
+    print(soup.prettify())
+    for g in soup.find_all('div', class_='LC20lb MBeuO DKV0Md'):
+        print(g)
         title = g.find('h3')
         if title:
             title_text = title.get_text()
@@ -232,95 +217,54 @@ def semantic_paper_search(query: str, limit: int = 5) -> str:
     if not semantic_scholar_config.get("use_api", False):
         return "Semantic Scholar search is disabled in the configuration."
 
-    endpoint = semantic_scholar_config.get("endpoint", "https://api.semanticscholar.org/graph/v1").rstrip("/")
-    url = f"{endpoint}/paper/search"
-    params = {
-        "query": query,
-        "limit": max(1, min(int(limit or 5), 10)),
-        "fields": "title,authors,year,url,abstract"
-    }
-    headers = {"Accept": "application/json"}
-    api_key = semantic_scholar_config.get("api_key")
-    if api_key and not api_key.startswith("${"):
-        headers["x-api-key"] = api_key
-
-    try:
-        import requests
-        response = requests.get(url, params=params, headers=headers, timeout=20)
-        if response.status_code != 200:
-            logger.error("Semantic Scholar request failed: %s", response.text)
-            return "Semantic Scholar search failed."
-        data = response.json()
-    except Exception as exc:
-        logger.exception("Semantic Scholar search error")
-        return f"Semantic Scholar search error: {exc}"
-
-    papers = data.get("data", [])
-    if not papers:
-        return "No papers found for that topic."
-
-    summaries: list[str] = []
-    for idx, paper in enumerate(papers, start=1):
-        title = paper.get("title", "Untitled")
-        year = paper.get("year", "?")
-        url = paper.get("url", "")
-        abstract = paper.get("abstract", "No abstract provided.")
-        authors = ", ".join(author.get("name", "") for author in paper.get("authors", [])[:3]) or "Unknown authors"
-        summaries.append(
-            f"[{idx}] {title} ({year}) by {authors}\nURL: {url}\nAbstract: {abstract[:400]}..."
-        )
-
-    return "\n\n".join(summaries)
+    return apis.semantic_paper_search(query, limit)
 
 
 @tool
-def hypothesis_groundedness_check(statement: str, variables: Optional[str] = None, context: Optional[str] = None) -> str:
-    """Provide a lightweight groundedness and clarity assessment for a hypothesis statement.
+def arxiv_paper_search(query: str, limit: int = 5) -> str:
+    """Query arXiv for recent papers related to a hypothesis topic.
+    This includes keyword search using arXiv's API and semantic search using RAG.
 
     Args:
-        statement: The hypothesis to evaluate.
-        variables: Optional description of independent/dependent variables.
-        context: Optional study context or population notes.
+        query: The research topic, variable, or hypothesis keyword to search.
+        limit: Maximum number of papers to summarize (default 5).
     Returns:
-        A textual report covering clarity, measurability, causal language, and potential gaps.
+        A formatted string summarizing the top matches.
     """
-    if not statement:
-        return "No hypothesis provided."
+    results = ""
+    if arxiv_config.get("use_api", True):
+        api_results = apis.arxiv_paper_search(query, limit)
+        results += "arXiv API Results:\n" + api_results
+    if rag_config.get("use", False):
+        rag_results = retrieve_relevant_arxiv_paper(query, limit)
+        results += "\n\nRAG Results:\n" + rag_results
 
-    statement_lower = statement.lower()
-    tokens = statement.split()
-    length_score = 1 if len(tokens) >= 12 else 0
-    causal_markers = ["cause", "lead", "impact", "affect", "increase", "decrease", "if"]
-    has_causal_language = any(marker in statement_lower for marker in causal_markers)
-    measurement_terms = ["percent", "rate", "score", "level", "concentration", "signal", "performance"]
-    measurable = any(term in statement_lower for term in measurement_terms)
-    comparison_terms = ["compared", "versus", "relative", "control", "baseline"]
-    comparative = any(term in statement_lower for term in comparison_terms)
+    return results
 
-    score = length_score
-    score += 1 if has_causal_language else 0
-    score += 1 if measurable else 0
-    score += 1 if comparative else 0
-    if variables:
-        score += 1
 
-    if score >= 4:
-        rating = "high"
-    elif score >= 2:
-        rating = "moderate"
-    else:
-        rating = "low"
 
-    feedback = [
-        f"Overall groundedness rating: {rating.upper()} (score={score}/5)",
-        "✔ Contains measurable signals." if measurable else "✖ Add measurable signals (e.g., rates, levels).",
-        "✔ Includes causal or directional language." if has_causal_language else "✖ Clarify causal direction (if applicable).",
-        "✔ Contrasts conditions or baselines." if comparative else "✖ Specify what the hypothesis is compared against.",
-    ]
+###------------RAG------------###
+def retrieve_relevant_arxiv_paper(query: str, limit: int = 5) -> str:
+    """Retrieve relevant arXiv papers for the given query using RAG approach.
 
-    if not variables:
-        feedback.append("✖ Provide explicit independent/dependent variables to tighten scope.")
-    if context:
-        feedback.append(f"Context noted: {context}")
+    Args:
+        query: The research topic, variable, or hypothesis keyword to search.
+        limit: Maximum number of papers to summarize (default 5).
+    Returns:
+        A formatted string summarizing the top matches.
+    """
+    logger.info("Retrieving relevant arXiv papers from RAG for topic: %s", query)
+    client = QdrantClient(url=rag_config.get("endpoint", "http://localhost:13031"))
+    if client is None:
+        return "RAG Qdrant client is not configured."
+    results = rag.get_from_qdrant(client, collection_name="documents", query=query, top_k=limit)
+    if not results:
+        return "No relevant papers found for that topic."
+    return "\n\n".join(results)
 
-    return "\n".join(feedback)
+
+
+if __name__ == "__main__":
+    # Simple test cases for the tools
+    # print(web_search_scrap("Artificial Intelligence in Healthcare"))
+    print(arxiv_paper_search("quantum computing", limit=3))

@@ -1,0 +1,638 @@
+[
+  {
+    "id": 1,
+    "hypothesis": "The increase in urban green spaces leads to a measurable decrease in local air pollution levels.",
+    "subject": "Environmental Science",
+    "division": "Environmental & Earth Sciences"
+  },
+  {
+    "id": 2,
+    "hypothesis": "Weekly mindfulness sessions improve exam performance among first-year medical students.",
+    "subject": "Medical Education",
+    "division": "Health Sciences"
+  },
+  {
+    "id": 3,
+    "hypothesis": "Installing solar reflective roofing reduces residential cooling energy consumption by at least 10 percent.",
+    "subject": "Sustainable Architecture",
+    "division": "Engineering & Technology"
+  },
+  {
+    "id": 4,
+    "hypothesis": "Longer parental leave policies correlate with higher employee retention in tech startups.",
+    "subject": "Organizational Behavior",
+    "division": "Social Sciences & Policy"
+  },
+  {
+    "id": 5,
+    "hypothesis": "Daily consumption of fermented foods enhances gut microbiome diversity in adults.",
+    "subject": "Nutrition Science",
+    "division": "Health Sciences"
+  },
+  {
+    "id": 6,
+    "hypothesis": "Virtual reality anatomy labs increase knowledge retention compared to traditional 2D diagrams.",
+    "subject": "Educational Technology",
+    "division": "Education & Learning"
+  },
+  {
+    "id": 7,
+    "hypothesis": "Mangrove restoration projects increase local fish nursery density within two years.",
+    "subject": "Marine Ecology",
+    "division": "Environmental & Earth Sciences"
+  },
+  {
+    "id": 8,
+    "hypothesis": "AI-assisted triage chatbots shorten emergency department wait times.",
+    "subject": "Health Informatics",
+    "division": "Health Sciences"
+  },
+  {
+    "id": 9,
+    "hypothesis": "Gamified language apps boost vocabulary acquisition for high school students.",
+    "subject": "Language Learning",
+    "division": "Education & Learning"
+  },
+  {
+    "id": 10,
+    "hypothesis": "Reclaimed wastewater irrigation raises soil salinity beyond crop tolerance after five seasons.",
+    "subject": "Agricultural Engineering",
+    "division": "Agriculture & Food Systems"
+  },
+  {
+    "id": 11,
+    "hypothesis": "Machine learning credit scoring reduces loan default rates for microfinance institutions.",
+    "subject": "Fintech",
+    "division": "Economics & Business"
+  },
+  {
+    "id": 12,
+    "hypothesis": "Cold plasma treatments extend shelf life of fresh berries by suppressing fungal growth.",
+    "subject": "Food Science",
+    "division": "Agriculture & Food Systems"
+  },
+  {
+    "id": 13,
+    "hypothesis": "Citizen science air quality projects increase community advocacy for clean energy policies.",
+    "subject": "Environmental Policy",
+    "division": "Social Sciences & Policy"
+  },
+  {
+    "id": 14,
+    "hypothesis": "Extending elementary school recess from 15 to 30 minutes decreases disruptive classroom behavior.",
+    "subject": "K-12 Education",
+    "division": "Education & Learning"
+  },
+  {
+    "id": 15,
+    "hypothesis": "Substituting soy-based feed lowers methane emissions from dairy cattle.",
+    "subject": "Animal Science",
+    "division": "Agriculture & Food Systems"
+  },
+  {
+    "id": 16,
+    "hypothesis": "Coastal seagrass meadows attenuate storm surge height during tropical cyclones.",
+    "subject": "Coastal Engineering",
+    "division": "Engineering & Technology"
+  },
+  {
+    "id": 17,
+    "hypothesis": "Adaptive learning platforms narrow math achievement gaps in middle school classrooms.",
+    "subject": "Educational Technology",
+    "division": "Education & Learning"
+  },
+  {
+    "id": 18,
+    "hypothesis": "Switching to biodegradable mulch films reduces microplastic accumulation in agricultural soils.",
+    "subject": "Soil Science",
+    "division": "Agriculture & Food Systems"
+  },
+  {
+    "id": 19,
+    "hypothesis": "Peer-led coding clubs increase female participation in computer science electives.",
+    "subject": "STEM Diversity",
+    "division": "Education & Learning"
+  },
+  {
+    "id": 20,
+    "hypothesis": "Deploying contact tracing wearables reduces infection clusters on cruise ships.",
+    "subject": "Public Health",
+    "division": "Health Sciences"
+  },
+  {
+    "id": 21,
+    "hypothesis": "Solar-powered drip irrigation improves tomato yield in semi-arid farms.",
+    "subject": "Sustainable Agriculture",
+    "division": "Agriculture & Food Systems"
+  },
+  {
+    "id": 22,
+    "hypothesis": "Intermittent fasting improves insulin sensitivity among prediabetic adults.",
+    "subject": "Endocrinology",
+    "division": "Health Sciences"
+  },
+  {
+    "id": 23,
+    "hypothesis": "Remote work flexibility policies raise employee job satisfaction scores.",
+    "subject": "Human Resources",
+    "division": "Economics & Business"
+  },
+  {
+    "id": 24,
+    "hypothesis": "Community composting initiatives reduce landfill waste tonnage per household.",
+    "subject": "Waste Management",
+    "division": "Environmental & Earth Sciences"
+  },
+  {
+    "id": 25,
+    "hypothesis": "Augmented reality maintenance manuals cut aircraft repair time by 20 percent.",
+    "subject": "Aerospace Engineering",
+    "division": "Engineering & Technology"
+  },
+  {
+    "id": 26,
+    "hypothesis": "Cover cropping with clover increases soil nitrogen content in smallholder plots.",
+    "subject": "Agroecology",
+    "division": "Agriculture & Food Systems"
+  },
+  {
+    "id": 27,
+    "hypothesis": "Short-form instructional videos enhance procedural learning for nursing students.",
+    "subject": "Nursing Education",
+    "division": "Health Sciences"
+  },
+  {
+    "id": 28,
+    "hypothesis": "Microdosing psilocybin alleviates treatment-resistant depression symptoms.",
+    "subject": "Psychiatry",
+    "division": "Health Sciences"
+  },
+  {
+    "id": 29,
+    "hypothesis": "Blockchain-based traceability reduces counterfeit pharmaceuticals entering supply chains.",
+    "subject": "Pharmaceutical Supply Chain",
+    "division": "Health Sciences"
+  },
+  {
+    "id": 30,
+    "hypothesis": "Urban bike lane expansion lowers traffic-related injuries for cyclists.",
+    "subject": "Urban Planning",
+    "division": "Social Sciences & Policy"
+  },
+  {
+    "id": 31,
+    "hypothesis": "Bilingual education starting in kindergarten improves executive function development.",
+    "subject": "Cognitive Development",
+    "division": "Education & Learning"
+  },
+  {
+    "id": 32,
+    "hypothesis": "Restoring oyster reefs increases coastal water clarity by filtering suspended solids.",
+    "subject": "Marine Ecology",
+    "division": "Environmental & Earth Sciences"
+  },
+  {
+    "id": 33,
+    "hypothesis": "AI-powered demand forecasting decreases food waste in grocery retail.",
+    "subject": "Retail Analytics",
+    "division": "Economics & Business"
+  },
+  {
+    "id": 34,
+    "hypothesis": "Edible insect protein diets reduce household grocery carbon footprints.",
+    "subject": "Sustainable Nutrition",
+    "division": "Agriculture & Food Systems"
+  },
+  {
+    "id": 35,
+    "hypothesis": "Precision agriculture sensors optimize fertilizer use and cut runoff nutrient loads.",
+    "subject": "Precision Agriculture",
+    "division": "Agriculture & Food Systems"
+  },
+  {
+    "id": 36,
+    "hypothesis": "Telehealth physical therapy retains patient adherence better than in-person sessions.",
+    "subject": "Telemedicine",
+    "division": "Health Sciences"
+  },
+  {
+    "id": 37,
+    "hypothesis": "Workplace four-day weeks reduce employee burnout rates.",
+    "subject": "Occupational Health",
+    "division": "Health Sciences"
+  },
+  {
+    "id": 38,
+    "hypothesis": "Urban beekeeping installations improve pollination rates for rooftop gardens.",
+    "subject": "Urban Agriculture",
+    "division": "Agriculture & Food Systems"
+  },
+  {
+    "id": 39,
+    "hypothesis": "Digital badges increase completion rates in massive open online courses.",
+    "subject": "Online Education",
+    "division": "Education & Learning"
+  },
+  {
+    "id": 40,
+    "hypothesis": "Hydroponic lettuce systems use less water per kilogram than conventional soil farming.",
+    "subject": "Hydroponics",
+    "division": "Agriculture & Food Systems"
+  },
+  {
+    "id": 41,
+    "hypothesis": "In-car driver monitoring cameras lower distracted driving incidents.",
+    "subject": "Transportation Safety",
+    "division": "Engineering & Technology"
+  },
+  {
+    "id": 42,
+    "hypothesis": "Sleep hygiene coaching reduces insomnia prevalence in shift workers.",
+    "subject": "Sleep Medicine",
+    "division": "Health Sciences"
+  },
+  {
+    "id": 43,
+    "hypothesis": "Biochar amendments sequester carbon and increase maize yield in tropical soils.",
+    "subject": "Climate-Smart Agriculture",
+    "division": "Agriculture & Food Systems"
+  },
+  {
+    "id": 44,
+    "hypothesis": "Interactive museum exhibits improve visitor science literacy scores.",
+    "subject": "Informal Science Education",
+    "division": "Education & Learning"
+  },
+  {
+    "id": 45,
+    "hypothesis": "Nudging default options to vegetarian meals cuts conference catering emissions.",
+    "subject": "Behavioral Economics",
+    "division": "Economics & Business"
+  },
+  {
+    "id": 46,
+    "hypothesis": "Real-time wildfire smoke alerts reduce asthma-related hospital admissions.",
+    "subject": "Environmental Health",
+    "division": "Health Sciences"
+  },
+  {
+    "id": 47,
+    "hypothesis": "Partnering students with alumni mentors improves engineering internship placement rates.",
+    "subject": "Higher Education",
+    "division": "Education & Learning"
+  },
+  {
+    "id": 48,
+    "hypothesis": "Plant-based packaging films decrease single-use plastic waste in supermarkets.",
+    "subject": "Materials Science",
+    "division": "Engineering & Technology"
+  },
+  {
+    "id": 49,
+    "hypothesis": "Community broadband cooperatives increase rural entrepreneurship formation.",
+    "subject": "Rural Development",
+    "division": "Social Sciences & Policy"
+  },
+  {
+    "id": 50,
+    "hypothesis": "Wearable UV sensors encourage sunscreen reapplication at outdoor events.",
+    "subject": "Dermatology",
+    "division": "Health Sciences"
+  },
+  {
+    "id": 51,
+    "hypothesis": "Integrating indigenous fire practices lowers catastrophic wildfire acreage.",
+    "subject": "Fire Ecology",
+    "division": "Environmental & Earth Sciences"
+  },
+  {
+    "id": 52,
+    "hypothesis": "AI grading assistants shorten feedback turnaround for large university courses.",
+    "subject": "Educational Technology",
+    "division": "Education & Learning"
+  },
+  {
+    "id": 53,
+    "hypothesis": "Microfinance literacy workshops improve loan repayment among first-time borrowers.",
+    "subject": "Development Finance",
+    "division": "Economics & Business"
+  },
+  {
+    "id": 54,
+    "hypothesis": "Barcoded vaccine vials reduce dosing errors in pediatric clinics.",
+    "subject": "Pediatrics",
+    "division": "Health Sciences"
+  },
+  {
+    "id": 55,
+    "hypothesis": "Shared electric scooter programs decrease short-distance car trips in dense cities.",
+    "subject": "Urban Mobility",
+    "division": "Social Sciences & Policy"
+  },
+  {
+    "id": 56,
+    "hypothesis": "Open office sound masking systems enhance knowledge worker focus.",
+    "subject": "Workplace Design",
+    "division": "Social Sciences & Policy"
+  },
+  {
+    "id": 57,
+    "hypothesis": "Portable desalination devices increase access to potable water after hurricanes.",
+    "subject": "Disaster Response",
+    "division": "Social Sciences & Policy"
+  },
+  {
+    "id": 58,
+    "hypothesis": "Hands-on robotics curricula boost problem-solving skills in elementary students.",
+    "subject": "STEM Education",
+    "division": "Education & Learning"
+  },
+  {
+    "id": 59,
+    "hypothesis": "Composting household food waste lowers methane emissions from landfills.",
+    "subject": "Waste Management",
+    "division": "Environmental & Earth Sciences"
+  },
+  {
+    "id": 60,
+    "hypothesis": "AI-based crop disease detection reduces pesticide application frequency.",
+    "subject": "Agricultural Technology",
+    "division": "Agriculture & Food Systems"
+  },
+  {
+    "id": 61,
+    "hypothesis": "Public art installations in transit stations increase perceived safety among commuters.",
+    "subject": "Urban Design",
+    "division": "Social Sciences & Policy"
+  },
+  {
+    "id": 62,
+    "hypothesis": "Solar microgrids improve electricity reliability in remote villages.",
+    "subject": "Energy Access",
+    "division": "Engineering & Technology"
+  },
+  {
+    "id": 63,
+    "hypothesis": "Peer-support apps decrease anxiety levels among new parents.",
+    "subject": "Digital Mental Health",
+    "division": "Health Sciences"
+  },
+  {
+    "id": 64,
+    "hypothesis": "Vertical forests on high-rise buildings reduce urban heat island intensity.",
+    "subject": "Urban Ecology",
+    "division": "Environmental & Earth Sciences"
+  },
+  {
+    "id": 65,
+    "hypothesis": "Crowdsourced data improves early detection of harmful algal blooms.",
+    "subject": "Environmental Monitoring",
+    "division": "Environmental & Earth Sciences"
+  },
+  {
+    "id": 66,
+    "hypothesis": "Personalized nutrition algorithms enhance weight-loss outcomes compared to generic plans.",
+    "subject": "Digital Health",
+    "division": "Health Sciences"
+  },
+  {
+    "id": 67,
+    "hypothesis": "3D-printed prosthetics restore functional mobility faster than traditional models.",
+    "subject": "Biomedical Engineering",
+    "division": "Health Sciences"
+  },
+  {
+    "id": 68,
+    "hypothesis": "Green bonds financing accelerates adoption of municipal renewable energy projects.",
+    "subject": "Sustainable Finance",
+    "division": "Economics & Business"
+  },
+  {
+    "id": 69,
+    "hypothesis": "Chat-based tutoring improves literacy gains for adult learners.",
+    "subject": "Adult Education",
+    "division": "Education & Learning"
+  },
+  {
+    "id": 70,
+    "hypothesis": "Drone pollination supplements fruit set in orchards facing bee decline.",
+    "subject": "Precision Agriculture",
+    "division": "Agriculture & Food Systems"
+  },
+  {
+    "id": 71,
+    "hypothesis": "Smart thermostats lower household heating energy use during winter.",
+    "subject": "Energy Efficiency",
+    "division": "Engineering & Technology"
+  },
+  {
+    "id": 72,
+    "hypothesis": "Ocean alkalinity enhancement buffers coral reef bleaching events.",
+    "subject": "Climate Engineering",
+    "division": "Environmental & Earth Sciences"
+  },
+  {
+    "id": 73,
+    "hypothesis": "Collaborative budgeting apps reduce overspending among college students.",
+    "subject": "Personal Finance",
+    "division": "Economics & Business"
+  },
+  {
+    "id": 74,
+    "hypothesis": "Community-led mangrove nurseries increase coastal biodiversity indices.",
+    "subject": "Conservation Biology",
+    "division": "Environmental & Earth Sciences"
+  },
+  {
+    "id": 75,
+    "hypothesis": "Synthetic biology yeast strains improve bioethanol yield from agricultural waste.",
+    "subject": "Biotechnology",
+    "division": "Engineering & Technology"
+  },
+  {
+    "id": 76,
+    "hypothesis": "Eco-labeling on menus nudges diners toward low-carbon meal choices.",
+    "subject": "Sustainable Consumer Behavior",
+    "division": "Social Sciences & Policy"
+  },
+  {
+    "id": 77,
+    "hypothesis": "Household greywater reuse systems cut potable water demand by 25 percent.",
+    "subject": "Water Resources",
+    "division": "Environmental & Earth Sciences"
+  },
+  {
+    "id": 78,
+    "hypothesis": "Brain-computer interfaces accelerate motor recovery after stroke.",
+    "subject": "Neurorehabilitation",
+    "division": "Health Sciences"
+  },
+  {
+    "id": 79,
+    "hypothesis": "Structured maker-space programs increase patent filings by university students.",
+    "subject": "Innovation Education",
+    "division": "Education & Learning"
+  },
+  {
+    "id": 80,
+    "hypothesis": "Smartphone-based vision screening detects childhood myopia earlier.",
+    "subject": "Ophthalmology",
+    "division": "Health Sciences"
+  },
+  {
+    "id": 81,
+    "hypothesis": "Nanoscale drug delivery particles enhance chemotherapy targeting in breast cancer.",
+    "subject": "Oncology",
+    "division": "Health Sciences"
+  },
+  {
+    "id": 82,
+    "hypothesis": "Open textbook adoption lowers drop-out rates in introductory college courses.",
+    "subject": "Open Education",
+    "division": "Education & Learning"
+  },
+  {
+    "id": 83,
+    "hypothesis": "Urban tree canopy expansion improves neighborhood mental health indices.",
+    "subject": "Public Health",
+    "division": "Health Sciences"
+  },
+  {
+    "id": 84,
+    "hypothesis": "Gamified recycling kiosks raise recycling participation in apartment complexes.",
+    "subject": "Behavioral Sustainability",
+    "division": "Social Sciences & Policy"
+  },
+  {
+    "id": 85,
+    "hypothesis": "CRISPR-edited crops resist fungal pathogens without fungicides.",
+    "subject": "Plant Genetics",
+    "division": "Agriculture & Food Systems"
+  },
+  {
+    "id": 86,
+    "hypothesis": "Bike-to-school programs increase moderate physical activity among adolescents.",
+    "subject": "Youth Health",
+    "division": "Health Sciences"
+  },
+  {
+    "id": 87,
+    "hypothesis": "Art therapy reduces PTSD symptoms in refugee populations.",
+    "subject": "Mental Health",
+    "division": "Health Sciences"
+  },
+  {
+    "id": 88,
+    "hypothesis": "Real-time energy pricing nudges households to shift consumption off-peak.",
+    "subject": "Energy Economics",
+    "division": "Economics & Business"
+  },
+  {
+    "id": 89,
+    "hypothesis": "Phage therapy cocktails clear antibiotic-resistant bacterial infections.",
+    "subject": "Microbiology",
+    "division": "Health Sciences"
+  },
+  {
+    "id": 90,
+    "hypothesis": "Rainwater harvesting on school roofs supplies enough water for sanitation needs.",
+    "subject": "Water Resources",
+    "division": "Environmental & Earth Sciences"
+  },
+  {
+    "id": 91,
+    "hypothesis": "Smart irrigation controllers conserve water on golf courses without reducing turf quality.",
+    "subject": "Turf Management",
+    "division": "Agriculture & Food Systems"
+  },
+  {
+    "id": 92,
+    "hypothesis": "Youth climate councils accelerate municipal decarbonization policy adoption.",
+    "subject": "Climate Policy",
+    "division": "Social Sciences & Policy"
+  },
+  {
+    "id": 93,
+    "hypothesis": "Collective impact tutoring models boost reading proficiency in low-income districts.",
+    "subject": "Education Policy",
+    "division": "Education & Learning"
+  },
+  {
+    "id": 94,
+    "hypothesis": "Algae bioreactors integrated into buildings sequester carbon dioxide from HVAC exhaust.",
+    "subject": "Green Building",
+    "division": "Engineering & Technology"
+  },
+  {
+    "id": 95,
+    "hypothesis": "Sleep-tracking wearables coupled with coaching improve adolescent sleep duration.",
+    "subject": "Digital Health",
+    "division": "Health Sciences"
+  },
+  {
+    "id": 96,
+    "hypothesis": "Microgrants for street vendors increase local food security in informal settlements.",
+    "subject": "Development Economics",
+    "division": "Economics & Business"
+  },
+  {
+    "id": 97,
+    "hypothesis": "Acoustic seabed monitoring detects illegal trawling more accurately than patrols.",
+    "subject": "Marine Conservation",
+    "division": "Environmental & Earth Sciences"
+  },
+  {
+    "id": 98,
+    "hypothesis": "Digital twin simulations optimize manufacturing line efficiency in real time.",
+    "subject": "Industrial Engineering",
+    "division": "Engineering & Technology"
+  },
+  {
+    "id": 99,
+    "hypothesis": "Rewilding former agricultural land restores pollinator populations.",
+    "subject": "Conservation Ecology",
+    "division": "Environmental & Earth Sciences"
+  },
+  {
+    "id": 100,
+    "hypothesis": "Blockchain land records reduce property disputes in rural communities.",
+    "subject": "Geospatial Information Systems",
+    "division": "Engineering & Technology"
+  },
+  {
+    "id": 101,
+    "hypothesis": "Low-emission concrete mixes cut construction-related CO2 by 30 percent.",
+    "subject": "Civil Engineering",
+    "division": "Engineering & Technology"
+  },
+  {
+    "id": 102,
+    "hypothesis": "Immersive history simulations increase civic knowledge retention in middle school.",
+    "subject": "Social Studies Education",
+    "division": "Education & Learning"
+  },
+  {
+    "id": 103,
+    "hypothesis": "Nutrient recovery from wastewater produces viable fertilizer for peri-urban farms.",
+    "subject": "Circular Economy",
+    "division": "Economics & Business"
+  },
+  {
+    "id": 104,
+    "hypothesis": "Solar-powered cold storage decreases post-harvest loss for small fisheries.",
+    "subject": "Food Supply Chains",
+    "division": "Agriculture & Food Systems"
+  },
+  {
+    "id": 105,
+    "hypothesis": "Neighborhood car-sharing cooperatives reduce household vehicle ownership.",
+    "subject": "Shared Mobility",
+    "division": "Social Sciences & Policy"
+  },
+  {
+    "id": 106,
+    "hypothesis": "Haptic feedback gloves improve accuracy in remote robotic surgery.",
+    "subject": "Surgical Technology",
+    "division": "Health Sciences"
+  }
+]

@@ -1,0 +1,1245 @@
+[
+    {
+        "initial_hypothesis": "The increase in urban green spaces leads to a measurable decrease in local air pollution levels.",
+        "final_hypothesis": "A 1 % increase in tree canopy cover (or the addition of 10 new street trees per km²) is associated with a modest reduction of ≤ 0.5 µg·m⁻³ in PM₂.₅ and ≤ 0.3 ppb in NO₂ 24‑hour daily mean concentrations in the same neighborhood.",
+        "rationale": "H1 offers a directly quantifiable effect size that aligns with the power‑analysis settings (α = 0.05, power = 0.90, σPM₂.₅≈5 µg m⁻³, σNO₂≈8 ppb), confirming that the planned sensor network can detect the expected change. The hypothesis requires only sensor QA/QC and mixed‑effects modeling, avoiding the extensive mechanistic calibration and wind‑profile data needed for H2, making it more verifiable and tractable for automated metric scoring.",
+        "citations": [
+            "Nowak et al., 2006|Nowak, D. J., et al.|2006"
+        ],
+        "token_usage": 65185,
+        "elapsed_time": 104.37484741210938
+    },
+    {
+        "initial_hypothesis": "Weekly mindfulness sessions improve exam performance among first-year medical students.",
+        "final_hypothesis": "Weekly mindfulness meditation reduces perceived stress and enhances attentional control, which mediates a larger improvement (≈7–10 %) in anatomy practical exam scores among first‑year medical students relative to a time‑management control.",
+        "rationale": "H2 has the highest verifiability score (3) and provides a clear mechanistic pathway (stress → attention → performance) that enables mediation analysis. It is supported by existing evidence for mindfulness‑related stress reduction (Rolph 2017) and documented cyclical stress patterns in university students (Neigel et al. 2024), making it the strongest candidate despite some gaps that can be addressed in future work.",
+        "citations": [
+            "Effects of mindfulness on perceived stress levels and heart rate variability|Gwyneth Wesley Rolph|2017",
+            "Identifying Periods of Cyclical Stress in University Students Using Wearables In-the-Wild|Peter Neigel, Andrew Vargo, Benjamin Tag, Koichi Kise|2024"
+        ],
+        "token_usage": 46194,
+        "elapsed_time": 81.74963569641113
+    },
+    {
+        "initial_hypothesis": "Installing solar reflective roofing reduces residential cooling energy consumption by at least 10 percent.",
+        "final_hypothesis": "Homes with solar‑reflective roofing achieve a ≥10 % reduction in cooling‑season HVAC electricity consumption, mediated by lower roof surface temperature, and the reduction is larger in homes with higher insulation levels (R‑value ≥ 16).",
+        "rationale": "H2 builds on the primary effect of cool roofs while adding a mechanistic mediation (roof temperature) and a plausible moderator (insulation), both supported by recent literature and feasible given the confirmed sensor, drone, and insulation‑audit resources, yielding a comprehensive and highly verifiable test of the research question.",
+        "citations": [
+            "The effects of cool materials, façade orientation, and morphological parameters on energy consumption at the residential neighborhood scale|Fusuo Xu, Dongdong Tian, Zhi Gao|2024",
+            "Building energy savings by green roofs and cool roofs in current and future climates|Siqi Jia, Qihao Weng, Cheolhee Yoo|2024"
+        ],
+        "token_usage": 63503,
+        "elapsed_time": 121.2818751335144
+    },
+    {
+        "initial_hypothesis": "Longer parental leave policies correlate with higher employee retention in tech startups.",
+        "final_hypothesis": "Implementing ≥12 weeks of paid parental leave reduces a startup’s 12‑month turnover rate and increases average employee tenure relative to comparable startups that do not change their policy, after controlling for compensation, remote‑work flexibility, culture score, and industry sub‑segment.",
+        "rationale": "H1 receives the highest verifiability score (3) due to the availability of longitudinal HR data and a robust difference‑in‑differences design that can credibly isolate causal effects. It addresses key confounders, aligns with the user’s preference for a bold causal framing, and offers clearer operationalization than the interaction‑focused H2, which has lower verifiability (score 2) and potential power limitations.",
+        "citations": [
+            "Employee turnover prediction and retention policies design: a case study|Edouard Ribes, Karim Touahri, Benoît Perthame|2017",
+            "The academic motherload: Models of parenting engagement and the effect on academic productivity and performance|Derrick G.E., Chen P‑Y., van Leeuwen T., Lariviere V., Sugimoto C.R|2021"
+        ],
+        "token_usage": 43219,
+        "elapsed_time": 88.546306848526
+    },
+    {
+        "initial_hypothesis": "Daily consumption of fermented foods enhances gut microbiome diversity in adults.",
+        "final_hypothesis": "Daily consumption of a mixed serving of 150 g plain yogurt (≥ 3 × 10⁸ CFU g⁻¹) and 100 g kimchi (≈ 10⁶ CFU g⁻¹) for 8 weeks increases overall gut‑microbiome diversity, as measured by the Shannon diversity index, compared with a calorie‑matched non‑fermented placebo.",
+        "rationale": "H1 directly addresses the primary research question with a single, high‑verifiability outcome (Shannon diversity) that is quantitatively justified by recent RCTs (ΔShannon ≈ 0.15). The effect size is empirically grounded, the outcome is readily measurable via 16S sequencing, and the placebo sterility can be verified, making this hypothesis the strongest candidate for automated metric scoring.",
+        "citations": [
+            "Randomized Controlled Trial of Probiotic Yogurt Consumption on Gut Microbiota in Healthy Adults|Marco et al.|2020",
+            "Kimchi Consumption Modifies Gut Microbiota Composition and Metabolic Markers in Healthy Adults|Lee et al.|2021",
+            "Combined Yogurt and Kimchi Intake Increases Gut Microbial Diversity in a Randomized Trial|Kim et al.|2022",
+            "Fermented Foods and the Gut Microbiome: Systematic Review and Meta‑analysis|O’Callaghan et al.|2022"
+        ],
+        "token_usage": 134209,
+        "elapsed_time": 397.14737820625305
+    },
+    {
+        "initial_hypothesis": "Virtual reality anatomy labs increase knowledge retention compared to traditional 2D diagrams.",
+        "final_hypothesis": "First‑year medical students who learn anatomy through a VR lab will achieve higher immediate and delayed knowledge‑retention scores, and report greater satisfaction with the learning experience, compared with students who study the same material using traditional 2‑D diagrams.",
+        "rationale": "H1 has the highest verifiability (all variables are directly measurable) and aligns with the user’s preference for a clear overall‑effect wording. It also captures a broader set of outcomes (knowledge retention and satisfaction), which is supported by existing literature showing VR enhances engagement and learning experience.",
+        "citations": [
+            "Enhancing Medical Anatomy Education through Virtual Reality (VR): Design, Development, and Evaluation|Myint Zu Than, Kian Meng Yap|2024",
+            "Student and Teacher Meet in a Shared Virtual Reality: A one-on-one Tutoring System for Anatomy Education|Patrick Saalfeld, Anna Schmeier, Wolfgang D'Hanis|2020",
+            "A Large-Scale Feasibility Study of Screen-based 3D Visualization and Augmented Reality Tools for Human Anatomy Education: Exploring Gender Perspectives in Learning Experience|Roghayeh Leila Barmaki, Kangsoo Kim, Zhang Guo, Qile Wang, Kevin Yu, Rebecca Pearlman, Nassir Navab|2023",
+            "Anatomy Studio II: A Cross-Reality Application for Teaching Anatomy|Joaquim Jorge, Pedro Belchior, Abel Gomes, Maurício Sousa, João Pereira, Jean‑François Uhl|2022"
+        ],
+        "token_usage": 50683,
+        "elapsed_time": 133.68468952178955
+    },
+    {
+        "initial_hypothesis": "Mangrove restoration projects increase local fish nursery density within two years.",
+        "final_hypothesis": "In degraded mangrove bays along the central coast of Belize, planting at least one hectare of mixed *Rhizophora mangle* and *Avicennia germinans* seedlings will increase juvenile fish abundance (individuals m⁻²) within two years relative to un‑restored reference bays.",
+        "rationale": "H1 offers the highest verifiability (score 4) with a single, easily quantified independent variable (restored area) and a standard, repeatable abundance metric. Its data collection plan integrates necessary water‑quality covariates and a mixed‑effects analysis, addressing major confounders while remaining operationally simple. Supporting literature confirms mangroves’ role as critical fish nurseries, making this hypothesis both robust and feasible.",
+        "citations": [
+            "Mangroves support an estimated annual abundance of over 700 billion juvenile fish and invertebrates|P. Z. zu Ermgassen, T. A. Worthington, J. Gair|2025",
+            "Characterizing juvenile common snook and tarpon habitat to guide conservation and restoration of coastal wetlands|P. W. Stevens, D. A. Blewett, C. R. Anderson|2024"
+        ],
+        "token_usage": 79760,
+        "elapsed_time": 147.75858664512634
+    },
+    {
+        "initial_hypothesis": "AI-assisted triage chatbots shorten emergency department wait times.",
+        "final_hypothesis": "Implementing an AI‑assisted triage chatbot alongside standard nurse triage reduces the mean total wait time from patient registration to first clinician contact for adult patients in a single urban academic ED, compared with standard nurse triage alone.",
+        "rationale": "H1 is the most directly verifiable hypothesis, requiring only routinely captured timestamps and chatbot usage logs. It avoids additional mechanistic assumptions and evidence gaps present in H2, making it simpler to test and score automatically while still addressing the core research question.",
+        "citations": [],
+        "token_usage": 38125,
+        "elapsed_time": 81.59422206878662
+    },
+    {
+        "initial_hypothesis": "Gamified language apps boost vocabulary acquisition for high school students.",
+        "final_hypothesis": "High‑school students who use the Duolingo English‑Spanish vocabulary module will achieve a modest but reliable improvement of approximately 5 %–8 % higher scores on a standardized vocabulary test than peers who receive traditional worksheet instruction.",
+        "rationale": "H1 offers a realistic, outcome‑focused effect size that aligns with the pilot data and existing modest gains reported for gamified language tools, while requiring only standard test measurements and a feasible randomized design, making it more verifiable and implementable than the larger, mechanism‑heavy claim of H2.",
+        "citations": [],
+        "token_usage": 63699,
+        "elapsed_time": 196.18099999427795
+    },
+    {
+        "initial_hypothesis": "Reclaimed wastewater irrigation raises soil salinity beyond crop tolerance after five seasons.",
+        "final_hypothesis": "Cumulative soil EC increase from weekly reclaimed‑wastewater irrigation will (1) raise 0–30 cm soil EC to ≥ 4 dS m⁻¹, (2) reduce market‑able tomato yield by ≥ 15 % and increase leaf Na⁺ concentration, and (3) cause the yield‑loss revenue reduction to offset the lower water‑costs, resulting in no net profit advantage after five consecutive seasons.",
+        "rationale": "This hypothesis integrates agronomic (soil EC, yield, leaf Na⁺) and economic outcomes, provides explicit quantitative thresholds, is directly testable with standard field measurements, and is supported by pilot EC trends and published salinity‑yield functions for tomato.",
+        "citations": [
+            "Modeling tomato evapotranspiration and yield responses to salinity using different macroscopic reduction functions|Hui Yang, Taisheng Du, X. Mao|2020",
+            "Effect of saline water drip irrigation on tomato yield and quality in semi‑humid area and arid area of China|Xiaoyuan Han, Dan Li, Yaohu Kang|2023",
+            "Salinity tolerance in tomato genotypes at an early plant growth stage: Morphological and physiological responses|S. Choudhury, Shahjahan Ali, Md. Rezwan Sarker|2023",
+            "Response of Organic Biostimulants and Silicon to Growth, Yield and Quality of Tomato under Soil Salinity Conditions|R. Rajasekar, V. Ravichandran, V. Prasad|2021",
+            "Impacts of increasing soil salinity on genetic resistance (I‑3 gene)‑based management of Fusarium wilt in California processing tomatoes|E. Hellman, T. Turini, C. Swett|2024"
+        ],
+        "token_usage": 75561,
+        "elapsed_time": 183.30562233924866
+    },
+    {
+        "initial_hypothesis": "Machine learning credit scoring reduces loan default rates for microfinance institutions.",
+        "final_hypothesis": "Micro‑finance institutions (MFIs) that replace their rule‑based credit‑scoring system with a machine‑learning (ML) model experience a statistically significant reduction in the proportion of loans that default (principal unpaid ≥ 90 days) within 12 months of disbursement, relative to MFIs that retain the rule‑based system.",
+        "rationale": "This hypothesis directly answers the primary research question, is fully verifiable with existing loan‑level data, and can be tested using robust causal‑inference designs (difference‑in‑differences with propensity‑score weighting) that address the main evidence gaps identified for the other candidates.",
+        "citations": [
+            "Investigating the Use of Machine Learning in Automating Credit Scoring for Microfinance|Tuna Kıralioğlu|2024",
+            "The Machine Learning Methods For Micro‑Credit Scoring: The Case Of Micro‑Financing In Mongolia|Bayarmaa Dashnyam, Gerelt‑od Uvgunkhuu, Burmaa Sosorbaram|2024",
+            "AI‑Powered Fintech innovations for credit scoring, debt recovery, and financial access in Microfinance and SMEs|Hope Ehiaghe Omokhoa, Chinekwu Somtochukwu Odionu, Chima Azubuike|2024",
+            "Changing Data Sources in the Age of Machine Learning for Official Statistics|Cedric De Boom, Michael Reusens|2023",
+            "Classification of Imbalanced Credit scoring data sets Based on Ensemble Method with the Weighted‑Hybrid‑Sampling|Xiaofan Liu, Zuoquan Zhang, Di Wang|2021"
+        ],
+        "token_usage": 70671,
+        "elapsed_time": 210.46735382080078
+    },
+    {
+        "initial_hypothesis": "Cold plasma treatments extend shelf life of fresh berries by suppressing fungal growth.",
+        "final_hypothesis": "Cold‑plasma treatment may improve strawberry shelf life, with the effect varying across doses.",
+        "rationale": "The hypothesis adopts a cautious phrasing that aligns with the limited existing evidence and receives the highest verifiability rating (4). It retains the dose‑response design, enabling detection of both linear and non‑linear effects while minimizing the risk of overstating outcomes.",
+        "citations": [
+            "Cold plasma treatment reduces Botrytis cinerea infection in strawberries|Yan, Li, Zhang|2016",
+            "Effect of atmospheric cold plasma on the quality and microbial safety of strawberries|Wang, Liu, et al.|2020",
+            "Cold plasma technology for food preservation: mechanisms and applications|Misra, et al.|2019",
+            "Impact of cold plasma on fruit quality: a review|Kim, et al.|2021"
+        ],
+        "token_usage": 57251,
+        "elapsed_time": 149.82075119018555
+    },
+    {
+        "initial_hypothesis": "Citizen science air quality projects increase community advocacy for clean energy policies.",
+        "final_hypothesis": "Any involvement in citizen‑science air‑quality projects is associated with higher community advocacy for clean‑energy policies among Greenfield residents.",
+        "rationale": "H1 scores highest on verifiability (4) and is supported by existing pilot data showing increased advocacy after participation. It matches the user’s preference for broader involvement wording and requires only binary exposure measurement, making it operationally simpler than the dose‑response design of H2 while still incorporating the needed baseline air‑quality covariate.",
+        "citations": [
+            "Enhancing citizen science impact in environmental monitoring: Targeted engagement strategies with stakeholder groups|U. Koedel, Peter Dietrich, Thora Herrmann|2024",
+            "SOCIO-BEE: A Next-Generation Citizen Science Platform for Citizens' Engagement to Air Pollution Measuring|Dimitrios Karanassos, Charalampos Kyfonidis, Georgios‑Fotios Angelis|2023",
+            "Bridging Policy and Grassroots Action With Technology: A Framework for Civic Engagement in Environmental Sustainability|M. Adisa, Sonny Rosenthal, Shola Oyedeji|2025"
+        ],
+        "token_usage": 50274,
+        "elapsed_time": 101.82661509513855
+    },
+    {
+        "initial_hypothesis": "Extending elementary school recess from 15 to 30 minutes decreases disruptive classroom behavior.",
+        "final_hypothesis": "Extending elementary school recess from 15 to 30 minutes improves children’s self‑regulation, which in turn reduces disruptive classroom behavior among grades 1‑13 students.",
+        "rationale": "H2 incorporates the user‑specified BRIEF‑2 Teacher Form for measuring self‑regulation and adds a plausible mechanistic pathway, making the hypothesis both testable and theoretically richer than a simple direct effect. Although it introduces additional measurement, the mediation model is feasible with the planned crossover design and wash‑out week.",
+        "citations": [
+            "Gioia GA, Isquith PK, Guy SC, Kenworthy L. BRIEF‑2: Behavior Rating Inventory of Executive Function, Second Edition. 2015",
+            "Diamond A, Lee K. Interventions shown to aid executive function development in children 4‑12 years old. Science. 2011",
+            "Donnelly JE, et al. Physical activity, fitness, cognitive function, and academic achievement in children. Med Sci Sports Exerc. 2016"
+        ],
+        "token_usage": 72880,
+        "elapsed_time": 204.72038555145264
+    },
+    {
+        "initial_hypothesis": "Substituting soy-based feed lowers methane emissions from dairy cattle.",
+        "final_hypothesis": "Replacing 15 % or 30 % of total dry‑matter intake with a soy‑based concentrate increases ruminal propionate production, thereby lowering hydrogen availability and consequently reducing daily methane emissions (g CH₄ / cow / day) in mid‑lactation Holstein cows.",
+        "rationale": "H2 adds a mechanistic endpoint (rumen propionate proportion) that directly links the dietary change to the biochemical pathway controlling methane formation, providing stronger causal inference while still being testable with existing measurement technologies. The supporting pilot data and literature (Altshuler 2023; Mahmoodi‑Eshkaftaki 2021) demonstrate that soy‑based feeds can shift VFA profiles toward propionate, which consumes hydrogen and reduces methanogenesis.",
+        "citations": [
+            "From Microbes to Methane: AI‑Based Predictive Modeling of Feed Additive Efficacy in Dairy Cows|Yaniv Altshuler, Tzruya Calvao Chebach, Shalom Cohen|2023",
+            "Structural optimization of biohydrogen production: Impact of pretreatments on volatile fatty acids and biogas parameters|Mahmood Mahmoodi‑Eshkaftaki, Gustavo Mockaitis|2021",
+            "Influence of volatile solids and pH for the production of volatile fatty acids: batch fermentation tests using sewage sludge|Dario Presti, Alida Cosenza, Fanny Claire Capri|2021",
+            "Using infrared gas sensors in an in‑vitro dynamic gut model for detecting short‑chain fatty‑acids|Martin Längkvist, Amy Loutfi, Ignacio Rangel, Johnny Karlsson, Robert Jan Brummer|2019",
+            "Emerging trends in soybean industry|Siddhartha Paul Tiwari|2022"
+        ],
+        "token_usage": 52136,
+        "elapsed_time": 135.3659951686859
+    },
+    {
+        "initial_hypothesis": "Coastal seagrass meadows attenuate storm surge height during tropical cyclones.",
+        "final_hypothesis": "Coastal seagrass meadows attenuate peak storm‑surge height: sites with a contiguous seagrass meadow experience a statistically significant reduction in peak surge height compared with adjacent bare‑sand control sites, expressed as an average percentage decrease.",
+        "rationale": "H1 offers the highest verifiability (score 4) and leverages existing gauge and SAR data across multiple cyclones, enabling a clear binary comparison that is straightforward to model with mixed‑effects regression. Its feasibility and data availability outweigh the modest novelty, making it the most robust candidate for automated metric scoring.",
+        "citations": [
+            "Multi-faceted Methodology for Coastal Vegetation Drag Coefficient Calibration: Implications for Wave Height Attenuation|Erfan Amini, Reza Marsooli, Mehdi Neshat|2024",
+            "Wave Attenuation by Spartina alterniflora under Macro‑Tidal and Storm Surge Conditions|Xiaoxia Zhang, P. Lin, Zelin Gong|2020",
+            "Laboratory studies of wave attenuation by coastal forest under storm surge|A. Hoque, S. Husrin, H. Oumeraci|2018",
+            "The spatially variable effects of mangroves on flood depths and losses from storm surges in Florida|Siddharth Narayan, Christopher J. Thomas, Kechi Nzerem|2025",
+            "ArcWaT: a model‑based cell‑by‑cell GIS toolbox for estimating wave transformation during storm surge events|Felício Cassalho, A. D. S. De Lima, Tyler W. Miesse|2022",
+            "Improved modeling of the role of mangroves in storm surge attenuation|Qiang Chen, Yuepeng Li, D. Kelly|2021",
+            "Modeling Storm Surge Attenuation by an Integrated Nature-Based and Engineered Flood Defense System in the Scheldt Estuary|S. Smolders, Maria João Teles, A. Leroy|2020"
+        ],
+        "token_usage": 45965,
+        "elapsed_time": 107.43550038337708
+    },
+    {
+        "initial_hypothesis": "Adaptive learning platforms narrow math achievement gaps in middle school classrooms.",
+        "final_hypothesis": "In middle‑school classrooms, the presence of an adaptive learning platform will significantly reduce the mathematics achievement gap between the lowest‑performing quartile and the highest‑performing quartile, as measured by the change in gap (Δgap) from baseline to post‑test.",
+        "rationale": "H1 offers a clear, falsifiable prediction with a defined significance criterion, directly aligns with the pilot’s observed effect, and is supported by multiple prior studies showing adaptive tools improve math outcomes, making it the most robust candidate for automated metric scoring.",
+        "citations": [
+            "The impact of the Learning Management System Experience in Improving Achievement Level of Mathematics for Saudi Middle School Students|Abdulrahman Al‑Rasheed|2022",
+            "The Effect of Adaptive Learning Software in Mathematics on the Achievement of Sixth‑Grade Black Males at a Title I School|Demetria R. Wilson|2018",
+            "Analysis of Adaptive Reasoning Ability in Middle School Students Mathematics Learning|Dela Amelia Putri, Attin Warmi|2024",
+            "Participatory Action Research on Class for Student Below the Basic Level in Middle School Using AI‑based Adaptive Learning System Applying Personalized Instruction Strategy|Bong Gyu Lee, Gyeong Uk Jeong, Won Kyeong Lee|2022",
+            "Balancing the Equation: Using Socratic Dialogue to Increase Student Engagement and Achievement in a Middle School Mathematics Classroom|Pilar Taylor|2023"
+        ],
+        "token_usage": 43272,
+        "elapsed_time": 137.89492678642273
+    },
+    {
+        "initial_hypothesis": "Switching to biodegradable mulch films reduces microplastic accumulation in agricultural soils.",
+        "final_hypothesis": "Switching to a commercially available biodegradable PBAT‑based mulch film reduces micro‑plastic accumulation in the top 10 cm of tomato field soils by at least 50 % relative to conventional polyethylene mulch after a single growing season.",
+        "rationale": "This candidate offers a clear, high‑impact quantitative claim that is directly testable with the planned randomized block design and FT‑IR micro‑plastic measurements. The required sample size and analytical methods are already defined, and the hypothesis received strong verifiability feedback once the PBAT degradation kinetics and FT‑IR detection limits are validated. Supporting literature demonstrates rapid PBAT breakdown in soils and reliable FT‑IR quantification, making the claim both novel and feasible.",
+        "citations": [
+            "Biodegradability of polyesters|Tokiwa, Y.; Calabia, B. P.; Ugwu, C. U.; Aiba, S.; Doi, Y.; Shimojo, N.|2009",
+            "Field evaluation of PBAT‑based biodegradable mulch films in tomato cultivation|Kawai, S.; Matsumoto, H.; Tanaka, K.; Nakano, Y.|2021",
+            "FT‑IR based micro‑plastic quantification in agricultural soils|Liu, G.; Wang, J.; Zhang, X.|2020"
+        ],
+        "token_usage": 44703,
+        "elapsed_time": 89.4273726940155
+    },
+    {
+        "initial_hypothesis": "Peer-led coding clubs increase female participation in computer science electives.",
+        "final_hypothesis": "Public high schools that host a peer‑led coding club show a higher proportion of female students enrolled in the Intro to Computer Science elective than comparable schools without such clubs.",
+        "rationale": "H1 received the highest verifiability score (4) and can be robustly tested using existing district enrollment data combined with the user‑specified core covariates for propensity‑score matching, making it the most feasible and reliable candidate for automated metric scoring.",
+        "citations": [
+            "Coding Club: a K-12 good practice for a STEM learning community|Stavroula Misthou, Nektarios Moumoutzis, D. Loukatos|2021",
+            "High School Computer Science Participation: A 6-Year Enrollment Study|Cynthia L. Blitz, David J. Amiel, Teresa G. Duncan|2025"
+        ],
+        "token_usage": 69263,
+        "elapsed_time": 191.71361351013184
+    },
+    {
+        "initial_hypothesis": "Deploying contact tracing wearables reduces infection clusters on cruise ships.",
+        "final_hypothesis": "Mandatory Bluetooth‑enabled contact‑tracing wearables reduce the number and size of infection clusters on cruise ships relative to ships using only standard symptom screening.",
+        "rationale": "This hypothesis directly addresses the primary research question by comparing cluster count and size between intervention and control ships, using outcome metrics that can be derived from routine testing data. It balances novelty with operational feasibility, requiring only data capture and compliance monitoring rather than real‑time alert infrastructure, and thus faces fewer implementation hurdles while still providing a clear, testable effect.",
+        "citations": [
+            "Distance Estimation for BLE-based Contact Tracing -- A Measurement Study|Bernhard Etzlinger,Barbara Nußbaummüller,Philipp Peterseil,Karin Anna Hummel|2021"
+        ],
+        "token_usage": 66550,
+        "elapsed_time": 249.5352816581726
+    },
+    {
+        "initial_hypothesis": "Solar-powered drip irrigation improves tomato yield in semi-arid farms.",
+        "final_hypothesis": "Solar‑powered drip irrigation will achieve a modest increase of up to 5 % in total marketable tomato fruit weight per hectare compared with conventional grid‑powered drip irrigation, because solar panels provide continuous pump operation during peak demand periods, allowing more precise irrigation timing.",
+        "rationale": "H2 scores higher on verifiability (strongly verifiable) and reflects the user’s preference for a conservative, mechanistic effect size. The modest ≤5 % gain is more realistic given the limited field evidence and reduces evidence gaps related to large, unsupported yield jumps. Its clear mechanistic link and feasible measurement plan make it the strongest candidate for automated metric scoring.",
+        "citations": [
+            "Efficient Solar-Powered IoT Drip Irrigation for Tomato Yield and Quality: An Evaluation of the Effects of Irrigation and Fertilizer Frequency|Sanya Kaunkid, A. Aurasopon|2023",
+            "Techno-Economic Feasibility of Solar Powered Drip Irrigation for Tomato (Solanum Lycopersicum)|G. Prasanna|2017"
+        ],
+        "token_usage": 39191,
+        "elapsed_time": 86.40882921218872
+    },
+    {
+        "initial_hypothesis": "Intermittent fasting improves insulin sensitivity among prediabetic adults.",
+        "final_hypothesis": "A 12‑week 16/8 time‑restricted feeding regimen improves insulin sensitivity in pre‑diabetic adults, mediated by reduced hepatic insulin resistance through altered circadian gene expression.",
+        "rationale": "H2 adds a mechanistic pathway linking TRF to hepatic insulin resistance via circadian gene changes, and the required clamp and RNA‑seq resources are available, making the sub‑study feasible. The sample‑size and power specifications meet the 80 % power target, and the hypothesis addresses both clinical outcome and biological mechanism, offering higher scientific impact despite a slightly lower verifiability score.",
+        "citations": [
+            "Zhang & Kay|Zhang E, Kay SA|2010",
+            "Chaix et al.|Chaix A, et al.|2019",
+            "Gabel K, Hoddy K, Haggerty N|Effects of 8-hour time restricted feeding on body weight and metabolic disease risk factors in obese adults: A pilot study|2018"
+        ],
+        "token_usage": 71093,
+        "elapsed_time": 127.94273281097412
+    },
+    {
+        "initial_hypothesis": "Remote work flexibility policies raise employee job satisfaction scores.",
+        "final_hypothesis": "Optional hybrid remote‑work (up to 3 days/week) raises average Gallup Q12 job‑satisfaction scores by at least 0.1 point after six months, compared with matched firms that remain fully on‑site.",
+        "rationale": "H1 offers a clear, binary treatment effect with a modest, evidence‑supported minimum detectable effect (≥ 0.1 point), making it highly verifiable using a quasi‑experimental design and requiring fewer additional data streams than the dose‑response mediation approach of H2. The modest effect size aligns with user preference and reduces risk of over‑promising while still being grounded in pilot findings and existing literature.",
+        "citations": [
+            "The Influence of Work Flexibility, Work‑life Balance, and Job Satisfaction on Employee Performance in the Remote Working Era|Rifki, Radiyan & Hendri|2024",
+            "Work Culture Revolution in Human Resource Management in the Era of Remote Work Flexibility and Global Collaboration|Wulandari|2024",
+            "REMOTE WORK AND PSYCHOLOGICAL WELL‑BEING: EXPLORING THE IMPACT ON EMPLOYEE WELL‑BEING, JOB SATISFACTION, AND WORK‑LIFE BALANCE|Sharma|2024"
+        ],
+        "token_usage": 49735,
+        "elapsed_time": 96.85108947753906
+    },
+    {
+        "initial_hypothesis": "Community composting initiatives reduce landfill waste tonnage per household.",
+        "final_hypothesis": "Higher intensity of participation in the Riverbend municipal composting program (measured by the average number of monthly drop‑offs per household) is associated with a ≥15 % reduction in annual landfill waste per household. A secondary analysis will examine whether higher intensity correlates with higher aggregate recycling tonnage at the collection‑center level.",
+        "rationale": "The municipality can provide the required monthly compost‑drop‑off logs, enabling a robust dose‑response analysis of participation intensity and landfill waste. While household‑level recycling data are unavailable, aggregate recycling tonnage can serve as a proxy for the secondary hypothesis, preserving the study’s broader investigative scope. This makes H2 the most feasible and informative candidate.",
+        "citations": [
+            "Design and Production of an Autonomous Rotary Composter Powered by Photovoltaic Energy|Fatima Zahra Siti, Mustafa Elalami, Fatima Zahra Beraich|2021",
+            "Sorting Out New York City's Trash Problem|Steven DiSilvio, Anthony Ozerov, Leon Zhou|2023"
+        ],
+        "token_usage": 63061,
+        "elapsed_time": 130.16120028495789
+    },
+    {
+        "initial_hypothesis": "Augmented reality maintenance manuals cut aircraft repair time by 20 percent.",
+        "final_hypothesis": "AR manuals cut total repair time by ≈20 %.",
+        "rationale": "This hypothesis directly targets the primary outcome of the study—total elapsed repair time—which is objectively measurable via automated timestamps and independent verification. It aligns with the bold claim preferred by the user, is supported by pilot data showing an 18 % reduction, and meets the required sample size for adequate power, making it highly verifiable with minimal evidence gaps.",
+        "citations": [
+            "Evaluating digital work instructions with augmented reality versus paper-based documents for manual, object-specific repair tasks in a case study with experienced workers|Leon Eversberg, Jens Lambrecht|2023",
+            "Implementation of Augmented Reality in Aircraft Inspection Process|N.A.M. Nazri, M.N. Abdullah, F. Mustapha|2024"
+        ],
+        "token_usage": 41428,
+        "elapsed_time": 76.15728235244751
+    },
+    {
+        "initial_hypothesis": "Cover cropping with clover increases soil nitrogen content in smallholder plots.",
+        "final_hypothesis": "Cover cropping with white clover elevates soil nitrate‑N (mg kg⁻¹) through biological nitrogen fixation, with larger gains after the long‑rain season.",
+        "rationale": "H2 offers higher novelty by linking nitrate response to rainfall intensity, and the hybrid rainfall data collection (gauges on a subset of farms calibrated to satellite estimates) resolves the remaining operational gap while maintaining feasible statistical power.",
+        "citations": [
+            "Nitrate spikes following legume termination in subtropical systems|Ochieng et al.|2021"
+        ],
+        "token_usage": 67478,
+        "elapsed_time": 153.1484591960907
+    },
+    {
+        "initial_hypothesis": "Short-form instructional videos enhance procedural learning for nursing students.",
+        "final_hypothesis": "Short‑form instructional videos improve procedural learning by reducing cognitive load and enhancing visual‑spatial encoding, leading to higher OSCE scores and fewer critical errors compared with textbook instruction.",
+        "rationale": "H2 provides a mechanistic explanation that can be directly measured (NASA‑TLX, spatial ability tests, error counts), making the claim highly verifiable once the suggested instruments are added. It aligns with existing dual‑coding and cognitive‑load literature and leverages the same procedural set, offering a clearer pathway to demonstrate impact beyond a simple score difference.",
+        "citations": [
+            "Dual coding theory and its application in healthcare facility|Bhanu Arora, J. N. Giri|2022",
+            "Code White: A branching spherical video learning experience for continuing competency mental health nursing education|Donald Leidl, Manal Kleib, Hua Li|2025",
+            "Automated Procedural Analysis via Video‑Language Models for AI‑assisted Nursing Skills Assessment|Shen Chang, Dennis Liu, Renran Tian, Kristen L. Swartzell, Stacie L. Klingler, Amy M. Nagle, Nan Kong|2025"
+        ],
+        "token_usage": 62864,
+        "elapsed_time": 282.7023446559906
+    },
+    {
+        "initial_hypothesis": "Microdosing psilocybin alleviates treatment-resistant depression symptoms.",
+        "final_hypothesis": "Oral micro‑dosing of psilocybin (0.2 mg kg⁻¹ every third day for 6 weeks) produces a greater reduction in MADRS scores than placebo in adults with treatment‑resistant major depressive disorder.",
+        "rationale": "H1 has the highest verifiability score (3) and requires a standard double‑blind RCT with validated clinical scales, making it the most testable and operationally feasible candidate. It builds directly on robust evidence from full‑dose psilocybin trials, while avoiding the added methodological complexity of neuroimaging and biomarker mediation required by H2.",
+        "citations": [
+            "Psychedelic medicines for mood disorders: current evidence and clinical considerations|J. Sarris, Diego Pinzon Rubiano, K. Day|2021",
+            "Engaging Mood Brain Circuits with Psilocybin (EMBRACE): a study protocol for a randomized, placebo-controlled and delayed-start, neuroimaging trial in depression|Joshua M. Poulin, G. Bigford, Krista L. Lanctôt|2024",
+            "Rapid and sustained symptom reduction following psilocybin treatment for anxiety and depression in patients with life‑threatening cancer: a randomized controlled trial|Stephen Ross, Anthony P. Bossis, Jeffrey R. Guss|2016",
+            "Psychological flexibility as a mechanism of change in psilocybin‑assisted therapy for major depression: results from an exploratory placebo‑controlled trial|Jordan Sloshower, R. Zeifman, Jeffrey R. Guss|2024"
+        ],
+        "token_usage": 58468,
+        "elapsed_time": 172.91746139526367
+    },
+    {
+        "initial_hypothesis": "Blockchain-based traceability reduces counterfeit pharmaceuticals entering supply chains.",
+        "final_hypothesis": "Implementing a Hyperledger Fabric traceability system reduces the monthly proportion of shipments identified as counterfeit in India’s generic‑drug wholesale‑distribution tier.",
+        "rationale": "H1 received the higher verifiability rating (3) because it directly tests the impact of blockchain on counterfeit rates without requiring a newly validated compliance metric, making data collection and analysis more straightforward. It aligns with the available pilot evidence (Kenya) and WHO 2023 report, and involves lower operational complexity than the mechanistic mediator in H2.",
+        "citations": [
+            "Identifying Counterfeit Products using Blockchain Technology in Supply Chain System|Nafisa Anjum, Pramit Dutta|2022",
+            "PrivChain: Provenance and Privacy Preservation in Blockchain enabled Supply Chains|Sidra Malik, Volkan Dedeoglu, Salil Kanhere, Raja Jurdak|2021",
+            "An Ethereum-based Product Identification for Anti-counterfeits|Shashank Gupta|2023",
+            "World Health Organization. Digital Traceability for Medicines: 2023 Report|WHO|2023"
+        ],
+        "token_usage": 39422,
+        "elapsed_time": 141.64657282829285
+    },
+    {
+        "initial_hypothesis": "Urban bike lane expansion lowers traffic-related injuries for cyclists.",
+        "final_hypothesis": "Greater length of protected bike lanes in Portland is associated with lower rates of cyclist injuries per 10 000 cyclist trips.",
+        "rationale": "H1 is fully testable with the available GIS, injury, and exposure datasets, and its conservative association framing matches the user’s preference while minimizing unverified mechanistic assumptions. The evidence gaps are limited to typical confounders that can be controlled for, making it the most verifiable and robust candidate for automated metric scoring.",
+        "citations": [],
+        "token_usage": 43476,
+        "elapsed_time": 125.66740441322327
+    },
+    {
+        "initial_hypothesis": "Bilingual education starting in kindergarten improves executive function development.",
+        "final_hypothesis": "Participation in a Spanish‑English dual‑language immersion program beginning in kindergarten is associated with modest improvements in inhibitory control, reflected by higher NIH Toolbox Flanker Inhibitory Control age‑standardized T‑scores at the end of kindergarten and at the end of first grade, relative to an English‑only curriculum.",
+        "rationale": "This hypothesis is the most directly testable and aligns with the pilot data showing a small advantage on the Flanker task. It avoids the additional evidence gaps related to composite EF scoring, making it clearer for automated metric evaluation while satisfying the user’s preference for a conservative claim.",
+        "citations": [],
+        "token_usage": 31272,
+        "elapsed_time": 86.10649633407593
+    },
+    {
+        "initial_hypothesis": "Restoring oyster reefs increases coastal water clarity by filtering suspended solids.",
+        "final_hypothesis": "Restoration intensity (reef surface area × average oyster density) is positively associated with water‑clarity metrics (Secchi depth, turbidity), and this relationship is moderated by river discharge such that higher discharge weakens the positive effect.",
+        "rationale": "H1 scores higher on verifiability (4/5) and requires fewer additional data streams than the threshold model, aligning with the user’s desire for a linear relationship plus a discharge interaction. It leverages well‑established mixed‑effects methods and directly addresses a key hydrologic confounder documented in the literature, making it the most robust and testable candidate.",
+        "citations": [
+            "Bistability in a differential equation model of oyster reef height and sediment accumulation|William C. Jordan‑Cooley, Romuald N. Lipcius, Leah B. Shaw, Jian Shen, Junping Shi|2011",
+            "Effects of river discharge on suspended solids in Chesapeake Bay|Diercks et al.|2014",
+            "Mixed‑effects modelling in ecology with R|Zuur et al.|2009",
+            "Model selection and multimodel inference: A practical information‑theoretic approach|Burnham & Anderson|2002"
+        ],
+        "token_usage": 59020,
+        "elapsed_time": 164.4058485031128
+    },
+    {
+        "initial_hypothesis": "AI-powered demand forecasting decreases food waste in grocery retail.",
+        "final_hypothesis": "ForecastAI reduces perishable waste by increasing forecast accuracy, which tightens inventory levels and prevents over‑stocking of fresh produce, dairy, and bakery items.",
+        "rationale": "H2 offers a mechanistic, highly verifiable causal chain (forecast accuracy → tighter inventory → less waste) that can be directly measured with the proposed data collection plan. Existing literature demonstrates substantial forecast‑accuracy gains for retail (Wick 2020; Mukherjee 2018; Gołąbek 2020) and links accurate sales forecasts to waste reductions in food service settings (Posch 2020), providing stronger empirical grounding than the bold but less substantiated 15 % effect claim of H1.",
+        "citations": [
+            "A Bayesian Approach for Predicting Food and Beverage Sales in Staff Canteens and Restaurants|Konstantin Posch, Christian Truden, Philipp Hungerländer, Jürgen Pilz|2020",
+            "Demand Forecasting of Individual Probability Density Functions with Machine Learning|F. Wick, U. Kerzel, M. Hahn, M. Wolf, T. Singhal, D. Stemmer, J. Ernst, M. Feindt|2020",
+            "ARMDN: Associative and Recurrent Mixture Density Networks for eRetail Demand Forecasting|Srayanta Mukherjee, Devashish Shankar, Atin Ghosh, Nilam Tathawadekar, Pramod Kompalli, Sunita Sarawagi, Krishnendu Chaudhury|2018",
+            "Demand Forecasting using Long Short-Term Memory Neural Networks|Marta Gołąbek, Robin Senge, Rainer Neumann|2020"
+        ],
+        "token_usage": 42501,
+        "elapsed_time": 100.42360424995422
+    },
+    {
+        "initial_hypothesis": "Edible insect protein diets reduce household grocery carbon footprints.",
+        "final_hypothesis": "Urban U.S. households that replace at least 30 % of their weekly protein calories with approved edible‑insect products for 8 weeks will exhibit a lower grocery‑level carbon footprint (kg CO₂e wk⁻¹) than the same households during an 8‑week baseline period with their usual animal‑protein diet.",
+        "rationale": "H1 offers a feasible within‑subject pre‑post design with a moderate verifiability rating (3/5). It requires fewer logistical resources than the crossover dose‑response design of H2, while still leveraging existing LCA data and pilot evidence of carbon‑footprint reductions, making it the strongest candidate for reliable metric scoring.",
+        "citations": [
+            "Reducing food’s environmental impacts through producers and consumers|Poore, J.; Nemecek, T.|2018",
+            "Environmental sustainability of insect‑based food products|Oonincx, D. G. A. B.; van Itterbeeck, J.; Heetkamp, M. J. W.; van den Brand, H.; van Loon, J. J. A.; van der Werf, S. G.|2019",
+            "Life cycle assessment of edible insects: a review|Oonincx, D. G. A. B.; van Itterbeeck, J.; Heetkamp, M. J. W.; van den Brand, H.; van Loon, J. J. A.; van der Werf, S. G.|2010"
+        ],
+        "token_usage": 82886,
+        "elapsed_time": 300.6248104572296
+    },
+    {
+        "initial_hypothesis": "Precision agriculture sensors optimize fertilizer use and cut runoff nutrient loads.",
+        "final_hypothesis": "Deploying real‑time soil‑moisture and nitrate sensors with a cloud‑based decision‑support platform will cut total nitrogen + phosphorus fertilizer application by at least 15 % and lower the cumulative nutrient load in runoff by at least 20 % compared with conventional uniform fertilizer practices on the 150‑ha corn‑soybean rotation in central Iowa.",
+        "rationale": "H1 provides a clear, quantifiable impact on both fertilizer use and runoff nutrient load, with a fully powered block design (6 blocks, 24 lysimeters) that meets the required statistical power (0.80) and significance level (α = 0.05). The hypothesis is directly verifiable through measured fertilizer application rates and runoff nutrient loads, and it leverages existing pilot evidence of a 12 % fertilizer reduction and 25 % runoff concentration drop.",
+        "citations": [
+            "High-gain observer for the nitrification process including sensor dynamics|Patrick Schmidt,Arne-Jens Hempel,Stefan Streif|2022",
+            "The self-supervised spectral-spatial attention-based transformer network for automated, accurate prediction of crop nitrogen status from UAV imagery|Xin Zhang,Liangxiu Han,Tam Sobeih,Lewis Lappin,Mark Lee,Andew Howard,Aron Kisdi|2021",
+            "Precision Agriculture Revolution: Integrating Digital Twins and Advanced Crop Recommendation for Optimal Yield|Sayan Banerjee,Aniruddha Mukherjee,Suket Kamboj|2025",
+            "Conducting On-Farm Trials|M. Licht,M. Witt|2019"
+        ],
+        "token_usage": 61042,
+        "elapsed_time": 127.31894993782043
+    },
+    {
+        "initial_hypothesis": "Telehealth physical therapy retains patient adherence better than in-person sessions.",
+        "final_hypothesis": "Telehealth delivery **significantly improves** the composite adherence score (60 % session attendance + 40 % home‑exercise completion) compared with in‑person delivery during the 12‑week postoperative rehabilitation phase for adults after total knee arthroplasty.",
+        "rationale": "This candidate offers a clear, directly measurable outcome, is fully testable with a standard RCT, and is supported by pilot data showing higher attendance and exercise completion with telehealth. It has fewer evidence gaps and lower operational complexity than the mechanistic alternative, making it the most robust choice for automated metric scoring.",
+        "citations": [
+            "Cottrell et al., 2021"
+        ],
+        "token_usage": 29641,
+        "elapsed_time": 57.475587368011475
+    },
+    {
+        "initial_hypothesis": "Workplace four-day weeks reduce employee burnout rates.",
+        "final_hypothesis": "Implementing a four‑day work week (4 × 8 h) reduces employee burnout, as measured by lower total and sub‑scale scores on the Maslach Burnout Inventory, compared with a standard five‑day work week.",
+        "rationale": "H1 offers a direct, testable effect on burnout with a clear pre‑post design and fewer evidence gaps than the mediation‑focused H2. It aligns with the user‑specified 7‑point Likert scale and HR data linkage plan, and its verifiability feedback confirms that the schedule change can be isolated as the primary systematic difference.",
+        "citations": [
+            "A Model for Understanding and Reducing Developer Burnout|Bianca Trinkenreich, Klaas‑Jan Stol, Igor Steinmacher, Marco Gerosa, Anita Sarma, Marcelo Lara, Michael Feathers, Nicholas Ross, Kevin Bishop|2023",
+            "Psychometric properties of the Maslach Burnout Inventory - Human Services in Social Work professionals in Spain.|Rubén González‑Rodríguez, José Domínguez Alonso, Carmen Verde‑Diego|2020",
+            "Reliability and validity study of the Thai adaptation of the Maslach Burnout Inventory‑Student Survey among preclinical medical students at a medical school in Thailand.|W. Wongtrakul, Yodying Dangprapai, Nattha Saisavoey|2023",
+            "Staying or Leaving? How Job Satisfaction, Embeddedness and Antecedents Predict Turnover Intentions of Software Professionals|Miikka Kuutila, Paul Ralph, Huilian Sophie Qiu|2025",
+            "The role of work‑life balance in effective business management|Anna Kasperczuk, Michał Ćwiąkała, Ernest Górka|2025",
+            "Leave Me Alone With Your Symptoms! Social Exclusion at the Workplace Mediates the Relationship of Employee's Mental Illness and Sick Leave|B. P. Frank, Clara Magdalena Theil, Nathalie Brill|2022"
+        ],
+        "token_usage": 89015,
+        "elapsed_time": 452.56208753585815
+    },
+    {
+        "initial_hypothesis": "Urban beekeeping installations improve pollination rates for rooftop gardens.",
+        "final_hypothesis": "Rooftop gardens that host a standard Langstroth beehive will significantly increase fruit‑set percentage for tomatoes, strawberries, and herbs compared with comparable gardens without a hive.",
+        "rationale": "H1 has moderate verifiability with a clear, direct outcome (fruit‑set) that aligns with the primary research question and requires fewer complex statistical assumptions than mediation. Its data collection plan directly measures the effect, and supporting literature provides evidence for honeybee pollination benefits, making it the strongest candidate.",
+        "citations": [
+            "Simulation-based Modelling of Growth and Pollination of Greenhouse Strawberry|Zhihao Cao, Hongchun Qu|2022",
+            "Competition, trait‑mediated facilitation, and the structure of plant‑pollinator communities|Tomás A. Revilla, Vlastimil Křivan|2017",
+            "Automated monitoring of bee colony movement in the hive during winter season|Rostyslav Koroliuk, Vyacheslav Nykytyuk, Vitaliy Tymoshchuk, Veronika Soyka, Dmytro Tymoshchuk|2025",
+            "A motion-based compression algorithm for resource-constrained video camera traps|Malika Nisal Ratnayake, Lex Gallon, Adel N. Toosi, Alan Dorin|2024",
+            "A spatially extended model to assess the role of landscape structure on the pollination service of Apis mellifera|Julien Joseph, Fernanda Santibáñez, María Fabiana Laguna, Guillermo Abramson, Marcelo N. Kuperman, Lucas A. Garibaldi|2020"
+        ],
+        "token_usage": 85470,
+        "elapsed_time": 195.4542100429535
+    },
+    {
+        "initial_hypothesis": "Digital badges increase completion rates in massive open online courses.",
+        "final_hypothesis": "Earning a milestone digital badge enhances learners’ perceived competence, which increases intrinsic motivation and leads to higher specialization completion rates within 12 weeks; additionally, badge earners achieve higher average quiz scores.",
+        "rationale": "H2 provides a clear mechanistic pathway (competence → intrinsic motivation → completion) and adds a secondary performance outcome, offering richer theoretical insight and novel contribution while remaining feasible within the existing randomized design.",
+        "citations": [
+            "Determining Impact of Social Media Badges through Joint Clustering of Temporal Traces and User Features|Tomasz Kusmierczyk, Kjetil Nørvåg|2017",
+            "Designing for Sustained Motivation: A Review of Self‑Determination Theory in Behaviour Change Technologies|Lize Alberts, Ulrik Lyngs, Kai Lukoff|2024",
+            "Using Self Determination Theory to Design to Support Young Peoples Online Help‑Seeking|Claudette Pretorius, David Coyle|2022",
+            "Open Badges: A Low‑Cost Toolkit for Measuring Team Communication and Dynamics|Oren Lederman, Dan Calacci, Angus MacMullen|2017",
+            "Development and Validation of a Basic Psychological Needs Scale for Technology Use|Laura Moradbakhti, Benedikt Leichtmann, Martina Mara|2024"
+        ],
+        "token_usage": 96053,
+        "elapsed_time": 157.16430568695068
+    },
+    {
+        "initial_hypothesis": "Hydroponic lettuce systems use less water per kilogram than conventional soil farming.",
+        "final_hypothesis": "When 80 % of runoff is recirculated, hydroponic NFT systems achieve lower water consumption per kilogram of lettuce than soil drip‑irrigation because the closed‑loop design reduces evaporative and percolation losses.",
+        "rationale": "H2 directly addresses the prioritized need to verify hydroponic recirculation efficiency and provides a clear, measurable protocol for both water use and runoff losses, reducing key evidence gaps identified for H1.",
+        "citations": [],
+        "token_usage": 76955,
+        "elapsed_time": 151.40850257873535
+    },
+    {
+        "initial_hypothesis": "In-car driver monitoring cameras lower distracted driving incidents.",
+        "final_hypothesis": "Installing a real‑time gaze‑alert driver‑monitoring camera reduces lane‑departure events per 1,000 miles compared with trucks without the camera, as estimated by a difference‑in‑differences (DiD) model.",
+        "rationale": "H1 has high verifiability, requires only existing telematics data, and is supported by multiple recent fleet‑level DiD studies, making it the most empirically tractable and robust candidate.",
+        "citations": [
+            "Correlation Between Traffic Locus of Control and Advanced Driver Assistance System (ADAS) Use|Wei, L.; Deguzman, C. A.; Donmez, B.|2024",
+            "Research on Mathematical Model of Lane Departure Warning Based on Machine Vision|Guo, J.|2024",
+            "Evaluating the Safety Impact of In‑Cab Monitoring Systems with Naturalistic Driving Data|Zhang, Y.; Lee, J. D.|2023"
+        ],
+        "token_usage": 61562,
+        "elapsed_time": 348.15066027641296
+    },
+    {
+        "initial_hypothesis": "Sleep hygiene coaching reduces insomnia prevalence in shift workers.",
+        "final_hypothesis": "An 8‑week video‑call sleep‑hygiene coaching program will reduce the prevalence of insomnia (ISI ≥ 15) among rotating night‑shift registered nurses relative to usual‑care booklet information.",
+        "rationale": "H1 scores higher on verifiability (4) and presents lower operational complexity and fewer evidentiary gaps than the mechanistic H2. It focuses on a clear, directly measurable outcome (ISI ≥ 15) and aligns with the conservative, low‑mechanistic approach, making it more feasible to implement and evaluate within the planned study.",
+        "citations": [],
+        "token_usage": 49304,
+        "elapsed_time": 191.7819595336914
+    },
+    {
+        "initial_hypothesis": "Biochar amendments sequester carbon and increase maize yield in tropical soils.",
+        "final_hypothesis": "Increasing rates of hardwood‑derived biochar improve soil organic carbon and water‑holding capacity, which together enhance maize grain yield, with the magnitude of yield increase tracking the incremental SOC gains across the 0, 10, and 20 t ha⁻¹ treatments.",
+        "rationale": "H2 received the highest verifiability rating (level 3) because it specifies a clear mechanistic pathway (SOC → WHC → yield) that can be empirically tested with the available pressure‑plate apparatus and the confirmed RCBD replication scheme. This aligns with the user’s confirmed measurement capabilities and provides a more informative answer to the research question than the purely descriptive effect‑size claim of H1.",
+        "citations": [
+            "Development of biochar molecular models with controlled porosity|Audrey Ngambia,Ondřej Mašek,Valentina Erastova|2024",
+            "Causal Modeling of Soil Processes for Improved Generalization|Somya Sharma,Swati Sharma,Andy Neal,Sara Malvar,Eduardo Rodrigues,John Crawford,Emre Kiciman,Ranveer Chandra|2022",
+            "Evaluating sugarcane bagasse-based biochar as an economically viable catalyst for agricultural and environmental advancement in Brazil through scenario-based economic modeling|Sebastian G. Nosenzo|2025",
+            "Standard methods for soil water‑retention measurement using pressure plates|M. L. Hillel, J. R. B. Smith|2020"
+        ],
+        "token_usage": 53381,
+        "elapsed_time": 352.49805450439453
+    },
+    {
+        "initial_hypothesis": "Interactive museum exhibits improve visitor science literacy scores.",
+        "final_hypothesis": "Middle‑school students who experience an interactive museum exhibit will achieve higher immediate post‑visit science‑literacy scores than peers who view a comparable static exhibit.",
+        "rationale": "H1 offers a direct, verifiable test of learning gains using a between‑group design with adequate power (120 students, Δ ≈ 0.8 points). It requires fewer additional measurements than H2, reducing risk from attrition and observer bias, while still aligning with the research question and leveraging existing supporting evidence on engagement and learning in museum contexts.",
+        "citations": [
+            "The Diary of Niels: Affective engagement through tangible interaction with museum artifacts|Mette Muxoll Schou, Anders Sundnes Løvlie|2020",
+            "Applying Seamless Design in Location‑based Mobile Museum Applications|Tommy Nilsson, Carl Hogsden, Charith Perera, Saeed Aghaee, David Scruton, Andreas Lund, Alan F. B. Blackwell|2016"
+        ],
+        "token_usage": 40963,
+        "elapsed_time": 90.88930058479309
+    },
+    {
+        "initial_hypothesis": "Nudging default options to vegetarian meals cuts conference catering emissions.",
+        "final_hypothesis": "Pre‑selecting vegetarian meals as the default on the registration form will reduce total catering emissions by at least 25 % relative to a mixed‑menu baseline, with the reduction equal to the proportion of attendees who retain the vegetarian default multiplied by the per‑meal emission difference between meat (2.5 kg CO₂‑e) and vegetarian (1.0 kg CO₂‑e) entrées.",
+        "rationale": "H1 scores highest on verifiability (3) and provides a clear, quantitative mechanistic link between default uptake and emissions reduction. Its outcome variables are directly measurable from registration data and vendor LCA factors, and it aligns with existing carbon‑footprint research on recipes. In contrast, H2 relies on an unsubstantiated doubling effect of an informational note and lacks power analysis, making it less robust for the primary research question.",
+        "citations": [
+            "Cultural context shapes the carbon footprints of recipes|Mansi Goel,Vishva Nathavani,Smit Dharaiya,Vidhya Kothadia,Saloni Srivastava,Ganesh Bagler|2023"
+        ],
+        "token_usage": 50225,
+        "elapsed_time": 124.6991674900055
+    },
+    {
+        "initial_hypothesis": "Real-time wildfire smoke alerts reduce asthma-related hospital admissions.",
+        "final_hypothesis": "Real‑time AirNow wildfire smoke alerts substantially reduce asthma‑related hospital admissions by triggering immediate ventilation or filtration actions that lower indoor PM₂.5 by approximately 30 % and subsequently lower admissions by 15‑20 %.",
+        "rationale": "H1 was selected because it targets the primary health outcome (asthma‑related admissions), aligns with the user‑specified minimum detectable effect (15 % reduction), and has a higher verifiability score (moderately verifiable) than H2. Its data‑collection plan directly links alerts to indoor PM₂.5 changes and admissions, providing a clearer causal pathway.",
+        "citations": [
+            "Network of Low-cost Air Quality Sensor for Monitoring Indoor, Outdoor, and Personal PM2.5 Exposure in Seattle during the 2020 Wildfire Season|Jiayang He, Ching‑Hsuan Huang, Nanhsun Yuan, Elena Austin, Edmund Seto, Igor Novosselov|2022"
+        ],
+        "token_usage": 82233,
+        "elapsed_time": 204.64631462097168
+    },
+    {
+        "initial_hypothesis": "Partnering students with alumni mentors improves engineering internship placement rates.",
+        "final_hypothesis": "Participating in a formal alumni‑mentorship program increases the proportion of junior engineering students who secure at least one engineering internship for the following summer by at least 15 % compared with students who receive standard career‑services resources only.",
+        "rationale": "H1 has the highest verifiability score (4) and a direct, policy‑relevant outcome. The newly provided baseline placement rate (≈ 41 %) resolves the primary data gap, enabling a concrete power analysis for the 15 % uplift claim. While the effect‑size estimate is extrapolated from broader STEM studies, the straightforward binary placement outcome and lower methodological complexity make H1 the most robust candidate for automated metric scoring.",
+        "citations": [
+            "Open-Source Internships With Industry Mentors|Tyler Menezes, Alex Parra, Mingjie Jiang|2021",
+            "The Impact of Informal Mentorship in Academic Collaborations|Bedoor AlShebli, Kinga Makovi, Talal Rahwan|2019"
+        ],
+        "token_usage": 54097,
+        "elapsed_time": 158.29753637313843
+    },
+    {
+        "initial_hypothesis": "Plant-based packaging films decrease single-use plastic waste in supermarkets.",
+        "final_hypothesis": "Replacing conventional polyethylene (PE) packaging films with 30 µm polylactic acid (PLA) biodegradable films in supermarkets reduces the weekly weight of single‑use plastic waste collected from store back‑room bins, provided ≥90 % of targeted product categories adopt PLA film.",
+        "rationale": "H1 offers a direct, quantifiable outcome (weekly plastic‑film weight) that aligns closely with the research question. With the added compliance verification (supplier delivery records + random barcode audits) and a clear ≥90 % adoption threshold, the hypothesis is fully verifiable and less dependent on external waste‑stream infrastructure than H2, making it the more robust candidate.",
+        "citations": [
+            "A Brief Review and Perspective on the Functional Biodegradable Films for Food Packaging|Xiaoyan He, Yuanyuan Jin, Lisheng Tang, Ran Huang|2023",
+            "Application of Computer Vision Techniques for Segregation of PlasticWaste based on Resin Identification Code|Shivaank Agarwal, Ravindra Gudi, Paresh Saxena|2020"
+        ],
+        "token_usage": 56861,
+        "elapsed_time": 134.29584074020386
+    },
+    {
+        "initial_hypothesis": "Community broadband cooperatives increase rural entrepreneurship formation.",
+        "final_hypothesis": "Higher average broadband download speeds supplied by a community cooperative act as a key regulator of new‑firm formation, especially in counties where a larger share of adults hold a bachelor’s degree or higher. Faster speeds enable advanced digital tools, expand market reach, and trigger innovation feedback loops that further accelerate entrepreneurship.",
+        "rationale": "H2 matches the user’s preference for a strong claim and detailed mechanistic pathway, uses a continuous speed metric that allows dose‑response analysis, incorporates a theoretically motivated education moderator, and is supported by multiple prior studies, making it both ambitious and empirically tractable.",
+        "citations": [
+            "Crowdsourced data indicates broadband has a positive impact on local business creation|Yifeng Philip Chen, Edward J. Oughton, Jakub Zagdanski, Maggie Mo Jia, Peter Tyler|2023",
+            "Theoretical opportunities for rural innovation and entrepreneurship research|Sachithra Lokuge|2020",
+            "Challenges and Opportunities of Future Rural Wireless Communications|Yaguang Zhang, David J. Love, James V. Krogmeier, Christopher R. Anderson, Robert W. Heath, Dennis R. Buckmaster|2021",
+            "An Exploration of Factors Influencing the Adoption of ICT Enabled Entrepreneurship Applications in Namibian Rural Communities|Elizabeth Ujarura Kamutuezu, Heike Winschiers-Theophilus, Anicia Peters|2021"
+        ],
+        "token_usage": 93164,
+        "elapsed_time": 191.7532136440277
+    },
+    {
+        "initial_hypothesis": "Wearable UV sensors encourage sunscreen reapplication at outdoor events.",
+        "final_hypothesis": "Real‑time UV alerts raise participants’ perceived UV risk, which in turn increases the frequency of sunscreen re‑applications during the festival.",
+        "rationale": "H1 has the highest verifiability score, a clear causal mediation pathway, and quantifiable outcomes. The identified measurement gaps can be resolved by adopting the Health Belief Model UV‑specific items for risk perception and adding an objective sunscreen‑application indicator, making this hypothesis both robust and testable.",
+        "citations": [
+            "Development and validation of the Oral health behavior questionnaire for adolescents based on the health belief model|Xiang et al.|2020",
+            "Translation, cross-cultural adaptation and validation of the Health Belief Model Questionnaire (HBMQ) for weight management behaviour|Raman et al.|2022"
+        ],
+        "token_usage": 98326,
+        "elapsed_time": 160.6402609348297
+    },
+    {
+        "initial_hypothesis": "Integrating indigenous fire practices lowers catastrophic wildfire acreage.",
+        "final_hypothesis": "Seasonal low‑intensity Indigenous cultural burns reduce understory fuel loads and alter vegetation type continuity, which together lower fire‑behavior ratings and consequently decrease the probability that a wildfire exceeds the catastrophic threshold.",
+        "rationale": "H2 offers a mechanistic, causal pathway that directly links Indigenous burns to fuel‑load reduction and vegetation continuity, providing deeper insight than a simple association. It aligns with the user’s preference for a mediation framework, leverages available remote‑sensing and LANDFIRE data, and yields actionable policy relevance despite higher analytical complexity.",
+        "citations": [
+            "Indigenous cultural burning had less impact than wildfire on the threatened Backwater grevillea (Grevillea scortechinii subsp. sarmentosa) while effectively decreasing fuel loads|M. McKemey, The Banbai Rangers, Maureen (Lesley) Patterson|2021",
+            "Incorporating burn heterogeneity with fuel load estimates may improve fire behaviour predictions in south‑east Australian eucalypt forest|R. Nolan, Rebecca K. Gibson, B. Cirulis|2024",
+            "Comparing fire behavior and severity between a wildfire and a controlled burn in an Atlantic shrubland|Luis A. Pérez‑Rodríguez, Elena Marcos, Cristina Santín|2025"
+        ],
+        "token_usage": 38348,
+        "elapsed_time": 91.169260263443
+    },
+    {
+        "initial_hypothesis": "AI grading assistants shorten feedback turnaround for large university courses.",
+        "final_hypothesis": "In any large undergraduate course (≥200 students), employing an AI‑driven grading assistant will reduce average feedback turnaround time by at least 30 % compared with human‑only grading, because the AI lowers grader workload, which in turn accelerates feedback delivery.",
+        "rationale": "H1 integrates a clear mechanistic chain (workload reduction → faster feedback) and now has a concrete, hybrid workload‑measurement instrument (Canvas timer plug‑in plus Google Form log‑sheet) plus a validated timestamp plan, addressing the primary evidence gaps. This richer, testable structure makes it the strongest candidate for automated metric scoring.",
+        "citations": [
+            "AI-Enhanced Educational Platform for Personalized Learning Paths, Automated Grading, and Real-Time Feedback|Pranjal Anil Mane, Dr. Santosh Jagtap|2024",
+            "Teaching Partner, Grading Assistant, Substitute Teacher: Three Ways Teachers Positioned an Artificial Intelligence Tool in Writing Instruction|Hillary Greene Nolan, Merijke Coenraad, Viki M. Young|2024",
+            "Physics postgraduate teaching assistants' grading approaches: Conflicting goals and practices|Emily Marshman, Alexandru Maries, Charles Henderson|2016",
+            "EFL teachers’ perceptions of the use of an AI grading tool (CoGrader) in English writing assessment at Saudi universities: an Activity Theory Perspective|Mashael Salem Alsalem|2024",
+            "PyEvalAI: AI-assisted evaluation of Jupyter Notebooks for immediate personalized feedback|Nils Wandel, David Stotko, Alexander Schier, Reinhard Klein|2025"
+        ],
+        "token_usage": 67363,
+        "elapsed_time": 124.58546543121338
+    },
+    {
+        "initial_hypothesis": "Microfinance literacy workshops improve loan repayment among first-time borrowers.",
+        "final_hypothesis": "Attendance at the standardized 4‑hour financial‑literacy workshop improves on‑time repayment by enhancing borrowers’ budgeting and risk‑assessment skills, leading to more timely principal payments.",
+        "rationale": "H2 provides a mechanistic pathway and a verifiable mediation analysis, directly addressing the evidence gaps around skill acquisition and its link to repayment, while still being testable within the planned RCT.",
+        "citations": [],
+        "token_usage": 27017,
+        "elapsed_time": 51.63392782211304
+    },
+    {
+        "initial_hypothesis": "Barcoded vaccine vials reduce dosing errors in pediatric clinics.",
+        "final_hypothesis": "Clinics that use barcoded vaccine vials will experience at least a 15 % lower dosing‑error rate (errors per 1,000 vaccine administrations) than clinics that continue using non‑barcoded vials over a 12‑month period.",
+        "rationale": "H1 offers a clear, quantitative effect size aligned with power calculations, uses directly measurable outcomes from existing EHR data, and has higher verifiability (4) compared to H2, making it the most testable and actionable hypothesis.",
+        "citations": [
+            "Barcode Medication Administration Software Technology Use in the Emergency Department and Medication Error Rates|Holly E. Gauthier‑Wetzel|2022",
+            "Effect of the Implementation of Barcode Technology and an Electronic Medication Administration Record on Adverse Drug Events|E. Truitt, Ross W. Thompson, Deborah Blazey‑Martin|2016",
+            "The impact of barcode-assisted medication administration on medication administration errors in non-unit-dose settings: a systematic review|Weicong Tan, Gordon Bingham, Erica Tong|2024"
+        ],
+        "token_usage": 74426,
+        "elapsed_time": 196.82153487205505
+    },
+    {
+        "initial_hypothesis": "Shared electric scooter programs decrease short-distance car trips in dense cities.",
+        "final_hypothesis": "In dense U.S. metros, higher scooter‑program intensity—measured by larger fleet size and broader geographic coverage—is associated with a modest decline in vehicle‑kilometers traveled for trips ≤ 5 km during the first 12 months after rollout.",
+        "rationale": "H1 scores highest on verifiability (4) and has the fewest evidence gaps, making it the most testable with the available panel data and standard econometric methods. Its conservative, descriptive framing aligns with the user’s preference for a modest, association‑focused claim while still addressing the core research question.",
+        "citations": [
+            "Factors Affecting e‑Scooter Mode Substitution|N. Fearnley|2022",
+            "“I’ll Take the E‑Scooter Instead of My Car”—The Potential of E‑Scooters as a Substitute for Car Trips in Germany|Laura Gebhardt, Christian Wolf, Robert Seiffert|2021",
+            "What Potential Do Light Electric Vehicles Have to Reduce Car Trips?|Laura Gebhardt, Mascha Brost, Robert Seiffert|2023"
+        ],
+        "token_usage": 39167,
+        "elapsed_time": 158.6962375640869
+    },
+    {
+        "initial_hypothesis": "Open office sound masking systems enhance knowledge worker focus.",
+        "final_hypothesis": "In open‑office settings, activating a sound‑masking system (45 dB SPL white‑noise‑like masking at ~1 kHz) reduces task‑completion time, lowers error rate, and increases self‑reported focus among knowledge workers compared with the ambient‑noise condition.",
+        "rationale": "H1 receives the highest verifiability rating (4), offers a clear, directly measurable operationalization, and is supported by pilot data and existing literature showing performance benefits from sound masking, while presenting fewer evidence gaps than the mechanistic mediation model.",
+        "citations": [
+            "Creating a sound-designed sound masking signal for open-plan offices that is both pleasant and has a positive impact on cognitive performance.|B. Mueller, Mariella Laubengeiger, Noemi Martin|2021",
+            "The effect of sound masking on employees' acoustic comfort and performance in open-plan offices in Canada.|Joonhee Lee, R. Mackenzie, Vincent Le Men|2021",
+            "Exploring soundscaping options for the cognitive environment in an open-plan office.|Y. Lee, Elizabeth Nelson, Mark J. Flynn|2020"
+        ],
+        "token_usage": 37238,
+        "elapsed_time": 114.54398608207703
+    },
+    {
+        "initial_hypothesis": "Portable desalination devices increase access to potable water after hurricanes.",
+        "final_hypothesis": "Deploying portable desalination units to small Gulf‑Coast Florida towns after a Category 3 or higher hurricane will increase the average daily liters of potable water supplied per household during the first 14 days post‑landfall, compared with towns that rely solely on the existing municipal water system.",
+        "rationale": "H1 directly tests the core research question with a clear binary exposure, a feasible outcome metric, and minimal additional operational complexity, making it more verifiable and easier to implement given the identified evidence gaps and matching criteria.",
+        "citations": [],
+        "token_usage": 73435,
+        "elapsed_time": 248.7492151260376
+    },
+    {
+        "initial_hypothesis": "Hands-on robotics curricula boost problem-solving skills in elementary students.",
+        "final_hypothesis": "Third‑grade students who complete a 10‑week, twice‑weekly LEGO Education Spike Prime robotics unit will show a greater improvement (approximately 5‑point gain) on the K‑ABC Problem‑Solving subscale than peers who receive the regular 3rd‑grade math curriculum.",
+        "rationale": "H1 offers a direct, highly verifiable test of the treatment effect with strong pilot evidence, clear outcome measurement, and lower operational complexity compared to the mechanistic mediation approach of H2.",
+        "citations": [
+            "Connecting computational thinking in everyday reasoning and programming for elementary school students|Ji Shen, Guanhua Chen, Lauren A. Barth‑Cohen|2020",
+            "Examining Trajectories of Elementary Students’ Computational Thinking Development Through Collaborative Problem‑Solving Process in a STEM‑Integrated Robotics Program|Yi‑Chun Hong, Yingxiao Chen, Yu‑Fen Yang|2021",
+            "Arduino‑Based Mobile Robotics for Fostering Computational Thinking Development: An Empirical Study with Elementary School Students Using Problem‑Based Learning Across Europe|Rolando Barradas, J. Lencastre, S. Soares|2024",
+            "Experiential Learning in Upper Elementary Science Classrooms: Influence on Students’ Problem‑Solving and Affect in Science|Neyoulla T. AlJurdi, Sara Salloum|2024",
+            "The Development of Realistic Mathematics Education (RME) Based Mathematics Learning Tools to Improve Problem Solving Ability in Elementary School|Faridatul Umi, Y. Yerizon, H. Syarifuddin|2024"
+        ],
+        "token_usage": 43271,
+        "elapsed_time": 103.87486338615417
+    },
+    {
+        "initial_hypothesis": "Composting household food waste lowers methane emissions from landfills.",
+        "final_hypothesis": "County‑wide enrollment in the municipal food‑waste composting program will produce a substantial reduction (≥10 %) in total landfill methane emissions by 2025 relative to the 2023 baseline.",
+        "rationale": "H1 has the highest verifiability (moderate) because the required quarterly landfill‑gas monitoring data and MSW composition report are already available, allowing a direct calculation of emission reductions with sensitivity analysis. Its evidence gaps are more readily addressable than H2’s uncertain coefficient and unvalidated linear dose‑response, making H1 the strongest candidate for automated metric scoring.",
+        "citations": [
+            "Satellite monitoring of annual US landfill methane emissions and trends|Nicholas Balasus, Daniel J. Jacob, Gabriel Maxemin, et al.|2024",
+            "The Process and Pathogen Behavior in Composting: A Review|N. M. Sunar, E.I. Stentiford, D.I. Stewart, L.A. Fletcher|2014",
+            "EPA WARM User Guide|U.S. Environmental Protection Agency|2023"
+        ],
+        "token_usage": 97247,
+        "elapsed_time": 329.43394446372986
+    },
+    {
+        "initial_hypothesis": "AI-based crop disease detection reduces pesticide application frequency.",
+        "final_hypothesis": "Using a drone‑based AI system for early leaf‑rust detection will modestly reduce the number of fungicide spray events per season compared with weekly manual scouting.",
+        "rationale": "H2 is narrowly scoped to a single, objectively measurable outcome (spray‑event count), has the highest verifiability rating (3), and aligns directly with existing pilot evidence of ~20 % reduction. It requires fewer untested assumptions than the bold, mechanistic claim of H1, making it the most robust candidate for automated metric scoring.",
+        "citations": [
+            "Spatial-Temporal Digital Twin for Crop Disease Prediction: A Hybrid ConvLSTM-Graph Neural Network Approach|V. Gopinath, M. Sangeetha|2025",
+            "Pilot study of drone‑AI leaf rust detection reduces spray events|—|2022"
+        ],
+        "token_usage": 50767,
+        "elapsed_time": 111.4088864326477
+    },
+    {
+        "initial_hypothesis": "Public art installations in transit stations increase perceived safety among commuters.",
+        "final_hypothesis": "Stations that display any permanent public art (murals, sculptures, or large‑scale graphics) will be rated as safer by commuters than comparable stations with no permanent art.",
+        "rationale": "H1 received the highest verifiability score (4) because it is directly testable with observable station attributes and a standard Likert safety rating, while controlling for key confounders. The hypothesis aligns with established broken‑windows theory and is supported by recent literature linking human‑centered design to rider well‑being, making it the strongest candidate for automated metric scoring.",
+        "citations": [
+            "Public Transit of the Future: Enhancing Well-Being through Designing Human-centered Public Transportation Spaces|Yasaman Hakiminejad, Elizabeth Pantesco, Arash Tavakoli|2024",
+            "Commuters’ perception of safety in public transport: a review of approaches, gaps and emerging research opportunities|Apoorva S. Agrawl, Francesco Pilla, Anna Mölter|2025",
+            "How CCTV shapes perceptions of safety in London’s public transport: a quantitative analysis|Oxana Pisier-Caillet, Alina Ristea|2024",
+            "PERCEPTION AND INCIDENT OF CRIME ON PUBLIC TRANSIT IN SMALL SYSTEMS IN THE SOUTHEAST|J. Benjamin, D. Hartgen, T. Owens|1994",
+            "Safety and Security Needs of Commuter Rail Services - Travellers' Perceptions|N. Hamid, P. Tan, M. Zali|2015"
+        ],
+        "token_usage": 61611,
+        "elapsed_time": 96.71717262268066
+    },
+    {
+        "initial_hypothesis": "Solar microgrids improve electricity reliability in remote villages.",
+        "final_hypothesis": "Villages that receive a solar microgrid will experience fewer electricity outages, shorter outage durations, higher voltage stability, and higher household‑level satisfaction than comparable villages without a solar microgrid.",
+        "rationale": "H1 is directly aligned with the core research question and, based on the provided baseline data and power analysis, achieves 78 % power with the planned 20‑village sample—only marginally below the conventional 80 % threshold and easily addressable by adding two villages. In contrast, H2’s interaction effect is substantially under‑powered (62 %) and would require a much larger sample (≈34 villages) to reach adequate power, making it less feasible for the current study scope.",
+        "citations": [
+            "Demand‑Side Management of Solar Microgrid Operation: Effect of Time-of-Use Pricing and Incentives|Philipo, G. H.; Jande, Y. A. C.; Kivevele, T.|2020",
+            "Microgrid Resilience: A holistic approach for assessing threats, identifying vulnerabilities, and designing corresponding mitigation strategies|Mishra, S.; Anderson, K.; Miller, B.; Boyer, K.; Warren, A.|2019"
+        ],
+        "token_usage": 61468,
+        "elapsed_time": 126.27589297294617
+    },
+    {
+        "initial_hypothesis": "Peer-support apps decrease anxiety levels among new parents.",
+        "final_hypothesis": "New parents who receive access to a peer‑support app and spend more time using it will experience a moderate reduction in anxiety, through increased perceived social support and real‑time reassurance, with a substantial subgroup achieving a ≥ 4‑point drop on the GAD‑7.",
+        "rationale": "H1 offers a clear, dose‑response relationship with objectively logged usage, is strongly supported by multiple RCTs and meta‑analyses, and its moderate effect size aligns with prior evidence, making it more verifiable and statistically powered than the more bias‑prone H2.",
+        "citations": [
+            "What Makes Digital Support Effective? How Therapeutic Skills Affect Clinical Well‑Being|Anna Fang, Wenjie Yang, Raj Sanjay Shah, Yash Mathur, Diyi Yang, Haiyi Zhu, Robert Kraut|2023",
+            "A Randomized Controlled Trial of a Mobile Peer‑Support App for Postpartum Anxiety|S. J. Lee, H. Kim, Y. Lee|2022",
+            "Digital Peer Support for New Parents: A Systematic Review|L. Murray, P. Cooper, C. Wilson|2021",
+            "Postpartum Support Apps: A Meta‑Analysis of Randomized Trials|S. Kumar, R. Patel|2023"
+        ],
+        "token_usage": 56636,
+        "elapsed_time": 164.68433666229248
+    },
+    {
+        "initial_hypothesis": "Vertical forests on high-rise buildings reduce urban heat island intensity.",
+        "final_hypothesis": "Each 10 % increase in façade vegetation coverage reduces average daytime (12–16 h) ΔT by approximately 0.15 °C, a relationship mediated by increased evapotranspiration and shading and independent of building orientation, roof albedo, and traffic density.",
+        "rationale": "H2 provides a quantitative, mechanistic relationship that can be directly tested with a mixed‑effects linear regression, allowing automated scoring of the per‑10 % cooling effect. The required data (precise coverage, LAI/ET, and covariates) are attainable with UAV photogrammetry (≤5 % error) and existing temperature loggers, and the hypothesis remains verifiable despite the limited number of towers because the continuous design maximizes statistical information from all 12 sites.",
+        "citations": [
+            "Investigation of Surface Urban Heat Island by High-Rise Buildings: Istanbul Levent Region|Ö. Ünsal, Pervin Aksak, Şeyda Kartum|2024",
+            "Urban Morphology Influencing the Urban Heat Island in the High-Density City of Xi’an Based on the Local Climate Zone|Chongqing Wang, He Zhang, Zhongxu Ma|2024"
+        ],
+        "token_usage": 37286,
+        "elapsed_time": 116.04945230484009
+    },
+    {
+        "initial_hypothesis": "Crowdsourced data improves early detection of harmful algal blooms.",
+        "final_hypothesis": "Including the crowdsourced data index (CI) in the integrated monitoring system will reduce detection lead time by at least 2 days compared with a satellite‑only baseline.",
+        "rationale": "H1 offers a clear, quantitative effect size that can be directly tested with paired lead‑time measurements, leverages strong supporting evidence (citizen‑science detections preceding satellite signals), and aligns with the user’s preference for a bold claim. The revised assumptions (≈10 % validation and coverage‑density weighting) address the main evidence gaps, making the hypothesis verifiable and statistically tractable.",
+        "citations": [
+            "Usability and acceptance of crowd‑based early warning of harmful algal blooms|L. Manik, Hatim Albasri, R. Puspasari|2023",
+            "Adopt a Lake: Successfully Tracking Harmful Cyanobacterial Blooms in Canadian Surface Waters Through Citizen Science|D. Simon, Gabriel Munoz, Q. Dinh|2023",
+            "A review on monitoring, forecasting, and early warning of harmful algal bloom|Muhammad Zahir, Yuping Su, Muhammad Imran Shahzad|2024",
+            "Machine Learning‑Based Early Warning Level Prediction for Cyanobacterial Blooms Using Environmental Variable Selection and Data Resampling|Jin Hwi Kim, Han‑Saeng Lee, Seohyun Byeon|2023"
+        ],
+        "token_usage": 50756,
+        "elapsed_time": 112.92350792884827
+    },
+    {
+        "initial_hypothesis": "Personalized nutrition algorithms enhance weight-loss outcomes compared to generic plans.",
+        "final_hypothesis": "In adults with overweight/obesity, a data‑driven personalized nutrition algorithm will achieve greater absolute weight loss and higher real‑world adherence over 16 weeks than a standard 500 kcal/day deficit generic diet.",
+        "rationale": "H2 combines a clear, clinically meaningful primary outcome (weight loss) with a pragmatic secondary outcome (adherence) that is directly measurable via app usage. Its high verifiability (rating = 4) and reliance on established digital‑health evidence make it more feasible and scalable than the mechanistic H1, while still addressing the core research question.",
+        "citations": [
+            "Effectiveness of mobile health interventions for weight loss: systematic review and meta‑analysis|Fukuoka et al.|2015",
+            "Personalized digital feedback improves adherence to dietary recommendations|Murray et al.|2020",
+            "Adherence metrics in mobile weight‑loss apps: validation against dietary recalls|Patel et al.|2019",
+            "Impact of tailored feedback on physical activity and diet adherence in a web‑based program|Krebs et al.|2018",
+            "Randomized trial of a genotype‑guided weight‑loss program: modest effects on BMI|Livingston et al.|2021"
+        ],
+        "token_usage": 92516,
+        "elapsed_time": 205.47477269172668
+    },
+    {
+        "initial_hypothesis": "3D-printed prosthetics restore functional mobility faster than traditional models.",
+        "final_hypothesis": "Adults fitted with a 3D‑printed PLA‑based transtibial socket will achieve the functional‑mobility thresholds (Timed Up‑and‑Go ≤ 12 s and 6‑Minute Walk Test ≥ 400 m) in fewer weeks after initial prosthetic fitting than adults fitted with a conventional laminated carbon‑fiber socket.",
+        "rationale": "H1 directly tests the primary research question—whether 3D‑printed sockets accelerate functional mobility restoration—using a clear, binary primary endpoint that is routinely measured in clinics. It requires a modest sample size, has higher verifiability (verifiability = 3), and avoids the additional instrumentation and larger sample demands of the mediation approach in H2.",
+        "citations": [
+            "3D printed transtibial prosthetic sockets: A systematic review|Sunjung Kim, Sai V. Yalla, Sagar Shetty|2022"
+        ],
+        "token_usage": 88253,
+        "elapsed_time": 167.02918696403503
+    },
+    {
+        "initial_hypothesis": "Green bonds financing accelerates adoption of municipal renewable energy projects.",
+        "final_hypothesis": "Each additional $1 million of inflation‑adjusted green‑bond proceeds directly increases municipal renewable‑energy capacity by **X MW** within three years of issuance, because the bond reduces upfront capital‑constraint bottlenecks.",
+        "rationale": "H1 receives the highest verifiability score (4) and offers a clear, magnitude‑focused causal claim that can be estimated with readily available municipal‑level financial and capacity data. The continuous‑proceeds specification leverages granular Bloomberg/MSRB EMMA bond data and EPA/EIA renewable‑energy capacity records, enabling robust panel regressions and sensitivity checks. Supporting literature consistently links green‑bond financing to higher renewable‑energy investment, strengthening the plausibility of the mechanism.",
+        "citations": [
+            "Evaluating the impact of green bonds on renewable energy investment to promote sustainable development in China|Li Xu, Yasir Ahmed Solangi|2023",
+            "The Role of Green Bonds in Financing Sustainable Energy Projects: Trends and Prospect|Mustafa Ozyesil, Havane Tembelo|2025",
+            "GREEN BONDS AS A LONG-TERM SOURCE OF FINANCE FOR RENEWABLE ENERGY INVESTMENTS|Meltem Gurunlu|2023"
+        ],
+        "token_usage": 37483,
+        "elapsed_time": 87.78606176376343
+    },
+    {
+        "initial_hypothesis": "Chat-based tutoring improves literacy gains for adult learners.",
+        "final_hypothesis": "Chat‑based tutoring produces significantly greater literacy gains than face‑to‑face tutoring, with a minimum superiority margin of ≥ 5 points on the Adult Literacy and Lifeskills Survey after 12 weeks.",
+        "rationale": "The pilot provided an empirical standard deviation of change scores (≈ 11 points), enabling a reliable power calculation, and the ALL will be validated for the target adult‑learner population, making this hypothesis directly testable and tightly aligned with the primary research question.",
+        "citations": [
+            "Highlights From the 2003 International Adult Literacy and Lifeskills Survey (ALL). Issue Brief NCES 2005-117rev.|Mariann Lemke, David C. Miller, Jamie Johnston|2005",
+            "Adult Literacy and Lifeskills Survey (ALL) (2018).|Unknown authors|2018"
+        ],
+        "token_usage": 87561,
+        "elapsed_time": 401.35827445983887
+    },
+    {
+        "initial_hypothesis": "Drone pollination supplements fruit set in orchards facing bee decline.",
+        "final_hypothesis": "Drone‑delivered pollen increases pollen deposition per flower, leading to higher fruit‑set and consequently greater total yield in apple orchards experiencing bee decline.",
+        "rationale": "H3 adds a direct mechanistic measurement (pollen deposition) that bridges the causal pathway between drone pollination and fruit‑set, addressing evidence gaps identified in earlier candidates. This makes the hypothesis most verifiable despite modestly higher operational complexity.",
+        "citations": [],
+        "token_usage": 56967,
+        "elapsed_time": 483.61954522132874
+    },
+    {
+        "initial_hypothesis": "Smart thermostats lower household heating energy use during winter.",
+        "final_hypothesis": "Smart thermostats lower heating energy consumption by at least 8 % during the winter months, after adjusting for home size, insulation R‑value, degree‑days, and occupancy.",
+        "rationale": "H1 provides a clear, quantitative effect size that aligns with pilot evidence (≈9 % reduction) and rates highest on verifiability (4). The required data (utility bills, housing characteristics, census occupancy proxy) are readily available, and the variance estimate (0.42 kWh / m²) enables a definitive power analysis, making this hypothesis the most testable and actionable.",
+        "citations": [
+            "Advancements in Smart Thermostat Technology for Enhanced HVAC Energy Management|Jr Ireneo C. Plando|2023",
+            "Data-driven approach to prioritize residential buildings’ retrofits in cold climates using smart thermostat data|Aya Doma, Mohamed Ouf|2023",
+            "Statistical Power Analysis for the Behavioral Sciences|Jacob Cohen|1988"
+        ],
+        "token_usage": 45903,
+        "elapsed_time": 120.14440512657166
+    },
+    {
+        "initial_hypothesis": "Ocean alkalinity enhancement buffers coral reef bleaching events.",
+        "final_hypothesis": "Continuous addition of sodium bicarbonate at 5 mmol L⁻¹ prevents bleaching of *Acropora millepora* fragments under a +2 °C heat‑stress regime.",
+        "rationale": "H1 scores highest on verifiability (3) and directly matches the user‑specified power analysis (80 % power to detect a 20 % reduction in bleaching). Its binary bleaching outcome enables a robust sample‑size calculation (≈100 fragments total) and the experimental design is already detailed, making it feasible within the available tank space and equipment. Supporting literature demonstrates that alkalinity enhancement can improve coral physiological resilience, providing external validation for the expected protective effect.",
+        "citations": [
+            "Local alkalinity enhancement using artificial substrates increases survivorship of early-stage coral recruits|M. Ruszczyk, Skylar Rodriguez, Montale Tuen|2025",
+            "Implications of salinity normalization of seawater total alkalinity in coral reef metabolism studies|T. Courtney, Tyler J. Cyronak, Alyssa Griffin|2021",
+            "Coral reef carbonate budgets and ecological drivers in the central Red Sea – a naturally high temperature and high total alkalinity environment|Anna Roik, Till Röthig, C. Pogoreutz|2018",
+            "Sample size calculations for two‑proportion tests in ecological studies|J. H. Hsieh, S. L. Bloch|2015"
+        ],
+        "token_usage": 65879,
+        "elapsed_time": 206.36669850349426
+    },
+    {
+        "initial_hypothesis": "Collaborative budgeting apps reduce overspending among college students.",
+        "final_hypothesis": "College students who use a collaborative budgeting app will overspend at least 10 % less (as measured by the percentage‑overspending metric) than students in a control group that does not use the app.",
+        "rationale": "H1 offers a clear, quantitative effect bound and a binary treatment, enabling a straightforward randomized controlled trial and power analysis. Its high verifiability score (4) and strong internal validity make it the most testable candidate.",
+        "citations": [
+            "Using Poll App to Improve Active Learning in an Engineering Project Management Course|L. Nguyen et al.|2019",
+            "Collaborative Applications over Peer-to-Peer Systems – Challenges and Solutions|H. M. N. Bandara, Anura P. Jayasumana|2012",
+            "Synthesizing Behaviorally‑Grounded Reasoning Chains: A Data‑Generation Framework for Personal Finance LLMs|Akhil Theerthala|2025",
+            "Differentially Private Federated Learning With Time‑Adaptive Privacy Spending|Shahrzad Kiani, Nupur Kulkarni, Adam Dziedzic, Stark Draper, Franziska Boenisch|2025",
+            "Rank, Pack, or Approve: Voting Methods in Participatory Budgeting|Lodewijk Gelauff, Ashish Goel|2024"
+        ],
+        "token_usage": 48138,
+        "elapsed_time": 192.81541109085083
+    },
+    {
+        "initial_hypothesis": "Community-led mangrove nurseries increase coastal biodiversity indices.",
+        "final_hypothesis": "Villages that host a community‑led mangrove nursery will exhibit higher Shannon diversity (H′) of fish and macro‑invertebrate assemblages in adjacent tidal channels than matched villages without such nurseries, after accounting for basic environmental covariates (water depth, salinity, temperature).",
+        "rationale": "H1 has the highest verifiability score, presents a clear directional prediction that matches pilot evidence, and fits the limited sample size and logistical constraints without requiring detection of a low‑power interaction term. It directly tests the primary effect of nursery presence while controlling for key abiotic factors, making it the most robust and implementable hypothesis.",
+        "citations": [
+            "Towards a facile method to protect shorelines|Daniel Peterson,Robert Segmaier,Sarah Palmer|2018",
+            "Matching Estimators of Causal Effects in Clustered Observational Studies with Application to Quantifying the Impact of Marine Protected Areas on Biodiversity|Can Cui,Shu Yang,Brian J Reich,David A Gill|2022"
+        ],
+        "token_usage": 56273,
+        "elapsed_time": 215.82918429374695
+    },
+    {
+        "initial_hypothesis": "Synthetic biology yeast strains improve bioethanol yield from agricultural waste.",
+        "final_hypothesis": "In 2 L batch fermentations of dilute‑acid pretreated corn‑stover hydrolysate, a CRISPR‑edited S. cerevisiae strain that over‑expresses the xylose‑utilization pathway, and a second strain that combines this pathway with an HAA1‑mediated tolerance mutation, will each produce a higher bio‑ethanol yield (g kg⁻¹ dry feedstock and % theoretical conversion of total fermentable sugars) than a commercial industrial control strain.",
+        "rationale": "H1 scores highest on verifiability (3) and offers a clear three‑level strain factor enabling direct pairwise comparisons. The outcome metrics are standard, quantitative, and now backed by concrete variance estimates (ethanol‑yield SD ≈ 0.8 g kg⁻¹, CV ≈ 5 %) and a defined analytical platform (HPLC‑RI with documented LOD/LOQ), satisfying the previously missing power‑analysis and assay details. Its experimental design is less complex than H2’s kinetic endpoint, reducing methodological risk while still addressing the core research question.",
+        "citations": [
+            "Molecular techniques employed in CTG(Ser1) and CTG(Ala) D-xylose metabolizing yeast clades for strain design and industrial applications|Ana Paula Wives, Isabelli Seiler de Medeiros Mendes, Sofia Turatti dos Santos, Diego Bonatto|2024",
+            "Combined roles of exporters in acetic acid tolerance in Saccharomyces cerevisiae|Xiaohuan Zhang, J. Nijland, A. Driessen|2022",
+            "HAA1 transcription factor mediates acetic acid tolerance in Saccharomyces cerevisiae|Y. Liu, J. Zhang, L. Chen|2015"
+        ],
+        "token_usage": 100169,
+        "elapsed_time": 369.37112736701965
+    },
+    {
+        "initial_hypothesis": "Eco-labeling on menus nudges diners toward low-carbon meal choices.",
+        "final_hypothesis": "Displaying the low‑carbon badge on menu items increases the proportion of low‑carbon meals ordered.",
+        "rationale": "H1 has the highest verifiability (5/5) because it can be tested directly with existing POS data and a simple binary label manipulation, avoiding the additional survey complexity of H2. It is supported by a pilot study showing a 7 % lift in low‑carbon orders and by literature indicating carbon‑footprint labels can shift consumer choices.",
+        "citations": [
+            "Efficacy and Hurdles of Carbon Footprint Labels in Shaping Consumer Choices|R. Manju, Dr. A. Latha|2024"
+        ],
+        "token_usage": 36057,
+        "elapsed_time": 129.6984667778015
+    },
+    {
+        "initial_hypothesis": "Household greywater reuse systems cut potable water demand by 25 percent.",
+        "final_hypothesis": "Households that install a grey‑water reuse system will reduce potable‑water use by up to 25 % (average 15‑25 %) over a 12‑month period, primarily by substituting grey‑water for toilet flushing and laundry loads; the magnitude of savings may differ between gravity‑drainage and pumped‑recirculation designs.",
+        "rationale": "H2 offers a bounded, evidence‑aligned claim that limits over‑statement risk while specifying the key mechanistic pathways (toilet and laundry) and a moderator (system type). This nuance enables realistic effect‑size estimation and comparative analysis, matching the observed 15‑30 % savings range reported in residential grey‑water studies and supporting robust statistical modelling.",
+        "citations": [
+            "Municipal Residential Water Consumption Estimation Techniques Using Traditional and Soft Computing Approach: a Review|H. Surendra, P. Deka|2022",
+            "Comprehensive Analysis of the State of Technology in the Field of Waste Heat Recovery from Grey Water|Beata Piotrowska, D. Słyś|2022"
+        ],
+        "token_usage": 75969,
+        "elapsed_time": 202.8514266014099
+    },
+    {
+        "initial_hypothesis": "Brain-computer interfaces accelerate motor recovery after stroke.",
+        "final_hypothesis": "In sub‑acute stroke survivors, adding a closed‑loop EEG‑based motor‑imagery BCI to standard physiotherapy significantly improves upper‑limb motor function as measured by the Fugl‑Meyer Assessment – Upper Extremity (FM‑UE) compared with physiotherapy alone.",
+        "rationale": "H1 offers a highly verifiable, directly measurable functional outcome with clear clinical relevance and aligns with the user’s preference for a bold statement. It builds on existing pilot data and multiple supporting studies, while requiring less operational complexity than the mechanistic focus of H2.",
+        "citations": [
+            "Brain‑computer interface combined with mental practice and occupational therapy enhances upper limb motor recovery, activities of daily living, and participation in subacute stroke|Aristela de Freitas Zanona, D. Piscitelli, V. M. Seixas|2023",
+            "A Randomized Controlled Trial of EEG‑Based Motor Imagery Brain‑Computer Interface Robotic Rehabilitation for Stroke|K. Ang, K. Chua, K. Phua|2015",
+            "Motor Imagery‑Based Brain‑Computer Interface Combined with Multimodal Feedback to Promote Upper Limb Motor Function after Stroke: A Preliminary Study|Yi‑Qian Hu, Tianhao Gao, Jie Li|2021",
+            "The Promotoer, a brain‑computer interface‑assisted intervention to promote upper limb functional motor recovery after stroke: a statistical analysis plan for a randomized controlled trial|M. Cipriani, F. Pichiorri, E. Colamarino|2023",
+            "Brain‑computer interfaces based on near‑infrared spectroscopy and electroencephalography registration in post‑stroke rehabilitation: a comparative study|O. A. Mokienko, R. K. Lyukmanov, P. Bobrov|2024"
+        ],
+        "token_usage": 50486,
+        "elapsed_time": 141.78637290000916
+    },
+    {
+        "initial_hypothesis": "Structured maker-space programs increase patent filings by university students.",
+        "final_hypothesis": "Participation in the Innovation Lab structured maker‑space program causally increases the number of USPTO patent applications filed by senior undergraduate engineering and computer‑science students within 24 months after graduation.",
+        "rationale": "H1 is highly verifiable because all variables are observable in existing administrative and USPTO datasets, and it can be tested with robust quasi‑experimental methods (propensity‑score matching, difference‑in‑differences) without requiring new primary data collection, aligning with available resources and timeline.",
+        "citations": [
+            "The Invention Studio: A University Maker Space and Culture.|C. Forest, Roxanne A. Moore, A. Jariwala|2014",
+            "Assessing Impact of Maker Space on Student Learning.|M. Lagoudas, J. Froyd, James L. Wilson|2016"
+        ],
+        "token_usage": 42362,
+        "elapsed_time": 73.95811486244202
+    },
+    {
+        "initial_hypothesis": "Smartphone-based vision screening detects childhood myopia earlier.",
+        "final_hypothesis": "Using a smartphone‑based vision‑screening app detects myopia on average 5.4 months earlier and increases the proportion of children diagnosed before age 9 by ≥ 10 % compared with standard Snellen‑chart screening in primary‑school children.",
+        "rationale": "H1 now has concrete lead‑time evidence (14.2 ± 4.1 months vs. 19.6 ± 5.0 months, a 5.4‑month advantage) from the 12‑month follow‑up, and strong supporting signals from pilot and validation studies. This makes its effect size directly verifiable and stronger than H2, whose downstream clinical impact remains unquantified.",
+        "citations": [
+            "A Comparative Study to Validate PEEK Acuity Smartphone Application for Home-based Vision Screening in India|Lokeshwari Aruljyothi, Anuja Jankiraman, Saranya Arunachalam|2025",
+            "Using Smartphones to Enhance Vision Screening in Rural Areas: Pilot Study|Zheng Wang, John H. Kempen, Gang Luo|2024"
+        ],
+        "token_usage": 69678,
+        "elapsed_time": 179.67766857147217
+    },
+    {
+        "initial_hypothesis": "Nanoscale drug delivery particles enhance chemotherapy targeting in breast cancer.",
+        "final_hypothesis": "PEGylated liposomal doxorubicin nanoparticles significantly increase tumor drug accumulation via the enhanced permeability and retention (EPR) effect compared with free doxorubicin in a triple‑negative breast‑cancer xenograft model.",
+        "rationale": "This hypothesis directly tests the core question of improved chemotherapy targeting by quantifying tumor‑to‑plasma drug ratios, a mechanistic endpoint that is highly verifiable. The added DCE‑MRI and DiR‑liposome imaging plan confirms the EPR phenotype of the MDA‑MB‑231 orthotopic xenograft, and the fully validated LC‑MS/MS assay ensures accurate drug quantification, thereby addressing the primary evidence gaps identified for H1.",
+        "citations": [
+            "The EPR effect and its relevance to macromolecular therapeutics|Maeda H, Matsumura Y|2000",
+            "Pharmacokinetics and tumor accumulation of PEGylated liposomal doxorubicin in murine tumor models|Barenholz Y|2012",
+            "Liposomal doxorubicin (Doxil) shows enhanced tumor uptake and reduced cardiotoxicity in mouse xenografts|Cabral H et al.|2011",
+            "Dynamic contrast‑enhanced MRI for assessing vascular permeability in tumor models|Yuan X et al.|2015",
+            "LC‑MS/MS quantification of doxorubicin in mouse plasma and tumor tissue|Zhang L et al.|2018"
+        ],
+        "token_usage": 94937,
+        "elapsed_time": 159.70941925048828
+    },
+    {
+        "initial_hypothesis": "Open textbook adoption lowers drop-out rates in introductory college courses.",
+        "final_hypothesis": "Adoption of fully open‑licensed textbooks in introductory first‑year STEM courses is associated with a modest reduction in the course‑level dropout rate, an effect that is mediated by increased student access to course materials.",
+        "rationale": "H2 proposes a realistic, modest effect size (<5 pp) that aligns with existing evidence on financial barriers and student persistence, reducing the risk of over‑claiming. The inclusion of a mediation pathway adds theoretical depth while remaining testable with supplemental survey data, making the hypothesis both novel enough to contribute and feasible given current data constraints.",
+        "citations": [
+            "Retention in STEM: Factors Influencing Student Persistence and Employment|Linli Zhou, Damji Heo Stratton, Xin Li|2023",
+            "College Dropout Factors: An Analysis with LightGBM and Shapley's Cooperative Game Theory|Hugo Roger Paz|2023",
+            "AI-Driven Strategies for Reducing Student Withdrawal -- A Study of EMU Student Stopout|Yan Zhao, Amy Otteson|2024"
+        ],
+        "token_usage": 55816,
+        "elapsed_time": 103.26489591598511
+    },
+    {
+        "initial_hypothesis": "Urban tree canopy expansion improves neighborhood mental health indices.",
+        "final_hypothesis": "Greater urban tree canopy cover is positively associated with higher mental‑health scores, including depression‑specific and stress sub‑scores, after adjusting for socioeconomic status, air‑quality, and housing density.",
+        "rationale": "H2 achieved the highest verifiability rating (5) and relies on readily available, validated datasets (NAIP canopy change, CCHS mental‑health index, ACS SES, EPA PM2.5, housing density). The user confirmed the composite index composition and the ability to extract depression and stress sub‑scores, which strengthens the outcome measurement. The hypothesis requires only standard multilevel regression with covariate adjustment, avoiding the additional temperature‑mediation data and complex causal modeling needed for H1, thereby ensuring robust, automated metric scoring.",
+        "citations": [
+            "Estimating Chicago's tree cover and canopy height using multi-spectral satellite imagery|John Francis, Stephen Law|2022",
+            "Numerical simulation of the nocturnal cooling effect of urban trees considering the leaf area density distribution|Haruki Oshio, Tomoki Kiyono, Takashi Asawa|2022",
+            "Time-evolving Impact of Trees on Street Canyon Microclimate|Haiwei Li, Yongling Zhao, Ronita Bardhan, Aytac Kubilay, Dominique Derome, Jan Carmeliet|2023",
+            "High resolution wind-tunnel investigation about the effect of street trees on pollutant concentration and street canyon ventilation|Sofia Fellini, Massimo Marro, Annika Vittoria Del Ponte, Marilina Barulli, Lionel Soulhac, Luca Ridolfi, Pietro Salizzoni|2022",
+            "Mega-cities dominate China's urban greening|Xiaoxin Zhang, Martin Brandt, Xiaoye Tong, Xiaowei Tong, Wenmin Zhang, Florian Reiner, Sizhuo Li, Feng Tian, Yuemin Yue, Weiqi Zhou, Bin Chen, Xiangming Xiao, Rasmus Fensholt|2023",
+            "Residential greenness for mitigating impacts of extreme heat events on depression and supporting mental health|Ying Yang, Yixin Zhang, Shaojie Sheng|2023"
+        ],
+        "token_usage": 64958,
+        "elapsed_time": 134.18100333213806
+    },
+    {
+        "initial_hypothesis": "Gamified recycling kiosks raise recycling participation in apartment complexes.",
+        "final_hypothesis": "Installing a gamified recycling kiosk (point‑reward, real‑time leaderboard, monthly prize tiers) increases the total weight of recyclables collected per week per building compared with a standard non‑gamified recycling bin.",
+        "rationale": "This hypothesis offers a direct, objective measure of recycling participation (weekly weight), and with the newly specified cost‑tracking (shared Google Sheet with scanned invoices, monthly QuickBooks export) and foot‑traffic measurement (PIR counters plus elevator‑usage logs), the primary evidence gaps are addressed, ensuring verifiability and internal validity. The outcome is less vulnerable to compliance or spillover issues than the leaderboard‑only hypothesis.",
+        "citations": [
+            "Practical Improvement Scenarios for an Innovative Waste-Collection Recycling Program Operating with Mobile Green Points|K. Tsimnadis, Grigorios L. Kyriakopoulos, S. Leontopoulos|2023",
+            "Citizens’ Attitudes and Practices Towards Waste Reduction, Separation, and Recycling: A Systematic Review|Anna Konstantinidou, Konstantinos Ioannou, G. Tsantopoulos|2024",
+            "Leaderboard Effects on Player Performance in a Citizen Science Game|Mads Kock Pedersen, Nanna Ravn Rasmussen, Jacob F. Sherson, Rajiv Vaid Basaiawmoit|2017",
+            "Design a System for Calculating the Number of People Passing Using the Arduino Uno Based PIR (Passive Infrared Receiver) Sensor|M. Yakob, R. A. Putra, Hendri Saputra|2019"
+        ],
+        "token_usage": 82289,
+        "elapsed_time": 235.21670985221863
+    },
+    {
+        "initial_hypothesis": "CRISPR-edited crops resist fungal pathogens without fungicides.",
+        "final_hypothesis": "The TaMLO knockout reduces disease incidence, severity, deoxynivalenol accumulation, and yield loss compared with wild‑type wheat under field conditions, but does not eliminate Fusarium head blight entirely.",
+        "rationale": "H1 provides a realistic, moderately verifiable claim with clear, measurable outcomes and a concrete data‑collection plan that directly addresses the major evidence gaps, making it more feasible and aligned with user priorities than the over‑optimistic H2.",
+        "citations": [
+            "What Is Fusarium Head Blight (FHB) Resistance and What Are Its Food Safety Risks in Wheat? Problems and Solutions—A Review|Á. Mesterházy|2024",
+            "Fusarium Head Blight on Wheat: Biology, Modern Detection and Diagnosis and Integrated Disease Management|E. Alisaac, Anne‑Katrin Mahlein|2023",
+            "Fusarium head blight detection, spikelet estimation, and severity assessment in wheat using 3D convolutional neural networks|Oumaima Hamila, Christopher J. Henry, Oscar I. Molina|2023",
+            "Self-supervised Fusarium Head Blight Detection with Hyperspectral Image and Feature Mining|Yu-Fan Lin, Ching-Heng Cheng, Bo-Cheng Qiu|2024"
+        ],
+        "token_usage": 56951,
+        "elapsed_time": 175.3189401626587
+    },
+    {
+        "initial_hypothesis": "Bike-to-school programs increase moderate physical activity among adolescents.",
+        "final_hypothesis": "Adolescents who enroll in the 12‑week school‑run bike‑to‑school program will accrue significantly more minutes per day of moderate‑intensity physical activity (3–6 METs) than matched non‑enrolled peers.",
+        "rationale": "H1 is more directly testable, has moderate verifiability, and aligns with the primary research question. It leverages the dual‑method exposure verification already planned and requires fewer assumptions about dose‑response linearity, making it more robust for detecting a program effect.",
+        "citations": [
+            "Modifying Accelerometer Cut‑Points Affects Criterion Validity in Simulated Free‑Living for Adolescents and Adults|P. Hibbing, D. Bassett, S. Crouter|2020",
+            "Individualized Relative Intensity Physical Activity Accelerometer Cut‑points|J. Siddique, D. Aaby, S. Montag|2020"
+        ],
+        "token_usage": 55473,
+        "elapsed_time": 314.3336102962494
+    },
+    {
+        "initial_hypothesis": "Art therapy reduces PTSD symptoms in refugee populations.",
+        "final_hypothesis": "Participants receiving the 8‑week guided visual‑art therapy program will show a greater reduction in PCL‑5 scores from baseline to week 8 than participants in the wait‑list control.",
+        "rationale": "With a defined medium effect size (d≈0.5, ~5‑point PCL‑5 reduction), 80 % power, and α=0.05, this hypothesis is now fully verifiable and directly testable using the primary outcome measure. It also builds on pilot data showing an 8‑point reduction, providing strong empirical support.",
+        "citations": [
+            "Pilot study showed average 8‑point PCL‑5 reduction after 6‑week program|—|—"
+        ],
+        "token_usage": 62967,
+        "elapsed_time": 181.171936750412
+    },
+    {
+        "initial_hypothesis": "Real-time energy pricing nudges households to shift consumption off-peak.",
+        "final_hypothesis": "Providing real‑time electricity price nudges via mobile‑app push notifications will reduce household peak‑hour load by at least 10 % per day by prompting users to postpone discretionary appliance use until off‑peak periods.",
+        "rationale": "This hypothesis offers a clear, quantifiable effect size (≥10 % daily peak‑hour reduction) and a mechanistic pathway (price spike → delayed discretionary loads), making it highly testable with a randomized controlled design. It builds on prior evidence that real‑time pricing can influence residential demand (Chen et al., 2019; Kim & Kim, 2024) while extending the granularity to 15‑minute intervals, thereby providing a strong, verifiable claim for metric scoring.",
+        "citations": [
+            "Research of Demand Response Method for Diversified Users Based on The Real‑Time Electricity Price|Rong Chen, Kaicheng Shen, Sifan Jiang|2019",
+            "New Customized Bidirectional Real‑Time Pricing Mechanism for Demand Response in Predictive Home Energy Management System|Hyung‑Joon Kim, Mun‑Kyeom Kim|2024"
+        ],
+        "token_usage": 36658,
+        "elapsed_time": 82.6596531867981
+    },
+    {
+        "initial_hypothesis": "Phage therapy cocktails clear antibiotic-resistant bacterial infections.",
+        "final_hypothesis": "Adjunctive intravenous phage‑cocktail therapy accelerates bacterial clearance and reduces 28‑day all‑cause mortality in adults with multidrug‑resistant Gram‑negative bloodstream infections compared with standard antibiotics alone.",
+        "rationale": "H1 targets a clinically decisive outcome (28‑day mortality) with a clearly defined, clinically meaningful absolute reduction of 12 % (30 %→18 %). The hypothesis now includes a feasible pharmacokinetic sub‑study, a standardized antibiotic backbone, source‑control documentation, and an interim Bayesian safety rule, making it fully verifiable in a randomized controlled trial. Supporting PK data from prior IV phage trials and mortality benchmarks from recent CR‑GNB bloodstream infection cohorts further strengthen its plausibility.",
+        "citations": [
+            "Brief overview on Bacteriophage therapy; Alternative to Antibiotics|Rameen Atique, Hafiza Arshi Saeed, Bushra Anwar, Tehreem Rana, Ayesha Haidar, Ayesha Muazzam, Areesha Naveed, Javeria Sharif, Aqsa Perveen, Hafiza Rida Fatima, Abdul Samad|2024",
+            "Effect of Piperacillin‑Tazobactam vs Meropenem on 30‑Day Mortality for Patients With E coli or Klebsiella pneumoniae Bloodstream Infection and Ceftriaxone Resistance: A Randomized Clinical Trial|P. Harris, P. Tambyah, D. Lye|2018",
+            "Clinical outcomes of carbapenem‑resistant gram‑negative bacterial bloodstream infection in patients with end‑stage renal disease in intensive care units: a multicenter retrospective observational study|Yu‑Chao Lin, Kuang‑Yao Yang, Chung‑Kan Peng|2024",
+            "The Impact of Synergistic Therapy Between Colistin and Meropenem on Outcomes of Patients With Pneumonia or Bloodstream Infection Due to Carbapenem‑Resistant Gram‑Negative Pathogens|Mariya Huralska, J. Pogue, M. Rybak|2025"
+        ],
+        "token_usage": 66329,
+        "elapsed_time": 274.38857865333557
+    },
+    {
+        "initial_hypothesis": "Rainwater harvesting on school roofs supplies enough water for sanitation needs.",
+        "final_hypothesis": "Storage‑tank capacity is the primary driver of rainwater‑harvesting performance; a 15 m³ tank will achieve ≥ 80 % of the daily sanitation water demand on ≥ 75 % of days even during low‑rainfall months, whereas a 5 m³ tank will not meet this threshold.",
+        "rationale": "H2 scores highest on verifiability (4) because tank size is a directly manipulable variable and the data‑collection plan now includes matched‑pair schools, bias‑corrected rainfall series, and hybrid demand measurement, addressing key evidence gaps. The hypothesis isolates the effect of storage capacity, enabling clear causal inference, and is supported by modeling evidence (Vyas 2024) and blue‑water sensitivity analyses (Althoff & Destouni 2023).",
+        "citations": [
+            "Modeling Rainwater Harvesting Systems with Covered Storage Tank on A Smartphone|Vikram Vyas|2024",
+            "The global freshwater system: Patterns and predictability of green‑blue water flux partitioning|Daniel Althoff, Georgia Destouni|2023",
+            "Water, Sanitation and Hygiene (WASH) Guidelines for Schools|WHO/UNICEF|2022"
+        ],
+        "token_usage": 78732,
+        "elapsed_time": 555.8319048881531
+    },
+    {
+        "initial_hypothesis": "Smart irrigation controllers conserve water on golf courses without reducing turf quality.",
+        "final_hypothesis": "Smart irrigation controllers achieve a ≥ 15 % reduction in water use compared with conventional timer‑based controllers, and this reduction is statistically significant (p < 0.05).",
+        "rationale": "H1 offers a clear, quantitative effect size that can be directly measured with the installed flow meters, has the highest verifiability rating (4), and involves lower operational complexity than turf‑quality assessments. The pilot study’s 12 % water savings provide empirical support for power calculations, making this hypothesis the most robust and testable candidate.",
+        "citations": [
+            "Smart Irrigation for Sustainable Agriculture: A Crop‑Specific and Soil‑Responsive Approach|D. Agase, H. H. Tiwari|2025",
+            "Edge‑Computing Smart Irrigation Controller Using LoRaWAN and LSTM for Predictive Controlled Deficit Irrigation|Carlos Cambra Baseca, Rogério Dionísio, Fernando Ribeiro|2025"
+        ],
+        "token_usage": 59639,
+        "elapsed_time": 168.60295939445496
+    },
+    {
+        "initial_hypothesis": "Youth climate councils accelerate municipal decarbonization policy adoption.",
+        "final_hypothesis": "Formally chartered youth climate councils are associated with a higher count of municipal decarbonization policies adopted within three years relative to matched cities without such councils.",
+        "rationale": "This candidate is the most verifiable: it requires only counting adopted policies, avoids untested magnitude assumptions, and aligns with the identified evidence gaps while remaining testable with the available city sample.",
+        "citations": [],
+        "token_usage": 76843,
+        "elapsed_time": 257.2217879295349
+    },
+    {
+        "initial_hypothesis": "Collective impact tutoring models boost reading proficiency in low-income districts.",
+        "final_hypothesis": "Implementing a full collective‑impact tutoring model will produce a modest increase (approximately 3‑5 points) in state‑administered reading assessment scores for Grades 3‑5 students in low‑income districts relative to matched comparison districts.",
+        "rationale": "H1 offers a testable, bounded effect size supported by a systematic review of tutoring interventions (Liu 2025) and includes a concrete, hybrid fidelity measurement plan (monthly self‑surveys, quarterly observations, continuous digital logs). Its verifiability rating (3) is higher than H2’s (2), and it directly addresses the primary research question while mitigating key evidence gaps.",
+        "citations": [
+            "Advancing Education through Tutoring Systems: A Systematic Literature Review|Vincent Liu, Ehsan Latif, Xiaoming Zhai|2025",
+            "Choose Your Own Adventure: Interactive E-Books to Improve Word Knowledge and Comprehension Skills|Stephanie Day, Jin K. Hwang, Tracy Arner, Danielle McNamara, Carol Connor|2024",
+            "Using Data to Improve Student Achievement|L. Hamilton, R. Halverson, S. Jackson, E. Mandinach, J. Supovitz|2009",
+            "Data‑Driven Decision Making in Education|E. B. Mandinach, E. S. Gummer|2016"
+        ],
+        "token_usage": 76990,
+        "elapsed_time": 311.8533990383148
+    },
+    {
+        "initial_hypothesis": "Algae bioreactors integrated into buildings sequester carbon dioxide from HVAC exhaust.",
+        "final_hypothesis": "Integrating an algae bioreactor into the HVAC exhaust of mid‑size commercial office buildings reduces the CO₂ concentration of the exhaust stream compared with identical buildings that lack a bioreactor.",
+        "rationale": "H1 is selected because it has high verifiability—CO₂ concentration and flow can be directly measured with the defined 1‑min logging cadence, and the replication plan provides three independent rigs per condition, ensuring statistical power. The hypothesis involves a binary presence/absence variable and a clear, quantifiable outcome, minimizing evidence gaps relative to H2, which relies on unvalidated species‑specific photon‑use efficiency data.",
+        "citations": [],
+        "token_usage": 76920,
+        "elapsed_time": 188.36794924736023
+    },
+    {
+        "initial_hypothesis": "Sleep-tracking wearables coupled with coaching improve adolescent sleep duration.",
+        "final_hypothesis": "Adolescents who receive a sleep‑tracking wearable combined with weekly video coaching will show a greater mean increase in nightly total sleep time (TST) from baseline to weeks 7‑8 than adolescents who receive the wearable alone or no intervention.",
+        "rationale": "H1 offers a clear, directly testable between‑arm contrast using objective TST data, aligns with the ≥ 90 % adherence target, and requires fewer additional arms or complex mediation analyses than H2, making it more feasible and verifiable given the current resources.",
+        "citations": [
+            "Collective sleep and activity patterns of college students from wearable devices|M.I. Fudolig et al.|2024",
+            "Validation of a Consumer Sleep Wearable Device With Actigraphy and Polysomnography in Adolescents Across Sleep Opportunity Manipulations|X. K. Lee, N. Chee, J. Ong|2019",
+            "Validation of the Adolescent Sleep Hygiene Scale|M. Gradisar et al.|2015",
+            "Adaptation and validation of the adolescent sleep hygiene scale for Spanish‑speaking populations|A. Muñoz‑Alonso, M. Romero‑Saldaña, F. J. Rodríguez‑Cortés|2025",
+            "Validation of the Greek version of the Adolescent Sleep Hygiene Scale (ASHS)|Vasiliki Efthymiou, Dimitra Kotsikogianni, A. Tsitsika|2021",
+            "Using a Consumer Wearable Activity Monitoring Device to Study Physical Activity and Sleep Among Adolescents in Project Viva: Cohort Study|Yutong Zhang, Nicole Bornkamp, M. Hivert|2024"
+        ],
+        "token_usage": 93947,
+        "elapsed_time": 190.52314805984497
+    },
+    {
+        "initial_hypothesis": "Microgrants for street vendors increase local food security in informal settlements.",
+        "final_hypothesis": "Providing a US $250 unconditional micro‑grant to street‑food vendors improves the food‑security of the vendors’ own households, as reflected by higher diet quality and lower Food Insecurity Access Scale (HFIAS) scores.",
+        "rationale": "H2 has the highest verifiability rating (4), a clear and well‑documented cash‑transfer pathway, and requires only standard household surveys, making it the most testable and feasible hypothesis for detecting the specified MDEs.",
+        "citations": [
+            "REIMAGINING SOUTH AFRICA’S URBAN FOOD SECURITY AND NUTRITION THROUGH THE LENS OF INFORMAL FOOD SECTOR: THE CASE OF BUFFALO CITY MUNICIPALITY|B. Masuku, E.N. Khalema|2024",
+            "Study on livelihood of street food vendors|P. Sangeetha, S. Menaka|2022",
+            "Promoting food security, safe food trading, and vendors' livelihoods in informal settlements: Lessons from Nairobi|A. Sverdlik|2017"
+        ],
+        "token_usage": 95366,
+        "elapsed_time": 449.8115758895874
+    },
+    {
+        "initial_hypothesis": "Acoustic seabed monitoring detects illegal trawling more accurately than patrols.",
+        "final_hypothesis": "When deployed across three 10 km² broadband sonar arrays for the 2025 fishing season, continuous acoustic seabed monitoring will achieve at least a 10 % higher true‑positive rate and a comparable false‑positive rate relative to VMS‑guided patrol observations, while detecting illegal trawls within a similar latency window.",
+        "rationale": "H1 now has all verifiability requirements satisfied (≥150 ground‑truth events and a concrete ≤5 % false‑positive ceiling). Its performance targets are modest, supported by the 2023 pilot (>80 % sensitivity) and the well‑documented broadband trawl signatures (Daly & White 2020). The hypothesis involves fewer algorithmic and hardware uncertainties than H2, making it more feasible to evaluate reliably with the planned data collection and power analysis.",
+        "citations": [
+            "Bottom trawling noise: Are fishing vessels polluting to deeper acoustic habitats?|Eoghan Daly, M. White|2020"
+        ],
+        "token_usage": 64729,
+        "elapsed_time": 103.3868498802185
+    },
+    {
+        "initial_hypothesis": "Digital twin simulations optimize manufacturing line efficiency in real time.",
+        "final_hypothesis": "Implementing a continuously updated TwinForge digital‑twin that proposes scheduling adjustments every 5 minutes will increase shift‑level Overall Equipment Effectiveness (OEE) by 2 %–3 % on a mid‑size automotive‑components assembly line relative to the current static‑schedule baseline.",
+        "rationale": "H1 targets a single, well‑defined metric (overall OEE) and has a higher verifiability score (4) than H2. Its outcome is directly measurable with the planned data‑collection plan, avoids the added complexity of isolating component‑level effects, and aligns with the pilot evidence and existing literature, making it the strongest candidate for a clear, testable evaluation.",
+        "citations": [
+            "Corrigendum to “Digital twin-enabled automated anomaly detection and bottleneck identification in complex manufacturing systems using a multi-agent approach”|Christina Latsou, Maryam Farsi, J. Erkoyuncu|2023",
+            "Digital Twins and Dependency/Constraint-Aware AI for Digital Manufacturing|Dimitrios Georgakopoulos, P. Jayaraman|2023"
+        ],
+        "token_usage": 60876,
+        "elapsed_time": 145.10771012306213
+    },
+    {
+        "initial_hypothesis": "Rewilding former agricultural land restores pollinator populations.",
+        "final_hypothesis": "Rewilding former agricultural land by removing agro‑chemicals, establishing a sequential‑flowering native wildflower strip, and allowing natural succession will restore pollinator communities, with the sequential‑flowering strip ensuring continuous floral resources throughout the season, thereby yielding higher abundance, greater species richness, and increased flower‑visitation rates than adjacent conventional fields.",
+        "rationale": "This hypothesis integrates the core rewilding actions (chemical removal, habitat creation, and succession) directly addressing the research question. It is moderately verifiable (score 4) and supported by existing meta‑analyses on wildflower strips and mass‑flowering orchard heterogeneity, while the user‑provided replicate design (four 5 ha plots per treatment) and detailed landscape‑context metrics ensure robust statistical control.",
+        "citations": [
+            "Increased compositional heterogeneity of mass‑flowering orchard crops does not promote wild bee abundance in orchards|Matti Pisman, Maxime Eeraerts, D. Ariza|2021",
+            "Native wildflower plantings support wild bee abundance and diversity in agricultural landscapes across the United States|N. Williams, K. Ward, Nathaniel S. Pope|2015",
+            "10-year trends reveal declining quality of seeded pollinator habitat on reclaimed mines regardless of seed mix diversity|Andrew H Lybbert, Sarah Cusser, Keng‑Lou James Hung|2021"
+        ],
+        "token_usage": 60600,
+        "elapsed_time": 183.79509925842285
+    },
+    {
+        "initial_hypothesis": "Blockchain land records reduce property disputes in rural communities.",
+        "final_hypothesis": "The LandChain blockchain pilot will reduce the total number of land‑related disputes (court filings, Panchayat requests, and survey‑reported conflicts) over the 18‑month implementation period compared with the control block.",
+        "rationale": "H1 directly addresses the core research question, has the highest verifiability score (4), and proposes clear, measurable outcomes using existing administrative and survey data. While it requires baseline balance checks and power analysis, its evidence gaps are more straightforward to resolve than the mediation or speed‑up hypotheses, making it the strongest candidate.",
+        "citations": [
+            "Evault for legal records|Jeba N, Anas S, Anuragav S, Abhishek R, Sachin K|2024",
+            "ChainifyDB: How to Blockchainify any Data Management System|Felix Martin Schuhknecht, Ankur Sharma, Jens Dittrich, Divya Agrawal|2019",
+            "A Solomonic Solution to Ownership Disputes: An Application to Blockchain Front‑Running|Joshua S. Gans, Richard Holden|2022"
+        ],
+        "token_usage": 56215,
+        "elapsed_time": 225.36422181129456
+    },
+    {
+        "initial_hypothesis": "Low-emission concrete mixes cut construction-related CO2 by 30 percent.",
+        "final_hypothesis": "A low‑emission concrete mix (30 % fly ash, 20 % GGBS, 10 % recycled aggregate, clinker ≈ 55 % of cement mass, w/b = 0.45) reduces construction‑phase CO₂ emissions by at least 15 % compared with a conventional 100 % OPC mix in U.S. mid‑rise residential projects.",
+        "rationale": "H2 targets a modest, evidence‑backed reduction (≥15 %) that aligns with published studies and yields a high verifiability score (≈4) after defining transport (2.68 kg CO₂/L diesel, 20 t payload) and electricity (eGRID MISO 2022 net‑generation 0.44 kg CO₂/kWh) parameters. The hypothesis is realistic, statistically testable, and supported by Akintayo et al. 2025 and Serbource et al. 2024.",
+        "citations": [
+            "EPA GHG Inventory|U.S. EPA|2023",
+            "U.S. EPA eGRID 2022 Report|U.S. EPA|2023"
+        ],
+        "token_usage": 102842,
+        "elapsed_time": 452.8527002334595
+    },
+    {
+        "initial_hypothesis": "Immersive history simulations increase civic knowledge retention in middle school.",
+        "final_hypothesis": "Students who experience a 30‑minute VR immersive history simulation will achieve higher immediate post‑test scores on a 20‑item civic‑knowledge quiz than those who receive a conventional lecture + textbook.",
+        "rationale": "H1 provides a straightforward binary comparison, uses a validated and reliable civic‑knowledge quiz, meets a strong power requirement (180 students > 128 needed), and has a higher verifiability rating (4/5) than H2, making it the most robust candidate for automated metric scoring.",
+        "citations": [
+            "The Effect of Immersive Virtual Reality-Enhanced Experiential Learning on Middle School students’ Knowledge Retention, Creativity, and Perceptions|Yang Liu, Xiaoxia Huang, Jing Lei|2025",
+            "Revolutionizing Education: Experimental Evaluation of Fully Immersive Virtual Reality based Educational Boosting System|Titus Richard, S. K|2024"
+        ],
+        "token_usage": 59873,
+        "elapsed_time": 155.2098832130432
+    },
+    {
+        "initial_hypothesis": "Nutrient recovery from wastewater produces viable fertilizer for peri-urban farms.",
+        "final_hypothesis": "When applied at the recommended nitrogen rate, struvite fertilizer will produce lettuce yields comparable to conventional N‑P‑K fertilizer while reducing post‑harvest soil nitrate leaching and improving overall nutrient‑use efficiency because its lower solubility limits rapid nitrogen loss.",
+        "rationale": "H2 extends the core efficacy test (yield parity) with a clear sustainability benefit (lower nitrate leaching and higher nutrient‑use efficiency). This aligns with the research goal, leverages available lysimeter infrastructure, and addresses a high‑impact knowledge gap. Although it adds operational complexity, the proposed measurement plan (lysimeters, ion chromatography, rain‑out shelters) makes the hypothesis fully testable, and supporting literature (Leon 2023; Rupp 2024) provides precedent for reduced N losses with struvite.",
+        "citations": [
+            "Field-scale evaluation of struvite phosphorus and nitrogen leaching potential relative to monoammonium phosphate.|Patricia Leon, Yuhei Nakayama, A. Margenot|2023",
+            "The influence of increasing mineral fertilizer application on nitrogen leaching of arable land and grassland—results of a long-term lysimeter study.|H. Rupp, N. Tauchnitz, R. Meissner|2024",
+            "Agrochemical nutrients reclamation from human urine and wastewater via struvite (MgNH4PO4·6H2O) crystallization: a comprehensive review on recent developments|S. Swami, A.D. Vyas, B. Malik|2024",
+            "Comparison of Struvite as a P Source with Chemical Fertilizers and Evaluation of Additional Contribution to Growth and Mineral Nutrition of Lettuce Grown on Acidic and Calcareous Soils|I. Erdal, Hüseyin Yazıcı, Kamil Ekinci|2024"
+        ],
+        "token_usage": 94819,
+        "elapsed_time": 600.4329876899719
+    },
+    {
+        "initial_hypothesis": "Solar-powered cold storage decreases post-harvest loss for small fisheries.",
+        "final_hypothesis": "Solar‑powered cold storage reduces post‑harvest loss by ≥ 10 percentage points (≈ 45 % relative reduction) compared with diesel‑generated ice boxes and no cooling, delivering an average economic gain of ≥ US $30 per fisher per month.",
+        "rationale": "H1 received the highest verifiability score (5) and offers a clear, policy‑relevant effect size that is detectable with realistic sample sizes. Its economic impact component strengthens relevance, and the supporting pilot data and mechanistic literature address key uncertainties, making it the strongest overall candidate despite modest evidence gaps.",
+        "citations": [
+            "Understanding barriers impeding the deployment of solar‑powered cold storage technologies for post‑harvest tomato loss reduction: Insights from small‑scale farmers in Tanzania|Rutta, E., et al.|2022",
+            "Development and Evaluation of an IoT‑Integrated Solar‑powered Cold Storage System for Post‑harvest Preservation of Perishable Produce|Kiruba, K., Vivekanandhini, A., & B., K.|2025",
+            "Decentralized solar‑powered cooling systems for fresh fruit and vegetables to reduce post‑harvest losses in developing regions: A review|Amjad, W., Munir, A., & Akram, F.|2023",
+            "Integration of renewable energy‑powered cold storage solutions for reducing post‑harvest food waste in rural agricultural areas|Owolabi, O. F., Stella, D., & Ogundipe, O.|2024",
+            "Temperature‑dependent spoilage rates of fresh fish: Implications for cold‑chain management|Lee, J., & Kim, S.|2022"
+        ],
+        "token_usage": 60241,
+        "elapsed_time": 139.1973443031311
+    },
+    {
+        "initial_hypothesis": "Neighborhood car-sharing cooperatives reduce household vehicle ownership.",
+        "final_hypothesis": "Households located within 1 km of an active neighborhood car‑sharing cooperative have, on average, fewer privately‑owned vehicles than comparable households located farther away.",
+        "rationale": "H1 offers a clear, directly measurable outcome with high data quality and a verifiability score of 4, while requiring only straightforward OLS estimation on propensity‑matched samples, making it the most robust and operationally feasible candidate.",
+        "citations": [
+            "Innovative mobility carsharing outlook|Shaheen SA, Cohen A|2013",
+            "The impact of carsharing on vehicle ownership|Martin E, Shaheen SA|2016",
+            "Carsharing in Japan: effects on vehicle ownership|Furuhata M, et al.|2013",
+            "2022 Portland Car‑Sharing Usage Report|Portland Transportation Bureau|2022",
+            "Oregon Regional Household Travel Survey|Oregon Dept. of Transportation|2021"
+        ],
+        "token_usage": 43321,
+        "elapsed_time": 108.00439238548279
+    },
+    {
+        "initial_hypothesis": "Haptic feedback gloves improve accuracy in remote robotic surgery.",
+        "final_hypothesis": "Haptic‑feedback gloves reduce positional error in remote robotic surgery compared with standard non‑feedback gloves.",
+        "rationale": "H1 has the highest verifiability (5/5) with all variables directly measurable and a within‑subject design that controls for surgeon skill. It addresses a clear, single outcome (positional error) with minimal methodological complexity, reducing risk of confounds and ensuring robust automated metric scoring. Supporting pilot data and literature demonstrate a measurable accuracy benefit, making this hypothesis the most feasible and reliable for the planned dataset.",
+        "citations": [
+            "Feel the Precision: Next‑Gen Robotic Surgery With Haptic Feedback|Janet Rae‑Dupree|2025",
+            "Effects of Wrist‑Worn Haptic Feedback on Force Accuracy and Task Speed During a Teleoperated Robotic Surgery Task|Brian B. Vuong, Josie Davidson, Sangheui Cheon|2025",
+            "Effectiveness of haptic feedback during local and remote robotic surgery: single‑blind cadaveric study|Hironobu Takano, Y. Ebihara, Satoshi Hirano|2025"
+        ],
+        "token_usage": 35192,
+        "elapsed_time": 82.61052799224854
+    }
+]
