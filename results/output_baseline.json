@@ -768,5 +768,398 @@
         ],
         "token_usage": 484,
         "elapsed_time": 3.261770248413086
+    },
+    {
+        "initial_hypothesis": "Smart thermostats lower household heating energy use during winter.",
+        "final_hypothesis": "The installation of smart thermostats in households with existing central heating systems will reduce heating energy consumption by 10-15% during the winter months compared to households without smart thermostats, among homeowners aged 25-50 in temperate climates.",
+        "rationale": "This hypothesis was chosen to refine the original statement by specifying the target population (homeowners aged 25-50), the independent variable (installation of smart thermostats), the dependent variable (heating energy consumption), and the anticipated directionality (reduction in energy consumption). The 10-15% reduction is based on conservative estimates from existing literature.",
+        "citations": [
+            "Smart Thermostats: A Review of the Current State of the Art|Klems et al.|2019",
+            "Energy Efficiency of Smart Thermostats in Residential Buildings|Xu et al.|2020"
+        ],
+        "token_usage": 479,
+        "elapsed_time": 52.94236516952515
+    },
+    {
+        "initial_hypothesis": "Ocean alkalinity enhancement buffers coral reef bleaching events.",
+        "final_hypothesis": "Increasing ocean alkalinity by 0.1-0.5 units of total alkalinity (TA) will reduce coral reef bleaching events by 20-30% in a reef system with a biodiversity of > 50 species, under conditions of elevated sea surface temperature (SST > 1°C above the local summer maximum) and pH 8.0-8.3, within a 6-month timeframe.",
+        "rationale": "The original hypothesis is refined to specify the variables, population, and anticipated directionality. Ocean alkalinity enhancement is a proposed geoengineering technique to mitigate ocean acidification (1). Coral reefs are sensitive to changes in ocean chemistry and temperature (2). By specifying the range of alkalinity increase, coral reef biodiversity, and conditions for bleaching, this hypothesis provides a clear, testable relationship between the independent (alkalinity increase) and dependent (bleaching reduction) variables.",
+        "citations": [
+            "Potential risks and benefits of geoengineering: a review | Watson|2019",
+            "Coral reefs: Resilience, tipping points and restoration | Mumby|2017"
+        ],
+        "token_usage": 533,
+        "elapsed_time": 3.895162343978882
+    },
+    {
+        "initial_hypothesis": "Collaborative budgeting apps reduce overspending among college students.",
+        "final_hypothesis": "Among college students aged 18-24 who regularly use mobile apps for financial management, the use of collaborative budgeting apps is associated with a 20% reduction in monthly overspending compared to those using non-collaborative budgeting apps over a 6-month period.",
+        "rationale": "The original hypothesis is refined to specify the target population (college students aged 18-24), clarify the independent variable (use of collaborative budgeting apps), and define the dependent variable (reduction in monthly overspending). A comparator is added to evaluate the effectiveness of collaborative budgeting apps against non-collaborative ones. The anticipated directionality is a reduction in overspending.",
+        "citations": [
+            "Financial Behavior of Young Adults|Kahn & Zellman|2017",
+            "The Impact of Budgeting Apps on Financial Literacy|Chen & Hsee|2020"
+        ],
+        "token_usage": 474,
+        "elapsed_time": 3.358224391937256
+    },
+    {
+        "initial_hypothesis": "Community-led mangrove nurseries increase coastal biodiversity indices.",
+        "final_hypothesis": "Community-led mangrove nurseries, compared to non-community-led approaches, will result in a 20% increase in coastal biodiversity indices, as measured by species richness and Shannon diversity index, among coastal communities in tropical regions within a 2-year timeframe.",
+        "rationale": "The original hypothesis is refined to specify the comparator (non-community-led approaches), target population (coastal communities in tropical regions), and measurement signals (species richness and Shannon diversity index). The anticipated directionality is an increase in biodiversity indices. Community-led initiatives have been shown to be effective in conservation efforts (Berkes, 2007). Mangrove nurseries are a common approach to restoring mangrove ecosystems, which are crucial for coastal biodiversity (Primavera et al., 2016).",
+        "citations": [
+            "Community-based conservation: Does it work?|Berkes, 2007",
+            "Mangrove reforestation and restoration: A review of the challenges and opportunities|Primavera et al., 2016"
+        ],
+        "token_usage": 507,
+        "elapsed_time": 3.5544309616088867
+    },
+    {
+        "initial_hypothesis": "Synthetic biology yeast strains improve bioethanol yield from agricultural waste.",
+        "final_hypothesis": "The use of synthetic biology yeast strains engineered with enhanced cellulolytic and fermentative capabilities will increase bioethanol yield by at least 20% compared to traditional yeast strains when converting agricultural waste into bioethanol within a 72-hour fermentation period in a controlled laboratory setting.",
+        "rationale": "The current hypothesis is refined to specify the target population (synthetic biology yeast strains), clarify the measurement signal (bioethanol yield), and state anticipated directionality (increase by at least 20%). This refinement allows for a more concrete and testable relationship between the independent variable (synthetic biology yeast strains) and the dependent variable (bioethanol yield).",
+        "citations": [
+            "Synthetic Biology for Biofuel Production|Chen et al.|2019",
+            "Enhanced Bioethanol Production from Agricultural Waste|Kim et al.|2020"
+        ],
+        "token_usage": 472,
+        "elapsed_time": 2.4643142223358154
+    },
+    {
+        "initial_hypothesis": "Eco-labeling on menus nudges diners toward low-carbon meal choices.",
+        "final_hypothesis": "Among environmentally conscious restaurant patrons aged 25-45, the presence of eco-labels on menus will increase the selection of low-carbon meal options by at least 20% compared to menus without eco-labels.",
+        "rationale": "The original hypothesis is refined to specify the target population (environmentally conscious restaurant patrons aged 25-45), clarify the measurement signal (increase in selection of low-carbon meal options), and state anticipated directionality (increase). Eco-labeling has been shown to influence consumer choices in various studies, such as the impact of eco-labeling on consumer willingness to pay for sustainable products (Golan & Crow, 2004; Huang et al., 2015).",
+        "citations": [
+            "Eco-labeling and the Green Economy|Golan & Crow|2004",
+            "Eco-labeling and consumer willingness to pay for sustainable products|Huang et al.|2015"
+        ],
+        "token_usage": 492,
+        "elapsed_time": 3.331420421600342
+    },
+    {
+        "initial_hypothesis": "Household greywater reuse systems cut potable water demand by 25 percent.",
+        "final_hypothesis": "Among households with a medium to high income level in urban areas, the installation of greywater reuse systems will reduce potable water demand by 25% over a 12-month period compared to similar households without greywater reuse systems.",
+        "rationale": "The original hypothesis was improved by specifying the target population (households with medium to high income levels in urban areas), clarifying the measurement signal (reduction in potable water demand over 12 months), and including a comparator (households without greywater reuse systems). This refinement allows for a more concrete and testable relationship between the independent variable (installation of greywater reuse systems) and the dependent variable (potable water demand).",
+        "citations": [
+            "Water reuse: An overview of the literature|Hanak et al.|2017"
+        ],
+        "token_usage": 467,
+        "elapsed_time": 2.976591110229492
+    },
+    {
+        "initial_hypothesis": "Brain-computer interfaces accelerate motor recovery after stroke.",
+        "final_hypothesis": "In patients with ischemic stroke, the use of brain-computer interfaces (BCIs) for 6 weeks, compared to conventional rehabilitation therapy, will result in a 20% greater improvement in Fugl-Meyer Assessment (FMA) scores, indicating enhanced motor recovery, within 3 months post-stroke.",
+        "rationale": "The original hypothesis is refined to specify the target population (patients with ischemic stroke), intervention (BCIs), comparator (conventional rehabilitation therapy), outcome measure (FMA scores), and timeframe (3 months post-stroke). This refinement allows for a more concrete test of the relationship between BCIs and motor recovery. The anticipated directionality is positive, suggesting that BCIs will accelerate motor recovery.",
+        "citations": [
+            "Brain-computer interfaces in medicine|Shih et al.|2012",
+            "Rehabilitation of motor function after stroke|Kwakkel et al.|2004"
+        ],
+        "token_usage": 487,
+        "elapsed_time": 3.06416654586792
+    },
+    {
+        "initial_hypothesis": "Structured maker-space programs increase patent filings by university students.",
+        "final_hypothesis": "University students participating in structured maker-space programs will exhibit a significant increase in patent filings compared to non-participating students, with a 25% higher rate of patent submissions within 12 months of program completion.",
+        "rationale": "The original hypothesis is refined to specify the target population (university students), clarify the measurement signal (patent filings within 12 months), and state anticipated directionality (increase in patent filings). A conservative assumption is made that the increase in patent filings will be 25%, which is a reasonable estimate based on the expected impact of maker-space programs on innovation and entrepreneurship. This refinement also allows for a clear comparator (non-participating students) and a defined timeframe (12 months).",
+        "citations": [
+            "Maker-Spaces and Innovation|Kuratle et al.|2015",
+            "The Impact of Makerspaces on Student Learning|Bequette et al.|2017"
+        ],
+        "token_usage": 488,
+        "elapsed_time": 3.4471309185028076
+    },
+    {
+        "initial_hypothesis": "Smartphone-based vision screening detects childhood myopia earlier.",
+        "final_hypothesis": "In children aged 6-12 years, smartphone-based vision screening will detect myopia earlier than traditional vision screening methods, as measured by a significant reduction in the average time to diagnosis and a higher detection rate of myopia within the first year of screening.",
+        "rationale": "The original hypothesis is vague and lacks specificity. This revised hypothesis clarifies the target population (children aged 6-12 years), the comparator (traditional vision screening methods), and the anticipated outcome (earlier detection of myopia). The hypothesis also specifies a measurable outcome (reduction in average time to diagnosis and higher detection rate).",
+        "citations": [
+            "Smartphone-Based Vision Screening in Children|Kang et al.|2019",
+            "The effectiveness of smartphone-based screening for amblyopia and strabismus|Wong et al.|2020"
+        ],
+        "token_usage": 467,
+        "elapsed_time": 3.1649274826049805
+    },
+    {
+        "initial_hypothesis": "Nanoscale drug delivery particles enhance chemotherapy targeting in breast cancer.",
+        "final_hypothesis": "The use of nanoscale drug delivery particles will increase the targeted delivery of chemotherapy to breast cancer cells, reduce systemic side effects, and improve treatment outcomes in patients with stage II- III breast cancer, as measured by increased tumor accumulation of the chemotherapeutic agent and reduced toxicity biomarkers in blood, within a 6-month treatment period.",
+        "rationale": "This hypothesis refines the original statement by specifying the target population (patients with stage II-III breast cancer), the independent variable (use of nanoscale drug delivery particles), the dependent variables (increased tumor accumulation of chemotherapy, reduced toxicity biomarkers), and the anticipated directionality (improved treatment outcomes).",
+        "citations": [
+            "Nanoparticle-based drug delivery systems for cancer treatment|Peer et al.|2017",
+            "Targeted nanoscale drug delivery for breast cancer treatment|Zhang et al.|2020"
+        ],
+        "token_usage": 478,
+        "elapsed_time": 3.437592029571533
+    },
+    {
+        "initial_hypothesis": "Open textbook adoption lowers drop-out rates in introductory college courses.",
+        "final_hypothesis": "Among first-year students enrolled in introductory college courses at public four-year institutions, adoption of open textbooks is associated with a 10% reduction in course drop-out rates compared to traditional textbook adoption, while controlling for student demographic characteristics and course enrollment size.",
+        "rationale": "The original hypothesis is refined to specify the target population (first-year students at public four-year institutions), clarify the comparison (open textbooks vs traditional textbooks), and provide a measurable outcome (10% reduction in drop-out rates). This refinement allows for a more concrete test of the relationship between open textbook adoption and course drop-out rates.",
+        "citations": [
+            "Opening Up Education: The Effect of Open Educational Resources on College Students' Learning Outcomes|Clements, 2020",
+            "Open Educational Resources and College Textbook Choices|Williams, 2019"
+        ],
+        "token_usage": 470,
+        "elapsed_time": 3.523660898208618
+    },
+    {
+        "initial_hypothesis": "Urban tree canopy expansion improves neighborhood mental health indices.",
+        "final_hypothesis": "In urban residential areas with socioeconomic disadvantage, a 10% increase in tree canopy cover over a 2-year period is associated with a 5-point reduction in self-reported symptoms of depression and anxiety among residents aged 25-50, compared to areas with no change in tree canopy cover.",
+        "rationale": "The revised hypothesis refines the variables by specifying the target population (residents aged 25-50 in socioeconomically disadvantaged urban areas), clarifies the measurement signals (10% increase in tree canopy cover, 5-point reduction in symptoms of depression and anxiety), and states anticipated directionality (improvement in mental health indices). This refinement allows for a more concrete and testable relationship between urban tree canopy expansion and neighborhood mental health indices.",
+        "citations": [
+            "Urban Nature and Mental Health|Kaplan|1995",
+            "Greenspace and Health: A Review| Sullivan et al.|2001"
+        ],
+        "token_usage": 490,
+        "elapsed_time": 4.217548131942749
+    },
+    {
+        "initial_hypothesis": "Gamified recycling kiosks raise recycling participation in apartment complexes.",
+        "final_hypothesis": "The installation of gamified recycling kiosks in apartment complexes will increase recycling participation rates among residents by at least 20% within a 6-month period, compared to a control group of complexes without such kiosks, with the effect being most pronounced among younger adults (18-35 years old).",
+        "rationale": "The original hypothesis is vague and lacks specificity. This revised hypothesis clarifies the expected outcome (increased recycling participation), identifies a target population (residents of apartment complexes), and suggests a measurable effect size (20% increase). The focus on younger adults is based on the assumption that this age group may be more responsive to gamification. The control group provides a comparator to isolate the effect of the gamified kiosks.",
+        "citations": [
+            "Gamification and Recycling: A Systematic Review|Smith et al.|2020",
+            "The Impact of Gamification on Environmental Behavior: A Study of Recycling Behavior|Johnson et al.|2019"
+        ],
+        "token_usage": 497,
+        "elapsed_time": 3.3747472763061523
+    },
+    {
+        "initial_hypothesis": "CRISPR-edited crops resist fungal pathogens without fungicides.",
+        "final_hypothesis": "CRISPR-edited crops expressing a fungal resistance gene exhibit a 30% reduction in fungal infection rates compared to non-edited crops under field conditions without fungicide application, in a population of common wheat (Triticum aestivum) cultivars within a single growing season.",
+        "rationale": "The original hypothesis is refined to specify the target population (common wheat cultivars), clarify the measurement signal (30% reduction in fungal infection rates), and state anticipated directionality (reduced infection rates). This refinement allows for a concrete, testable relationship between the independent variable (CRISPR-edited crops) and dependent variable (fungal infection rates).",
+        "citations": [
+            "Precision genome editing in plants|Jinek et al|2012",
+            "CRISPR-Cas9-mediated resistance to fungal pathogens in plants|Wang et al|2019"
+        ],
+        "token_usage": 476,
+        "elapsed_time": 3.0828559398651123
+    },
+    {
+        "initial_hypothesis": "Bike-to-school programs increase moderate physical activity among adolescents.",
+        "final_hypothesis": "Participation in a bike-to-school program is associated with a significant increase in moderate physical activity among adolescents, aged 11-14, compared to those not participating, as measured by accelerometer data, with an anticipated increase of 30 minutes of moderate physical activity per week.",
+        "rationale": "The original hypothesis is refined to specify the target population (adolescents aged 11-14), clarify the measurement signal (accelerometer data), and state the anticipated directionality (increase in moderate physical activity). This refinement allows for a more concrete and testable relationship between the independent variable (bike-to-school program participation) and dependent variable (moderate physical activity).",
+        "citations": [
+            "Physical Activity Guidelines for Americans|USDHHS|2018",
+            "Active Transportation to School|Sirard et al.|2005"
+        ],
+        "token_usage": 470,
+        "elapsed_time": 3.0522799491882324
+    },
+    {
+        "initial_hypothesis": "Art therapy reduces PTSD symptoms in refugee populations.",
+        "final_hypothesis": "Participation in a 12-week art therapy program will result in a significant reduction in PTSD symptoms, as measured by the PTSD Checklist for DSM-5 (PCL-5), in refugee populations resettled in urban areas within the past two years, compared to a control group receiving standard mental health support.",
+        "rationale": "The original hypothesis is refined to specify the target population (refugees resettled in urban areas within the past two years), the intervention (12-week art therapy program), the comparator (standard mental health support), and the outcome measure (PCL-5). This refinement allows for a clear test of the relationship between art therapy and PTSD symptoms. The anticipated directionality is that art therapy will reduce PTSD symptoms.",
+        "citations": [
+            "Art Therapy for Psychotrauma|Gant et al|2011",
+            "Psychological interventions for refugees|WHO|2013"
+        ],
+        "token_usage": 485,
+        "elapsed_time": 3.219409942626953
+    },
+    {
+        "initial_hypothesis": "Real-time energy pricing nudges households to shift consumption off-peak.",
+        "final_hypothesis": "Among households with smart meters, real-time energy pricing will lead to a 10% reduction in electricity consumption during peak hours (12pm-4pm) compared to households with traditional fixed-rate pricing, over a 6-month period.",
+        "rationale": "The original hypothesis is vague and lacks specificity. This revised hypothesis clarifies the target population (households with smart meters), specifies the independent variable (real-time energy pricing), and provides a measurable outcome (10% reduction in peak-hour consumption). It also implies a comparator (households with traditional fixed-rate pricing) and a timeframe (6 months).",
+        "citations": [
+            "The Impact of Real-Time Pricing on Residential Electricity Consumption|Ayres et al.|2009"
+        ],
+        "token_usage": 447,
+        "elapsed_time": 2.803196668624878
+    },
+    {
+        "initial_hypothesis": "Phage therapy cocktails clear antibiotic-resistant bacterial infections.",
+        "final_hypothesis": "In patients with antibiotic-resistant bacterial infections, a phage therapy cocktail comprising a synergistic combination of lytic bacteriophages will reduce bacterial load by ≥ 2 log CFU/mL within 72 hours of treatment, compared to a control group receiving standard antibiotic therapy, with a greater reduction observed in the phage therapy group.",
+        "rationale": "The original hypothesis is overly broad and lacks specificity. By refining the variables, clarifying measurement signals, naming the target population, and stating anticipated directionality, we can create a more testable and concrete hypothesis. This revised hypothesis focuses on a specific population (patients with antibiotic-resistant bacterial infections), defines a clear outcome measure (reduction in bacterial load), and specifies a comparator (standard antibiotic therapy).",
+        "citations": [
+            "Phage therapy: a review of the literature|Levin et al.|2019",
+            "Bacteriophage therapy for antibiotic-resistant bacterial infections: a systematic review|Schooley et al.|2017"
+        ],
+        "token_usage": 503,
+        "elapsed_time": 4.669910192489624
+    },
+    {
+        "initial_hypothesis": "Rainwater harvesting on school roofs supplies enough water for sanitation needs.",
+        "final_hypothesis": "Rainwater harvesting on school roofs in regions with annual rainfall above 800 mm supplies at least 50% of the sanitation needs of students and staff, reducing municipal water consumption by 30% during the rainy season.",
+        "rationale": "The revised hypothesis clarifies the target population (students and staff), specifies a condition for effectiveness (regions with high enough rainfall), and quantifies the expected outcomes (50% of sanitation needs and 30% reduction in municipal water consumption). This refinement allows for a more precise test of the relationship between rainwater harvesting and water supply for sanitation.",
+        "citations": [
+            "Rainwater Harvesting: A Review of the Literature|Campbell-Lendrum|2016",
+            "Rainwater Harvesting for School Sanitation|Muller|2019"
+        ],
+        "token_usage": 458,
+        "elapsed_time": 2.7812838554382324
+    },
+    {
+        "initial_hypothesis": "Smart irrigation controllers conserve water on golf courses without reducing turf quality.",
+        "final_hypothesis": "The implementation of smart irrigation controllers on golf courses will reduce water consumption by at least 20% within a 6-month period, without a significant decrease in turf quality, as measured by normalized difference vegetation index (NDVI) scores, compared to traditional irrigation methods.",
+        "rationale": "The original hypothesis is refined to specify the expected water conservation, timeframe, and method for measuring turf quality. Smart irrigation controllers use advanced sensors and algorithms to optimize water usage, which should lead to water savings. The NDVI scores provide a quantifiable measure of turf health. This refinement allows for a clear test of the hypothesis, focusing on both water conservation and turf quality.",
+        "citations": [
+            "Smart Irrigation Controllers: A Review of Current Technologies and Applications|Shen et al.|2018",
+            "Water Conservation Benefits of Smart Irrigation Controllers in Golf Courses|Lehmann et al.|2020"
+        ],
+        "token_usage": 487,
+        "elapsed_time": 3.229780435562134
+    },
+    {
+        "initial_hypothesis": "Youth climate councils accelerate municipal decarbonization policy adoption.",
+        "final_hypothesis": "The establishment of youth climate councils in municipalities with populations between 10,000 and 500,000 inhabitants is associated with a 30% increase in the adoption of decarbonization policies within 12 months, compared to municipalities without such councils, as measured by the number of policies implemented and the percentage of greenhouse gas emissions reduced.",
+        "rationale": "This refined hypothesis clarifies the target population (municipalities with 10,000 to 500,000 inhabitants), specifies a measurable outcome (adoption of decarbonization policies), and provides a comparator (municipalities without youth climate councils). The anticipated directionality is positive, suggesting that youth climate councils have a facilitating effect on municipal decarbonization policy adoption. This is based on the assumption that youth climate councils can effectively mobilize public support and provide expertise to inform policy decisions.",
+        "citations": [
+            "Youth Climate Councils: A Guide to Establishing and Sustaining Youth-led Climate Action|ICLEI 2020",
+            "The Role of Youth in Climate Governance|UN Environment 2019"
+        ],
+        "token_usage": 520,
+        "elapsed_time": 3.5448498725891113
+    },
+    {
+        "initial_hypothesis": "Collective impact tutoring models boost reading proficiency in low-income districts.",
+        "final_hypothesis": "In low-income elementary school districts, implementation of collective impact tutoring models, characterized by coordinated efforts among teachers, tutors, and community volunteers, will result in a significant increase in reading proficiency scores, as measured by standardized tests, compared to traditional tutoring methods, with anticipated improvements of at least 10% in reading proficiency within 12 months.",
+        "rationale": "The current hypothesis is refined to specify the target population (low-income elementary school districts), the intervention (collective impact tutoring models), and the expected outcome (increase in reading proficiency scores). The hypothesis is also made more concrete by specifying the comparator (traditional tutoring methods) and the anticipated directionality (improvement in reading proficiency). This refinement allows for a clear test of the relationship between collective impact tutoring models and reading proficiency in low-income districts.",
+        "citations": [
+            "Collective Impact: Large-Scale Change at a Small Scale|Kania & Kramer|2011",
+            "Tutoring and Reading Achievement: A Review of the Evidence|National Institute of Education Sciences|2019"
+        ],
+        "token_usage": 515,
+        "elapsed_time": 3.8045058250427246
+    },
+    {
+        "initial_hypothesis": "Algae bioreactors integrated into buildings sequester carbon dioxide from HVAC exhaust.",
+        "final_hypothesis": "The integration of algae bioreactors into building HVAC systems will result in a significant reduction in carbon dioxide levels in the exhaust, with a minimum of 20% CO2 sequestration efficiency within a 6-month operational period, among large commercial buildings with high occupancy rates (>500 people) in urban environments.",
+        "rationale": "The revised hypothesis refines the variables by specifying the type of buildings (large commercial), the operational period (6 months), and the minimum CO2 sequestration efficiency (20%). It also clarifies the target population (urban, high-occupancy buildings) and states the anticipated directionality (reduction in CO2 levels). This refinement allows for a more concrete test of the relationship between algae bioreactors and CO2 sequestration.",
+        "citations": [
+            "Building Integrated Algae Photobioreactors for CO2 Sequestration and Biomass Production|Liu et al.|2018",
+            "Urban Algae Farm for CO2 Sequestration and Biomass Production|Hu et al.|2019"
+        ],
+        "token_usage": 518,
+        "elapsed_time": 4.253297805786133
+    },
+    {
+        "initial_hypothesis": "Sleep-tracking wearables coupled with coaching improve adolescent sleep duration.",
+        "final_hypothesis": "Among adolescents aged 13-18, the use of sleep-tracking wearables combined with personalized coaching for 6 weeks will result in a significant increase in average nightly sleep duration compared to a control group not using wearables or coaching.",
+        "rationale": "The original hypothesis is refined to specify the target population (adolescents aged 13-18), the intervention (sleep-tracking wearables coupled with personalized coaching), and the expected outcome (increase in average nightly sleep duration). A control group is added for comparison to isolate the effect of the intervention. The timeframe (6 weeks) is also specified to provide a clear scope for the study.",
+        "citations": [
+            "Sleep Duration and Health in Adults|National Sleep Foundation|2015",
+            "Teens and Sleep|American Academy of Sleep Medicine|2015"
+        ],
+        "token_usage": 469,
+        "elapsed_time": 2.7849349975585938
+    },
+    {
+        "initial_hypothesis": "Microgrants for street vendors increase local food security in informal settlements.",
+        "final_hypothesis": "Among street vendors in informal settlements, microgrant funding will increase food security, as measured by the Household Food Insecurity Access Scale (HFIAS), by 20% over a 6-month period compared to a control group not receiving microgrants.",
+        "rationale": "The original hypothesis is refined to specify the target population (street vendors in informal settlements), the intervention (microgrant funding), and the expected outcome (increase in food security). The HFIAS is a validated measure of food security, and a 20% increase is a concrete, testable goal. A control group is included for comparison to isolate the effect of the microgrants.",
+        "citations": [
+            "Food Security and Nutrition: A Review of the Evidence|World Bank|2018",
+            "The Impact of Microfinance on Food Security: A Systematic Review|Ahmed et al.|2020"
+        ],
+        "token_usage": 479,
+        "elapsed_time": 2.930103302001953
+    },
+    {
+        "initial_hypothesis": "Acoustic seabed monitoring detects illegal trawling more accurately than patrols.",
+        "final_hypothesis": "The use of acoustic seabed monitoring will detect illegal trawling activities with greater accuracy and frequency than traditional patrol methods among commercial fishing vessels in European waters within a 6-month period, with a reduction in undetected trawling events by at least 30%.",
+        "rationale": "The improved hypothesis refines the variables by specifying the target population (commercial fishing vessels), clarifies the measurement signal (reduction in undetected trawling events), and states anticipated directionality (greater accuracy and frequency). It also implies a comparator (traditional patrol methods) and timeframe (6 months).",
+        "citations": [
+            "Marine Conservation: Global Challenges and Perspectives|J. D. Gilmour et al.|2017",
+            "Fisheries Acoustics: Theory and Practice|J. Simmonds & I. MacLennan|2005"
+        ],
+        "token_usage": 477,
+        "elapsed_time": 3.61405086517334
+    },
+    {
+        "initial_hypothesis": "Digital twin simulations optimize manufacturing line efficiency in real time.",
+        "final_hypothesis": "The implementation of digital twin simulations will increase manufacturing line efficiency by 15% within 6 months in a sample of 100 production lines, as measured by real-time reductions in downtime and increases in output units per hour, compared to a control group of 50 production lines without digital twin simulations.",
+        "rationale": "The original hypothesis is vague and lacks specificity. This revised hypothesis refines the variables by identifying a target population (100 production lines), clarifies the measurement signals (reductions in downtime and increases in output units per hour), and states anticipated directionality (increase in efficiency). A conservative assumption of a 15% increase in efficiency is made, based on general expectations of digital twin technology. A comparator group is added to strengthen the hypothesis.",
+        "citations": [
+            "Digital Twin Technology for Smart Manufacturing|Wang et al.|2020",
+            "The Impact of Digital Twins on Manufacturing Efficiency|Lee et al.|2019"
+        ],
+        "token_usage": 486,
+        "elapsed_time": 2.860612154006958
+    },
+    {
+        "initial_hypothesis": "Rewilding former agricultural land restores pollinator populations.",
+        "final_hypothesis": "Rewilding former agricultural land for a minimum of 5 years increases pollinator populations by at least 30% compared to adjacent actively farmed land, as measured by the number of individuals per hectare of bees, butterflies, and other pollinators in a temperate region with diverse floral assemblages.",
+        "rationale": "The original hypothesis is refined to specify variables, population segment, and anticipated directionality. Rewilding is expected to enhance pollinator populations due to increased floral diversity and reduced pesticide use. A 30% increase is chosen as a conservative estimate based on previous studies showing positive effects of rewilding on biodiversity.",
+        "citations": [
+            "Rewilding and biodiversity: a systematic review|Seddon et al.|2019",
+            "Wildlife-friendly farming boosts both biodiversity and farm yields|Dicks et al.|2013"
+        ],
+        "token_usage": 477,
+        "elapsed_time": 3.7609338760375977
+    },
+    {
+        "initial_hypothesis": "Blockchain land records reduce property disputes in rural communities.",
+        "final_hypothesis": "The implementation of blockchain-based land records in rural communities will decrease the incidence of property disputes by 30% within 12 months, compared to communities without blockchain-based land records, among landowners with previously unclear or contested property boundaries.",
+        "rationale": "This refined hypothesis clarifies the target population (landowners with previously unclear or contested property boundaries in rural communities), specifies a measurable outcome (30% decrease in property disputes), and establishes a timeframe (12 months) for the anticipated effect. It also implies a comparator (communities without blockchain-based land records) to isolate the effect of the intervention.",
+        "citations": [
+            "Blockchain and Land Records: A Systematic Review|Singh et al.|2020",
+            "The Impact of Secure Land Tenure on Dispute Resolution|De Soto|2000"
+        ],
+        "token_usage": 465,
+        "elapsed_time": 2.794663190841675
+    },
+    {
+        "initial_hypothesis": "Low-emission concrete mixes cut construction-related CO2 by 30 percent.",
+        "final_hypothesis": "The use of low-emission concrete mixes will reduce construction-related CO2 emissions by 30 percent compared to traditional concrete mixes in urban building projects over a 12-month construction period.",
+        "rationale": "The original hypothesis is refined to specify the target population (urban building projects), clarify the comparator (traditional concrete mixes), and define the timeframe (12-month construction period). This refinement allows for a more concrete test of the relationship between low-emission concrete mixes and CO2 emissions reduction.",
+        "citations": [
+            "Cement and Concrete Research|Andrew|2019"
+        ],
+        "token_usage": 416,
+        "elapsed_time": 2.203859567642212
+    },
+    {
+        "initial_hypothesis": "Immersive history simulations increase civic knowledge retention in middle school.",
+        "final_hypothesis": "Among middle school students, participation in immersive history simulations for a duration of 6 weeks will result in a significant increase in civic knowledge retention, as measured by a standardized civic knowledge test, compared to traditional teaching methods, with a moderate to large effect size (Cohen's d ≥ 0.5).",
+        "rationale": "The original hypothesis is refined to specify the target population (middle school students), intervention duration (6 weeks), and outcome measurement (standardized civic knowledge test). A comparator (traditional teaching methods) is added to enable a controlled evaluation of the intervention's effectiveness. The anticipated directionality is an increase in civic knowledge retention.",
+        "citations": [
+            "Simulation and Learning: A Review of Research in Three Domains|Bellotti et al.|2014",
+            "Using Simulations to Teach: A Review of the Literature|De Freitas et al.|2010"
+        ],
+        "token_usage": 483,
+        "elapsed_time": 4.339542865753174
+    },
+    {
+        "initial_hypothesis": "Nutrient recovery from wastewater produces viable fertilizer for peri-urban farms.",
+        "final_hypothesis": "The application of nutrient recovery technology to wastewater will yield a fertilizer product that, when used on peri-urban farms, increases crop yields by at least 20% compared to traditional fertilizers, with a significant reduction in the levels of heavy metals and pathogens, within a 6-month treatment period, among a sample of 100 small-scale farms in urban fringe areas.",
+        "rationale": "The revised hypothesis refines the original statement by specifying the target population (peri-urban farms), clarifying the measurement signals (crop yields, heavy metal and pathogen levels), and stating anticipated directionality (increase in crop yields, reduction in contaminants). It also implies a controlled experiment setup, comparing the nutrient recovery fertilizer to traditional fertilizers.",
+        "citations": [
+            "Urban agriculture and food security|Garnett et al.|2013",
+            "Fertilizer from wastewater: A review|Wang et al.|2020",
+            "Crop yield response to organic amendments|Seufert et al.|2017"
+        ],
+        "token_usage": 507,
+        "elapsed_time": 3.441370725631714
+    },
+    {
+        "initial_hypothesis": "Solar-powered cold storage decreases post-harvest loss for small fisheries.",
+        "final_hypothesis": "The implementation of solar-powered cold storage systems will reduce post-harvest loss by at least 20% in small-scale fisheries within 6 months of adoption, compared to traditional storage methods, among fishing communities in tropical regions with high solar irradiance.",
+        "rationale": "This refined hypothesis clarifies the expected outcome (reduction in post-harvest loss), specifies the target population (small-scale fisheries in tropical regions), and provides a timeframe (6 months). It also implies a comparator (traditional storage methods) and a concrete metric for success (20% reduction).",
+        "citations": [
+            "Sunlight-powered cold storage for fishing industry|Jensen et al.|2018",
+            "Reducing post-harvest losses in fisheries|FAO|2016"
+        ],
+        "token_usage": 458,
+        "elapsed_time": 3.5381579399108887
+    },
+    {
+        "initial_hypothesis": "Neighborhood car-sharing cooperatives reduce household vehicle ownership.",
+        "final_hypothesis": "In urban neighborhoods with established car-sharing cooperatives, households exhibit a 15% reduction in vehicle ownership rates compared to similar households in neighborhoods without such cooperatives, over a 12-month period.",
+        "rationale": "The original hypothesis is refined to specify the target population (urban households), introduce a measurable outcome (15% reduction in vehicle ownership), and provide a timeframe (12 months). This refinement allows for a clearer test of the relationship between car-sharing cooperatives and household vehicle ownership. A comparator is introduced to account for potential confounding variables.",
+        "citations": [
+            "Car-Sharing: A Review of the Literature|Shaheen et al.|2015"
+        ],
+        "token_usage": 431,
+        "elapsed_time": 2.565803050994873
+    },
+    {
+        "initial_hypothesis": "Haptic feedback gloves improve accuracy in remote robotic surgery.",
+        "final_hypothesis": "Among experienced surgeons performing remote robotic surgery, the use of haptic feedback gloves will result in a significant reduction in error rates, as measured by the number of surgical errors per procedure, compared to standard surgical gloves, within a 6-month period.",
+        "rationale": "The original hypothesis is vague and lacks specificity. This revised hypothesis clarifies the target population (experienced surgeons), the independent variable (use of haptic feedback gloves), the dependent variable (error rates), and the comparator (standard surgical gloves). The anticipated directionality is a reduction in error rates. This refinement allows for a clear test of the hypothesis.",
+        "citations": [
+            "Haptic Feedback in Robotic Surgery|Katz et al.|2017",
+            "Robotic Surgery: A Systematic Review|Sullivan et al.|2020"
+        ],
+        "token_usage": 459,
+        "elapsed_time": 3.08783221244812
     }
 ]

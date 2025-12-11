@@ -1,0 +1,34 @@
+{
+    "openai/gpt-oss-120b": {
+        "verifiability": 2.830188679245283,
+        "logical_soundness": 4.660377358490566,
+        "novelty": 3.169811320754717,
+        "relevance": 4.971698113207547,
+        "clarity": 4.89622641509434,
+        "format_error": 0
+    },
+    "meta-llama/Meta-Llama-3.1-70B-Instruct": {
+        "verifiability": 3.5943396226415096,
+        "logical_soundness": 4.8584905660377355,
+        "novelty": 3.5849056603773586,
+        "relevance": 4.990566037735849,
+        "clarity": 5.0,
+        "format_error": 0
+    },
+    "meta-llama/Llama-4-Scout-17B-16E-Instruct": {
+        "verifiability": 4.264150943396227,
+        "logical_soundness": 4.971698113207547,
+        "novelty": 3.0377358490566038,
+        "relevance": 5.0,
+        "clarity": 4.915094339622642,
+        "format_error": 0
+    },
+    "google/gemma-3-27b-it": {
+        "verifiability": 4.3584905660377355,
+        "logical_soundness": 4.981132075471698,
+        "novelty": 2.9056603773584904,
+        "relevance": 5.0,
+        "clarity": 5.0,
+        "format_error": 0
+    }
+}

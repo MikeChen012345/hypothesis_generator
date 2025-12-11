@@ -1,246 +1,964 @@
 [
     {
         "initial_hypothesis": "The increase in urban green spaces leads to a measurable decrease in local air pollution levels.",
-        "final_hypothesis": "The presence and characteristics of urban green spaces are associated with reduced levels of PM2.5, PM10, and NO2 air pollutants in urban neighborhoods, after controlling for confounding variables and accounting for potential biases in the data.",
-        "rationale": "This hypothesis is supported by existing literature on the air pollution removal capabilities of urban green spaces, and takes into account the complexity of analyzing relationships between urban green spaces and air pollution patterns. The study will use a combination of existing datasets and primary data collection to address the limitations of the urban green spaces dataset and control for potential biases in the data.",
-        "citations": [
-            "Air pollution removal by urban trees in the United States|Nowak et al.|2006",
-            "Landsat 8: Science and Product Vision|Irons et al.|2012",
-            "Sentinel-2: ESA's optical high-resolution mission for GMES operational services|Drusch et al.|2012"
-        ],
-        "token_usage": 8032,
-        "elapsed_time": 109.81201338768005
+        "final_hypothesis": "The increase in urban park and garden areas leads to a significant decrease in long-term particulate matter (PM) and nitrogen dioxide (NO2) concentrations in a mid-sized city in a developed country.",
+        "rationale": "This hypothesis is based on the assumption that urban parks and gardens can act as sinks for air pollutants, reducing their concentrations in the surrounding environment.",
+        "citations": [],
+        "token_usage": 4723,
+        "elapsed_time": 30.914023637771606
     },
     {
         "initial_hypothesis": "Weekly mindfulness sessions improve exam performance among first-year medical students.",
-        "final_hypothesis": "Weekly mindfulness sessions based on the Mindfulness-Based Stress Reduction (MBSR) program will lead to a statistically significant increase in average USMLE Step 1 scores among first-year medical students, compared to a control group, after controlling for clustering within medical school classes.",
-        "rationale": "This hypothesis is based on the assumption that mindfulness training can improve cognitive function, reduce stress, and enhance overall well-being, leading to better academic performance. The use of a randomized controlled trial (RCT) design with propensity score matching and a mixed-effects model will help to minimize confounding variables and provide a more accurate estimate of the effect of the mindfulness intervention on USMLE Step 1 scores.",
+        "final_hypothesis": "Among first-year medical students from a single, large urban medical school, participation in 12 weeks of weekly 30-minute MBSR sessions will result in a 10% increase in average exam scores and a 20% reduction in stress-related exam failures, compared to a control group receiving standard student support services, as measured by the Perceived Stress Scale (PSS) and actual exam scores and failure rates.",
+        "rationale": "This hypothesis is based on the adaptation of the MBSR program to fit a 12-week study period, with a focus on improving exam performance and reducing stress-related exam failures among first-year medical students.",
         "citations": [],
-        "token_usage": 8102,
-        "elapsed_time": 87.69636416435242
+        "token_usage": 6841,
+        "elapsed_time": 34.04254341125488
     },
     {
         "initial_hypothesis": "Installing solar reflective roofing reduces residential cooling energy consumption by at least 10 percent.",
-        "final_hypothesis": "Installing solar reflective roofing on single-family homes with asphalt shingle roofs and moderate insulation levels (R-30) in the southwestern United States reduces residential cooling energy consumption by at least 10 percent over a 2-year period.",
-        "rationale": "This hypothesis is based on the assumption that solar reflective roofing can reduce the amount of heat that is absorbed by the roof, which in turn reduces the cooling energy consumption of the home. The southwestern United States is a region with high solar irradiance, making it an ideal location to study the effects of solar reflective roofing.",
-        "citations": [],
-        "token_usage": 4501,
-        "elapsed_time": 60.965075731277466
+        "final_hypothesis": "Installing a new white TPO solar reflective roof with a high solar reflectance index (SRI) on a south-facing roof with an insulation level of R-20 in a warm climate reduces residential cooling energy consumption by 12-15 percent during the summer months.",
+        "rationale": "Based on studies by the Lawrence Berkeley National Laboratory and the Journal of Building Engineering, which found that cool roofs can reduce cooling energy consumption by 12-20% in warm climates.",
+        "citations": [
+            "Solar Reflectance Index for Energy-Efficiency and Comfort|Akbari et al.|2005",
+            "Energy Savings from Cool Roofs|Lehmann et al.|2011",
+            "Thermal Performance of White TPO Roofs|Klems et al.|2018"
+        ],
+        "token_usage": 5154,
+        "elapsed_time": 28.90649175643921
     },
     {
         "initial_hypothesis": "Longer parental leave policies correlate with higher employee retention in tech startups.",
-        "final_hypothesis": "Paid parental leave policies of at least 6 months correlate with a reduction in turnover rates within the first year of employment in tech startups with at least 50 employees, after controlling for company culture and employee demographics, over a 2-year period.",
-        "rationale": "This hypothesis is based on the idea that paid parental leave policies provide employees with a supportive work environment and help them balance work and family responsibilities, leading to increased job satisfaction and reduced turnover rates. The hypothesis is supported by empirical evidence from the Society for Human Resource Management, which found a positive correlation between paid parental leave policies and employee retention.",
-        "citations": [
-            "Paid Leave in the Workplace: 2019 Employee Benefits Survey|Society for Human Resource Management|2019"
-        ],
-        "token_usage": 5585,
-        "elapsed_time": 73.60663557052612
+        "final_hypothesis": "For small to medium-sized tech startups in software development and related services in the United States, offering 12 or more weeks of paid parental leave is associated with a 20% increase in overall employee retention over the past five years.",
+        "rationale": "This hypothesis is based on our current understanding of the relationship between parental leave policies and employee retention in tech startups, and it provides a specific, testable prediction.",
+        "citations": [],
+        "token_usage": 4713,
+        "elapsed_time": 24.29569935798645
     },
     {
         "initial_hypothesis": "Daily consumption of fermented foods enhances gut microbiome diversity in adults.",
-        "final_hypothesis": "In a randomized controlled trial, long-term daily consumption of yogurt and/or kimchi (6-12 months) is expected to enhance gut microbiome diversity, as measured by 16S rRNA gene sequencing and alpha diversity metrics (e.g., Shannon index), in adults aged 25-50 years, compared to a placebo group consuming non-fermented foods and a control group not consuming any fermented or non-fermented foods, while controlling for diet, lifestyle, health status, age, sex, and socioeconomic status.",
-        "rationale": "This hypothesis is based on the growing body of evidence suggesting that fermented foods, such as yogurt and kimchi, have prebiotic properties that can promote the growth of beneficial gut microorganisms and enhance gut microbiome diversity. The randomized controlled trial design will allow us to establish causality and compare the effects of yogurt and kimchi to a baseline. By controlling for potential confounding variables, we can increase the validity of our findings and provide a more accurate estimate of the effects of fermented foods on gut microbiome diversity.",
-        "citations": [
-            "Sonnenburg ED",
-            "Sonnenburg JL. The gut microbiome at the interface of health and disease. Nat Rev Dis Primers. 2014;2:16030."
-        ],
-        "token_usage": 7219,
-        "elapsed_time": 82.11540269851685
+        "final_hypothesis": "Daily consumption of a variety of fermented foods, including yogurt, kefir, sauerkraut, and kimchi, for at least 4 weeks enhances gut microbiome diversity in healthy adults aged 18-65 years with no underlying health conditions affecting gut health.",
+        "rationale": "This hypothesis is refined based on the specified population, duration, and types of fermented foods. It is plausible that a diverse range of fermented foods, rich in beneficial microorganisms, can positively impact gut microbiome diversity in a healthy adult population.",
+        "citations": [],
+        "token_usage": 2858,
+        "elapsed_time": 17.26661443710327
     },
     {
         "initial_hypothesis": "Virtual reality anatomy labs increase knowledge retention compared to traditional 2D diagrams.",
-        "final_hypothesis": "Virtual reality anatomy labs increase knowledge retention of the musculoskeletal system compared to traditional 2D diagrams in first-year medical students.",
-        "rationale": "This hypothesis is based on the assumption that interactive and immersive learning experiences, such as virtual reality labs, can enhance knowledge retention and understanding of complex anatomical structures. By focusing on the musculoskeletal system and using a randomized controlled trial design, we can provide a rigorous test of this hypothesis.",
+        "final_hypothesis": "Medical students with limited prior VR experience who use Anatomy Lab VR by Zygote will demonstrate improved long-term knowledge retention (measured by test scores after 6 months) compared to those using traditional 2D diagrams from Gray's Anatomy, despite the limited sample size and single medical school setting.",
+        "rationale": "This hypothesis takes into account the potential impact of prior VR experience, sample size, and curriculum requirements on the study design. It also specifies the VR lab and 2D diagrams being compared.",
         "citations": [],
-        "token_usage": 4624,
-        "elapsed_time": 63.3929557800293
+        "token_usage": 2990,
+        "elapsed_time": 17.276987552642822
     },
     {
         "initial_hypothesis": "Mangrove restoration projects increase local fish nursery density within two years.",
-        "final_hypothesis": "In the Indo-Pacific region of Southeast Asia, mangrove restoration projects that involve planting new mangrove seedlings and removing invasive species are expected to increase the number of juvenile fish per square meter and species richness of fish in the nursery area within two years, compared to nearby unrestored mangrove areas and areas with no mangroves at all.",
-        "rationale": "This hypothesis is based on the understanding that mangrove restoration can improve habitat quality and increase biodiversity, leading to increased fish nursery density. The use of a BACI study design and comparison to nearby unrestored mangrove areas and areas with no mangroves at all will allow for a robust assessment of the impact of the restoration projects.",
-        "citations": [],
-        "token_usage": 3871,
-        "elapsed_time": 50.87685751914978
+        "final_hypothesis": "Mangrove restoration projects, regardless of scale or funding source, increase local fish nursery density within 2-5 years post-restoration in tropical and subtropical regions, using a mix of Rhizophora, Avicennia, and Sonneratia species.",
+        "rationale": "This hypothesis captures the relationship between mangrove restoration projects and local fish nursery density, while accounting for variations in project scale, funding source, and mangrove species used.",
+        "citations": [
+            "Mangrove Restoration and Fish Populations|Lee et al.|2019",
+            "Fish Nursery Function of Restored Mangroves|Cavieres et al.|2020"
+        ],
+        "token_usage": 4587,
+        "elapsed_time": 30.49442219734192
     },
     {
         "initial_hypothesis": "AI-assisted triage chatbots shorten emergency department wait times.",
-        "final_hypothesis": "AI-assisted triage chatbots, integrated with existing EHR systems and reviewed by human triage nurses, decrease wait times for adults aged 18-65 with non-life-threatening conditions by at least 20% in urban emergency departments with moderate to high patient volumes.",
-        "rationale": "This hypothesis is based on the assumption that AI-assisted triage chatbots can efficiently and accurately triage patients, reducing the workload of human triage nurses and decreasing wait times. The integration with existing EHR systems and moderate human oversight will help minimize potential biases and errors. The hypothesis is informed by existing literature on AI-assisted triage systems, which have shown promising results in reducing wait times and improving triage accuracy.",
+        "final_hypothesis": "The implementation of AI-assisted triage chatbots using natural language processing and machine learning reduces door-to-doctor wait times in emergency departments by a median of 12 minutes (IQR: 6-20 minutes) for the general adult population.",
+        "rationale": "This hypothesis provides a specific estimate of the effect size and is based on the available information about the AI-assisted triage chatbots, study design, and patient population.",
         "citations": [
-            "AI-Powered Triage System Reduces Wait Times in Urban Emergency Department|Smith et al.|2020",
-            "AI-Assisted Triage System Improves Triage Accuracy and Reduces Repeat Assessments|Johnson et al.|2019"
+            "Impact of AI-powered chatbots on emergency department workflow|Kumar et al.|2020"
         ],
-        "token_usage": 6801,
-        "elapsed_time": 76.01364374160767
+        "token_usage": 5482,
+        "elapsed_time": 32.33768677711487
     },
     {
         "initial_hypothesis": "Gamified language apps boost vocabulary acquisition for high school students.",
-        "final_hypothesis": "High school students (9th-11th grade) who use a gamified language app with points, badges, and leaderboards to learn Spanish will demonstrate a higher rate of vocabulary acquisition and retention over a semester compared to students who use traditional classroom instruction and textbook-based learning methods.",
-        "rationale": "This hypothesis is informed by Self-Determination Theory, which suggests that autonomy, competence, and relatedness are key factors in motivating individuals to engage in learning activities. The gamified app's features are designed to satisfy these needs, leading to increased engagement and motivation, and ultimately, better learning outcomes.",
+        "final_hypothesis": "A semester-long intervention using gamified language apps that incorporate points, badges, and leaderboards, with minimal social interaction and teacher involvement, will result in a 20% increase in vocabulary acquisition, as measured by standardized test scores (TOEFL or SAT), for freshmen and sophomores (14-16 years old) compared to traditional methods.",
+        "rationale": "This hypothesis is based on the assumption that gamification features will enhance engagement and motivation, leading to improved vocabulary retention and comprehension.",
         "citations": [],
-        "token_usage": 5629,
-        "elapsed_time": 57.575799226760864
+        "token_usage": 3987,
+        "elapsed_time": 22.28241276741028
     },
     {
         "initial_hypothesis": "Reclaimed wastewater irrigation raises soil salinity beyond crop tolerance after five seasons.",
-        "final_hypothesis": "Reclaimed wastewater irrigation with moderate TDS (1,200 mg/L) and SAR (6), applied through flood irrigation every 7-10 days, raises soil salinity beyond crop tolerance (8 dS/m) after five seasons for wheat and barley crops grown on clay-loam soils with moderate CEC and low infiltration rates.",
-        "rationale": "The combination of reclaimed water quality, irrigation management practices, and soil characteristics may contribute to increased soil salinity levels. The moderate TDS and SAR levels in the reclaimed water, along with the flood irrigation schedule and lack of soil moisture monitoring, may lead to excessive water application and subsequent salt buildup in the soil. The clay-loam soil with moderate CEC and low infiltration rates may exacerbate this issue, as it may retain more salts and have limited ability to leach them out.",
+        "final_hypothesis": "Reclaimed wastewater irrigation with an EC of 2-3 dS/m will exceed crop-specific salinity tolerance for tomatoes, peppers, and cucumbers after 4-5 years, but the impact on crop yields will be minimal due to careful irrigation management.",
+        "rationale": "This hypothesis takes into account the initial soil salinity, reclaimed wastewater EC, crop-specific salinity tolerance, and careful irrigation management practices.",
         "citations": [],
-        "token_usage": 4377,
-        "elapsed_time": 59.440391302108765
+        "token_usage": 5200,
+        "elapsed_time": 29.088380098342896
     },
     {
         "initial_hypothesis": "Machine learning credit scoring reduces loan default rates for microfinance institutions.",
-        "final_hypothesis": "Machine learning credit scoring using a combination of traditional credit bureau data and alternative data sources reduces loan default rates for microfinance institutions in sub-Saharan Africa over a 1-2 year period, specifically for loans under $1,000.",
-        "rationale": "This hypothesis is grounded in the idea that machine learning credit scoring can provide a more accurate assessment of creditworthiness, particularly in regions where traditional credit data may be limited. By combining traditional credit bureau data with alternative data sources, microfinance institutions can better identify high-risk borrowers and reduce loan default rates. The focus on sub-Saharan Africa and loans under $1,000 ensures that the analysis is relevant to the specific challenges and opportunities in microfinance.",
-        "citations": [],
-        "token_usage": 4032,
-        "elapsed_time": 51.3572838306427
+        "final_hypothesis": "In Kenya, the use of logistic regression and random forest models for credit scoring in microfinance institutions reduces loan default rates by at least 10% compared to traditional credit scoring methods.",
+        "rationale": "Based on assumptions that traditional credit data is readily available and of good quality in Kenya, and that alternative data sources are reliable and not prone to biases.",
+        "citations": [
+            "Credit Scoring for Microfinance: A Review|Banerjee and Duflo|2014"
+        ],
+        "token_usage": 5027,
+        "elapsed_time": 27.7457218170166
     },
     {
         "initial_hypothesis": "Cold plasma treatments extend shelf life of fresh berries by suppressing fungal growth.",
-        "final_hypothesis": "Cold plasma treatment of strawberries (Albion and Camarosa varieties) using a helium-oxygen mixture (90:10 or 80:20) and a power density of 1-5 watts per square centimeter for 3-5 minutes disrupts fungal cell membranes, inactivates fungal spores, and alters berry surface chemistry, leading to a reduction in fungal growth and an extension of shelf life.",
-        "rationale": "The cold plasma treatment's reactive species, such as ozone and reactive oxygen species, are expected to play a key role in disrupting fungal cell membranes and altering berry surface chemistry, making it less favorable for fungal growth. The treatment may also induce changes in the berry's physiological responses, such as the production of defense-related compounds, which could further contribute to the suppression of fungal growth.",
-        "citations": [],
-        "token_usage": 5886,
-        "elapsed_time": 69.83730840682983
+        "final_hypothesis": "Dielectric barrier discharge (DBD) cold plasma treatment with 50 W power input using air gas extends the shelf life of strawberries (Fragaria × ananassa) by suppressing Botrytis cinerea growth when stored at 4°C and 90% relative humidity for up to 5 minutes.",
+        "rationale": "The refined hypothesis is based on the confirmed details of the cold plasma treatment, target fungus, type of berries, and experimental conditions. The use of DBD cold plasma treatment with air gas has been shown to be effective in suppressing Botrytis cinerea growth on strawberries.",
+        "citations": [
+            "Inactivation of Botrytis cinerea on strawberries using dielectric barrier discharge plasma|Lee et al.|2019"
+        ],
+        "token_usage": 7091,
+        "elapsed_time": 34.98646831512451
     },
     {
         "initial_hypothesis": "Citizen science air quality projects increase community advocacy for clean energy policies.",
-        "final_hypothesis": "Citizen science air quality projects focused on particulate matter and ozone in urban areas with high levels of air pollution and diverse populations lead to a significant increase in community engagement and advocacy for clean energy policies, resulting in policy changes and improved air quality, within 1-3 years of project implementation.",
-        "rationale": "This hypothesis is grounded in the existing literature on the effectiveness of citizen science projects in promoting environmental policy changes, and draws upon data from reputable sources such as the EPA and CDC.",
+        "final_hypothesis": "Citizen science air quality projects that engage local communities through education and provide actionable data lead to increased community advocacy for clean energy policies, as measured by participation in public hearings and petition signatures.",
+        "rationale": "This hypothesis is supported by existing literature on citizen science and community engagement, which suggests that interactive and participatory approaches can drive advocacy and policy change. The proposed study will test this hypothesis through a mixed-methods approach, combining survey or interview data with analysis of existing data sources and case studies.",
         "citations": [
-            "National Science Foundation's Citizen Science program|National Science Foundation|",
-            "Environmental Protection Agency's (EPA) Community Air Monitoring program|Environmental Protection Agency|",
-            "Environmental Protection Agency's (EPA) Air Quality Index (AQI)|Environmental Protection Agency|",
-            "Centers for Disease Control and Prevention's (CDC) data on air pollution-related health impacts|Centers for Disease Control and Prevention|"
+            "Citizen Science and Usability: A Study of the Air Quality Monitoring Project in Baltimore, Maryland|Kobylecky et al.|2018"
         ],
-        "token_usage": 4535,
-        "elapsed_time": 63.35922169685364
+        "token_usage": 4889,
+        "elapsed_time": 29.331352472305298
     },
     {
         "initial_hypothesis": "Extending elementary school recess from 15 to 30 minutes decreases disruptive classroom behavior.",
-        "final_hypothesis": "Extending elementary school recess from 15 to 30 minutes, implemented over a 9-month period with a gradual rollout, decreases disruptive classroom behavior in students in grades 1-3, as measured by frequency of verbal outbursts, instances of physical aggression, teacher redirections, and standardized behavioral assessment tool (BASC), compared to a matched control group.",
-        "rationale": "This hypothesis is supported by the idea that increased physical activity and outdoor time can have a positive impact on children's behavior and cognitive function. By extending recess time, students may have more opportunities for physical activity, socialization, and stress relief, leading to a reduction in disruptive classroom behavior.",
+        "final_hypothesis": "Extending elementary school recess from 15 to 30 minutes decreases the frequency and severity of disruptive classroom behavior, with greater effects for younger students (K-2) and students with special needs.",
+        "rationale": "This hypothesis takes into account the potential moderating effects of age and special needs on the relationship between recess extension and disruptive classroom behavior.",
         "citations": [],
-        "token_usage": 4652,
-        "elapsed_time": 53.32094597816467
+        "token_usage": 5729,
+        "elapsed_time": 31.754735946655273
     },
     {
         "initial_hypothesis": "Substituting soy-based feed lowers methane emissions from dairy cattle.",
-        "final_hypothesis": "Substituting 20-25% soybean meal for grain-based feed (corn and barley) in dairy cattle diets reduces methane emissions over a 6-12 month period.",
-        "rationale": "This hypothesis was chosen based on the potential for soybean meal-based feed to alter the rumen microbiome and reduce methane production in dairy cattle. The 6-12 month time horizon allows for the capture of initial adjustments in the cattle's digestive system and the sustained impact on methane emissions. Controlling for variables such as breed, age, milk production level, manure management practices, and bedding materials will help to isolate the effect of the soybean meal-based feed on methane emissions.",
+        "final_hypothesis": "Replacing 50% of corn-based feed with soy-based feed for Holstein cows in early lactation stage reduces total methane emissions by 15-25% and emissions per unit of milk production by 10-20% over a 6-8 week period.",
+        "rationale": "The proposed hypothesis is based on the expected alteration of the rumen microbiome and nutrient digestion patterns, leading to reduced methane production. The expected reduction in emissions is consistent with preliminary studies and takes into account potential confounding variables such as changes in milk production and cow behavior.",
         "citations": [],
-        "token_usage": 4943,
-        "elapsed_time": 58.58852291107178
+        "token_usage": 3881,
+        "elapsed_time": 20.318580865859985
     },
     {
         "initial_hypothesis": "Coastal seagrass meadows attenuate storm surge height during tropical cyclones.",
-        "final_hypothesis": "Coastal seagrass meadows with high vegetation density (200-400 shoots/m², 50-70% canopy cover), spanning several square kilometers, are likely to reduce storm surge height by 15-25% during Category 1-3 hurricanes with wind speeds of 64-129 mph (104-208 km/h) and storm surge heights of 1-3 meters, with a 95% confidence interval.",
-        "rationale": "This hypothesis is based on the assumption that high-density seagrass meadows can effectively reduce wave energy and storm surge height. The specific values for vegetation density and canopy cover provide a clear definition of what constitutes a 'high-density' seagrass meadow. The range of values for storm surge attenuation and the 95% confidence interval provide a reasonable estimate of uncertainty.",
+        "final_hypothesis": "Seagrass meadows with a density of ≥50% cover and a width of ≥100 meters reduce storm surge height by a significant amount (e.g., ≥10%) during Category 2 or higher storms along the coastlines of Louisiana and Mississippi.",
+        "rationale": "This hypothesis is based on specified constraints and focuses on the relationships between seagrass meadows and storm surge attenuation in the northern Gulf of Mexico.",
         "citations": [],
-        "token_usage": 4925,
-        "elapsed_time": 75.6200954914093
+        "token_usage": 8977,
+        "elapsed_time": 38.55799865722656
     },
     {
         "initial_hypothesis": "Adaptive learning platforms narrow math achievement gaps in middle school classrooms.",
-        "final_hypothesis": "The implementation of adaptive learning platforms in middle school classrooms is associated with a significant reduction in math achievement gaps between students from low-income and higher-income households within a single academic year, as measured by a combination of state-mandated math test scores and teacher-administered math quizzes and unit tests.",
-        "rationale": "This hypothesis is grounded in the idea that adaptive learning platforms can provide personalized learning experiences that cater to the unique needs of students from diverse backgrounds, thereby reducing achievement gaps.",
+        "final_hypothesis": "Adaptive learning platforms with real-time feedback and personalized learning paths reduce math achievement gaps between low-income and affluent students in middle school classrooms by at least 20% over the course of a school year.",
+        "rationale": "This hypothesis is based on the idea that adaptive learning platforms can provide targeted support to students who need it most, thereby reducing gaps in math achievement.",
         "citations": [],
-        "token_usage": 5057,
-        "elapsed_time": 55.368067502975464
+        "token_usage": 4171,
+        "elapsed_time": 26.285773754119873
     },
     {
         "initial_hypothesis": "Switching to biodegradable mulch films reduces microplastic accumulation in agricultural soils.",
-        "final_hypothesis": "Switching to PLA-based biodegradable mulch films can reduce microplastic accumulation in agricultural soils by 70-90% over a 6-12 month period, compared to traditional plastic mulch films.",
-        "rationale": "Based on estimated degradation rates of PLA-based mulch films in agricultural soils, switching to these biodegradable films can significantly reduce microplastic accumulation over time.",
-        "citations": [
-            "Degradation of Polylactic Acid in Soil|Smith et al.|2018",
-            "Biodegradation of PLA Mulch Films in Agricultural Soils|Johnson et al.|2020"
-        ],
-        "token_usage": 6854,
-        "elapsed_time": 86.63240838050842
+        "final_hypothesis": "The use of PLA and PHA biodegradable mulch films reduces microplastic accumulation in loamy soils by at least 30% compared to conventional polyethylene mulch films over a 3-5 year period, with degradation rates influenced by temperature, rainfall, and soil moisture.",
+        "rationale": "Biodegradable mulch films are expected to break down more quickly and completely than conventional polyethylene mulch films, leading to reduced microplastic accumulation in soils.",
+        "citations": [],
+        "token_usage": 2615,
+        "elapsed_time": 16.525354146957397
     },
     {
         "initial_hypothesis": "Peer-led coding clubs increase female participation in computer science electives.",
-        "final_hypothesis": "Peer-led coding clubs increase female participation in computer science electives among high school girls in 9th to 12th grade, as measured by short-term increases in enrollment numbers and long-term pursuit of computer science-related majors or careers.",
-        "rationale": "This hypothesis is supported by the potential for peer-led coding clubs to provide a supportive and inclusive environment for girls to learn and develop their coding skills, which can increase their confidence and interest in computer science.",
+        "final_hypothesis": "Peer-led coding clubs, lasting a semester, increase enrollment rates in computer science electives among high school students from underrepresented groups by at least 20% compared to a control group.",
+        "rationale": "This hypothesis is based on the assumption that peer-led coding clubs can provide a supportive and relatable environment for high school students from underrepresented groups, fostering their interest and confidence in computer science.",
         "citations": [],
-        "token_usage": 8314,
-        "elapsed_time": 89.14496493339539
+        "token_usage": 2872,
+        "elapsed_time": 16.825558185577393
     },
     {
         "initial_hypothesis": "Deploying contact tracing wearables reduces infection clusters on cruise ships.",
-        "final_hypothesis": "Deploying Bluetooth Low Energy (BLE)-based contact tracing wearables, worn by all passengers and crew, on cruise ships with similar demographics, sanitation protocols, and ship sizes, will reduce the average cluster size by at least 20% and decrease the number of clusters with 5 or more cases by at least 30%, compared to control cruises without contact tracing wearables, over a period of 6-12 months.",
-        "rationale": "This hypothesis is based on the assumption that the contact tracing wearables will enable early detection and isolation of infected individuals, thereby reducing the spread of infections on cruise ships. The 20% reduction in average cluster size and 30% reduction in clusters with 5 or more cases are specific, measurable outcomes that will indicate the effectiveness of the contact tracing wearables.",
+        "final_hypothesis": "Deploying wristband-style Bluetooth Low Energy contact tracing wearables on 7-10 day cruises with 2,000-3,000 passengers, in addition to existing health protocols, reduces secondary infections by facilitating immediate isolation and testing of close contacts, potentially decreasing the attack rate from 5% to <2%.",
+        "rationale": "The addition of contact tracing wearables enables more efficient identification and isolation of close contacts, which, in conjunction with existing health protocols, could lead to a reduction in secondary infections.",
         "citations": [],
-        "token_usage": 5263,
-        "elapsed_time": 55.481738567352295
+        "token_usage": 3017,
+        "elapsed_time": 18.853222131729126
     },
     {
         "initial_hypothesis": "Solar-powered drip irrigation improves tomato yield in semi-arid farms.",
-        "final_hypothesis": "The adoption of solar-powered drip irrigation systems, specifically designed for smallholder farmers in eastern Africa, will lead to a 20-30% increase in tomato yield per hectare, a 30-40% improvement in water productivity, a 15-25% increase in household income, and a 20-30% improvement in food security for smallholder farmers in Kenya and Tanzania, assuming adequate training and support for proper installation and maintenance, and acknowledging potential influences from climate variability, soil quality, and market prices.",
-        "rationale": "This hypothesis is based on existing research on drip irrigation systems, which have shown significant improvements in crop yields and water productivity. The use of solar-powered pumps and drip irrigation kits specifically designed for smallholder farmers in eastern Africa is expected to further enhance these benefits. The socioeconomic impact of the intervention is also expected to be significant, given the potential for increased household income and improved food security.",
-        "citations": [
-            "Drip Irrigation for Smallholder Farmers in Africa|International Fund for Agricultural Development (IFAD)|2018",
-            "The Impact of Drip Irrigation on Crop Yields and Water Productivity|Food and Agriculture Organization (FAO) of the United Nations|2015"
-        ],
-        "token_usage": 7463,
-        "elapsed_time": 91.13811874389648
+        "final_hypothesis": "Solar-powered sub-surface drip irrigation (SDI) or twin-wall drip irrigation lines increase 'Patio' tomato yield by 25% in semi-arid farms with sandy loam soil and annual rainfall of 200-400 mm.",
+        "rationale": "The combination of solar-powered irrigation, efficient water delivery through SDI or twin-wall lines, and suitable soil conditions is expected to enhance water-use efficiency and promote healthy plant growth, leading to increased yields.",
+        "citations": [],
+        "token_usage": 3255,
+        "elapsed_time": 20.695607900619507
     },
     {
         "initial_hypothesis": "Intermittent fasting improves insulin sensitivity among prediabetic adults.",
-        "final_hypothesis": "Six months of 16:8 time-restricted feeding will improve insulin sensitivity, as measured by the hyperinsulinemic-euglycemic clamp, in adults aged 40-65 with prediabetes and a BMI of 25-35.",
-        "rationale": "This hypothesis is based on the assumption that 16:8 time-restricted feeding will lead to improvements in insulin sensitivity, which is a critical factor in the prevention and management of type 2 diabetes. The use of the hyperinsulinemic-euglycemic clamp as the primary outcome measure will provide a robust and quantitative assessment of insulin sensitivity.",
-        "citations": [],
-        "token_usage": 5722,
-        "elapsed_time": 62.51324272155762
+        "final_hypothesis": "A 16:8 intermittent fasting regimen for 12 weeks improves insulin sensitivity, as measured by HOMA-IR and Matsuda Index, in prediabetic adults aged 30-60 years with a BMI between 25-35 kg/m².",
+        "rationale": "This hypothesis is based on the potential benefits of intermittent fasting on insulin sensitivity, as demonstrated in previous studies. The 16:8 regimen is a feasible and sustainable approach for improving insulin sensitivity in prediabetic adults.",
+        "citations": [
+            "The effects of intermittent fasting on health and disease processes|de Cabo et al.|2019",
+            "Intermittent fasting and human metabolism|Johnson et al.|2007"
+        ],
+        "token_usage": 3349,
+        "elapsed_time": 22.354596376419067
     },
     {
         "initial_hypothesis": "Remote work flexibility policies raise employee job satisfaction scores.",
-        "final_hypothesis": "Flexible work hours and work-from-home options are positively associated with employee job satisfaction, as measured by the Job Satisfaction Survey (JSS), employee turnover rates, and internal promotion rates, among remote workers in the tech industry in the United States.",
-        "rationale": "This hypothesis is supported by existing research on remote work and employee engagement, which suggests that flexible work arrangements can lead to increased job satisfaction and reduced turnover rates.",
-        "citations": [
-            "Remote Work Persists Amid COVID-19|Gallup|2020",
-            "2020 Employee Benefits Survey|Society for Human Resource Management|2020"
-        ],
-        "token_usage": 4526,
-        "elapsed_time": 57.79050326347351
+        "final_hypothesis": "Implementing flexible hours and work-from-home options for software engineers and data scientists in the tech industry is likely to increase their job satisfaction scores within the first six months, as measured through quarterly surveys.",
+        "rationale": "This hypothesis is based on the assumption that remote work flexibility policies will provide employees with a better work-life balance, increase autonomy, and reduce commuting time, leading to higher job satisfaction.",
+        "citations": [],
+        "token_usage": 2863,
+        "elapsed_time": 17.027400493621826
     },
     {
         "initial_hypothesis": "Community composting initiatives reduce landfill waste tonnage per household.",
-        "final_hypothesis": "Participating households in curbside community composting initiatives experience a 20-30% reduction in landfill waste tonnage per household over a 1-2 year period.",
-        "rationale": "This hypothesis is based on the assumption that a well-designed and implemented community composting initiative, accompanied by a robust education and outreach program, can effectively reduce landfill waste tonnage per household. The 20-30% reduction estimate is informed by the study by Goldstein (2017), which found that curbside composting programs can be effective in reducing household waste.",
-        "citations": [
-            "Curbside Composting Programs: A Review of the Literature|Goldstein, 2017"
-        ],
-        "token_usage": 6307,
-        "elapsed_time": 77.89344692230225
+        "final_hypothesis": "Community composting initiatives reduce landfill waste tonnage per household by at least 20% over a one-year period.",
+        "rationale": "The proposed hypothesis is a specific and testable statement that aligns with the research question and available data.",
+        "citations": [],
+        "token_usage": 4337,
+        "elapsed_time": 22.20571732521057
     },
     {
         "initial_hypothesis": "Augmented reality maintenance manuals cut aircraft repair time by 20 percent.",
-        "final_hypothesis": "The use of augmented reality maintenance manuals for routine inspections and repairs on commercial airliners (Boeing 737 and Airbus A320) will result in a significant reduction in mean time to repair (MTTR) and mean time between failures (MTBF), and an improvement in overall maintenance efficiency, after at least one year of use, controlling for the proficiency level of maintenance personnel.",
-        "rationale": "The use of augmented reality maintenance manuals has the potential to improve maintenance efficiency and reduce repair times by providing maintenance personnel with real-time, interactive guidance and support. By controlling for the proficiency level of maintenance personnel, we can ensure that the results are not skewed by variations in user experience and training.",
+        "final_hypothesis": "Augmented reality maintenance manuals reduce aircraft repair time by 20 percent for complex tasks like engine overhauls and avionics system repairs, and by 10 percent for routine checks, compared to traditional manual-based maintenance procedures.",
+        "rationale": "The hypothesis is refined based on the specific benefits expected in complex repairs and routine checks, and takes into account the varying baseline repair times for different aircraft types and tasks.",
         "citations": [],
-        "token_usage": 4774,
-        "elapsed_time": 66.97318959236145
+        "token_usage": 3197,
+        "elapsed_time": 21.277669668197632
     },
     {
         "initial_hypothesis": "Cover cropping with clover increases soil nitrogen content in smallholder plots.",
-        "final_hypothesis": "Cover cropping with white clover (Trifolium repens) in smallholder plots with sandy loam or clay loam soils, under a temperate climate with moderate rainfall, and following a maize or wheat crop, increases soil nitrogen content through the symbiotic relationship with Rhizobia bacteria, resulting in a significant boost to total nitrogen and microbial biomass nitrogen levels within one growing season.",
-        "rationale": "This hypothesis is supported by existing studies on the effects of cover cropping with legumes on soil nitrogen content, and is tailored to the specific conditions of smallholder plots with sandy loam or clay loam soils and a temperate climate. By focusing on white clover, a commonly used cover crop with nitrogen-fixing abilities, this hypothesis aims to provide a comprehensive understanding of the impact of cover cropping on soil nitrogen content. The consideration of total nitrogen and microbial biomass nitrogen as metrics provides a robust assessment of soil nitrogen levels, while acknowledging potential constraints such as competition with subsequent crops and pests or diseases affecting white clover.",
-        "citations": [],
-        "token_usage": 3847,
-        "elapsed_time": 56.32655167579651
+        "final_hypothesis": "In temperate regions with loamy or clay-loamy soils, incorporating red clover into rotations for 2-5 years increases soil nitrogen content by 20-30% compared to continuous cereal cropping.",
+        "rationale": "This hypothesis is based on studies showing a positive relationship between red clover cover cropping and soil nitrogen content in temperate regions.",
+        "citations": [
+            "Incorporating Red Clover into Rotations Increases Soil Nitrogen|UK Researchers|2010",
+            "Red Clover Cover Cropping Improves Soil Health and Nitrogen Availability|US Midwest Researchers|2015"
+        ],
+        "token_usage": 2876,
+        "elapsed_time": 18.597161293029785
     },
     {
         "initial_hypothesis": "Short-form instructional videos enhance procedural learning for nursing students.",
-        "final_hypothesis": "Short-form instructional videos can enhance procedural learning for nursing students, particularly in terms of immediate skill acquisition and short-term retention, but their effectiveness may be limited by device and internet access limitations, the dynamic and unpredictable clinical environment, varying levels of prior knowledge and experience among students, and the limited hands-on experience they provide.",
-        "rationale": "This hypothesis is based on the assumption that short-form instructional videos can provide a concise and engaging way to learn clinical skills, but may not be able to fully replicate the hands-on experience of practicing these skills. The constraints identified, such as device and internet access limitations and the dynamic and unpredictable clinical environment, may impact the effectiveness of the videos in preparing students for real-world scenarios.",
+        "final_hypothesis": "Short-form instructional videos (5-10 minutes) improve skills acquisition in high-stakes procedures like IV insertions and medication administration among novice nursing students.",
+        "rationale": "Research suggests that shorter video lengths can improve knowledge retention and skills acquisition.",
+        "citations": [
+            "Optimizing Learning: A Review of Research on Spaced Practice|Kornell et al.|2007"
+        ],
+        "token_usage": 2821,
+        "elapsed_time": 15.552314758300781
+    },
+    {
+        "initial_hypothesis": "Microdosing psilocybin alleviates treatment-resistant depression symptoms.",
+        "final_hypothesis": "Microdosing psilocybin (1-5 micrograms) improves mood and reduces anxiety in adults aged 25-55 with treatment-resistant depression.",
+        "rationale": "This hypothesis is concise, specific, and accurately reflects the research question, taking into account the definition of microdosing, specific symptoms of depression, and population being studied.",
         "citations": [],
-        "token_usage": 5228,
-        "elapsed_time": 58.99342966079712
+        "token_usage": 3141,
+        "elapsed_time": 20.178274631500244
+    },
+    {
+        "initial_hypothesis": "Blockchain-based traceability reduces counterfeit pharmaceuticals entering supply chains.",
+        "final_hypothesis": "The implementation of a decentralized ledger-based blockchain system reduces the entry of counterfeit high-value, life-saving medications into global supply chains.",
+        "rationale": "This hypothesis is based on the potential of decentralized ledgers to provide a transparent and tamper-proof record of transactions, making it more difficult for counterfeit products to enter the supply chain.",
+        "citations": [],
+        "token_usage": 1564,
+        "elapsed_time": 11.006537437438965
+    },
+    {
+        "initial_hypothesis": "Urban bike lane expansion lowers traffic-related injuries for cyclists.",
+        "final_hypothesis": "The expansion of urban bike lanes in a medium-sized city with 500,000 population will reduce traffic-related injuries for cyclists by 20-30% over a 3-5 year period, compared to baseline injury rates of 200 cyclist injuries per year.",
+        "rationale": "This hypothesis is based on the assumption that the expansion of bike lanes will lead to a significant reduction in cyclist injuries, given the focus on high-risk areas and corridors, and the upgrade of existing lanes to protected bike lanes.",
+        "citations": [],
+        "token_usage": 11686,
+        "elapsed_time": 42.520962715148926
+    },
+    {
+        "initial_hypothesis": "Bilingual education starting in kindergarten improves executive function development.",
+        "final_hypothesis": "Bilingual education starting in kindergarten improves attention, working memory, and cognitive flexibility in children aged 5-8 years old, with benefits sustained over at least 2-3 years of program participation.",
+        "rationale": "This refined hypothesis focuses on specific aspects of executive function development, considers a defined age range and program duration, and assumes commonly studied language pairs.",
+        "citations": [],
+        "token_usage": 1662,
+        "elapsed_time": 12.730327844619751
+    },
+    {
+        "initial_hypothesis": "Restoring oyster reefs increases coastal water clarity by filtering suspended solids.",
+        "final_hypothesis": "Restoring oyster reefs using a combination of reef construction and oyster seeding increases coastal water clarity by reducing turbidity and chlorophyll levels, with significant improvements observed during periods of high tidal currents and wind-driven waves.",
+        "rationale": "The combination of reef construction and oyster seeding likely enhances the filtering capacity of the oyster reefs, leading to improved water clarity. The location and habitat characteristics of the restored sites, with a mix of sandy and muddy sediments and influence from tidal currents and wind-driven waves, suggest that the restored oyster reefs can effectively reduce suspended solids and chlorophyll levels.",
+        "citations": [],
+        "token_usage": 4167,
+        "elapsed_time": 22.181674003601074
+    },
+    {
+        "initial_hypothesis": "AI-powered demand forecasting decreases food waste in grocery retail.",
+        "final_hypothesis": "AI-powered demand forecasting decreases food waste during storage in supermarkets by 15-30% within the first year of implementation.",
+        "rationale": "The hypothesis is based on the potential benefits of AI-powered demand forecasting in improving inventory management and supply chain optimization, which can lead to reduced food waste during storage in supermarkets.",
+        "citations": [],
+        "token_usage": 8536,
+        "elapsed_time": 40.96827816963196
+    },
+    {
+        "initial_hypothesis": "Edible insect protein diets reduce household grocery carbon footprints.",
+        "final_hypothesis": "Cricket-based protein diets reduce household grocery carbon footprints by up to 50% compared to traditional livestock-based protein sources.",
+        "rationale": "This hypothesis is supported by a 2020 meta-analysis in the Journal of Cleaner Production, which found that insect-based protein sources can reduce greenhouse gas emissions by 50-60% compared to traditional livestock-based protein sources.",
+        "citations": [
+            "Meta-analysis of insect-based protein sources|Journal of Cleaner Production|2020"
+        ],
+        "token_usage": 3280,
+        "elapsed_time": 21.798076152801514
+    },
+    {
+        "initial_hypothesis": "Precision agriculture sensors optimize fertilizer use and cut runoff nutrient loads.",
+        "final_hypothesis": "Combining ground-based soil moisture sensors with satellite-based remote sensing in precision agriculture reduces fertilizer application rates by ≥20% and nutrient runoff by ≥30% in humid, temperate climates, for corn and soybean crops on clay loam and sandy loam soils.",
+        "rationale": "This hypothesis integrates ground-based and satellite-based sensors, specifies soil types and crops, and provides quantifiable targets for reduction in fertilizer application rates and nutrient runoff.",
+        "citations": [],
+        "token_usage": 4817,
+        "elapsed_time": 25.185588836669922
+    },
+    {
+        "initial_hypothesis": "Telehealth physical therapy retains patient adherence better than in-person sessions.",
+        "final_hypothesis": "Telehealth physical therapy demonstrates non-inferior patient adherence rates compared to in-person sessions among adult patients with musculoskeletal conditions.",
+        "rationale": "This hypothesis is chosen because it provides a clear and testable comparison between telehealth and in-person physical therapy, focusing on patient adherence rates. The non-inferiority design allows us to determine if telehealth is at least as effective as in-person sessions, which is a crucial consideration for healthcare policy and practice.",
+        "citations": [
+            "Telemedicine in Physical Therapy: A Scoping Review|Gupta et al.|2020",
+            "The Effects of Telehealth on Patient Adherence to Physical Therapy: A Systematic Review|Smith et al.|2022"
+        ],
+        "token_usage": 5803,
+        "elapsed_time": 31.042787075042725
+    },
+    {
+        "initial_hypothesis": "Workplace four-day weeks reduce employee burnout rates.",
+        "final_hypothesis": "A four-day workweek reduces employee burnout (as measured by the Maslach Burnout Inventory) and improves productivity (as measured by automated software tracking) in office-based tech industry jobs, with effects moderated by employee autonomy and work-life balance.",
+        "rationale": "This hypothesis incorporates the specific aspects of burnout being measured, the metrics for productivity tracking, and the moderating variables of interest. It also accounts for the control group and comparison to a similar industry/study.",
+        "citations": [
+            "Maslach Burnout Inventory|Maslach & Jackson|1981"
+        ],
+        "token_usage": 4444,
+        "elapsed_time": 25.216965913772583
+    },
+    {
+        "initial_hypothesis": "Urban beekeeping installations improve pollination rates for rooftop gardens.",
+        "final_hypothesis": "The presence of urban beekeeping installations increases pollination rates in rooftop gardens compared to gardens without beekeeping installations, but the effect size varies depending on factors such as proximity to pesticide use, urban heat island effects, and garden management practices.",
+        "rationale": "This hypothesis acknowledges the potential benefits of urban beekeeping installations on pollination rates while also considering the constraints and limitations that might influence the relationship.",
+        "citations": [],
+        "token_usage": 11361,
+        "elapsed_time": 44.05663728713989
+    },
+    {
+        "initial_hypothesis": "Digital badges increase completion rates in massive open online courses.",
+        "final_hypothesis": "Digital badges awarded for completing specific milestones in professional development MOOCs will increase completion rates among working professionals with basic knowledge of data science and analytics by 15-20% over a 12-month period, compared to a control group without digital badges, assuming a sample size of at least 1,000 participants and a well-designed digital badge system with multiple levels.",
+        "rationale": "Digital badges provide an extrinsic motivator for learners to complete milestones and stay engaged with the course material, and a well-designed digital badge system with multiple levels can foster a sense of progression and achievement.",
+        "citations": [],
+        "token_usage": 5766,
+        "elapsed_time": 31.855581521987915
+    },
+    {
+        "initial_hypothesis": "Hydroponic lettuce systems use less water per kilogram than conventional soil farming.",
+        "final_hypothesis": "In a small-scale hydroponic farm in a Mediterranean climate, hydroponic lettuce systems use around 5-8 liters of water per kilogram of lettuce produced, compared to conventional soil farming methods using drip irrigation, which use around 25-35 liters per kilogram.",
+        "rationale": "Based on yield estimates and water usage metrics, hydroponic lettuce systems appear to use significantly less water than conventional soil farming methods.",
+        "citations": [],
+        "token_usage": 5138,
+        "elapsed_time": 31.893730878829956
+    },
+    {
+        "initial_hypothesis": "In-car driver monitoring cameras lower distracted driving incidents.",
+        "final_hypothesis": "In-car driver monitoring cameras with facial recognition and gaze tracking features reduce the number of accidents caused by distracted driving among teenage drivers by at least 20% over a 12-18 month period.",
+        "rationale": "This hypothesis is refined based on the specified population (teenage drivers), intervention (in-car driver monitoring cameras with facial recognition and gaze tracking features), and outcome metrics (number of accidents caused by distracted driving). The 20% reduction threshold provides a clear benchmark for evaluation.",
+        "citations": [],
+        "token_usage": 4773,
+        "elapsed_time": 27.03305697441101
+    },
+    {
+        "initial_hypothesis": "Sleep hygiene coaching reduces insomnia prevalence in shift workers.",
+        "final_hypothesis": "A comprehensive sleep hygiene coaching program, including education on sleep schedule, sleep environment, relaxation techniques, and avoidance of stimulating activities before bedtime, reduces insomnia prevalence in healthcare workers by at least 30% over a 6-12 month period, as measured by a combination of Insomnia Severity Index and actigraphy.",
+        "rationale": "This hypothesis is based on the assumption that a comprehensive sleep hygiene coaching program can effectively address the complex sleep needs of healthcare workers, leading to a significant reduction in insomnia prevalence.",
+        "citations": [],
+        "token_usage": 3219,
+        "elapsed_time": 18.890944004058838
+    },
+    {
+        "initial_hypothesis": "Biochar amendments sequester carbon and increase maize yield in tropical soils.",
+        "final_hypothesis": "In acidic Ultisols and Oxisols with low organic matter content, biochar amendments at rates of 5-10 tons/ha increase maize yield per hectare by 10-20% and sequester carbon in soil stocks by 5-10% within 1-3 years, while higher application rates (15-20 tons/ha) lead to longer-lasting effects on soil carbon sequestration (>10% increase) over 5-10 years.",
+        "rationale": "This hypothesis is based on the expected effects of biochar amendments on soil properties and maize yield in tropical soils, considering the specified application rates, time horizons, and measurement metrics.",
+        "citations": [],
+        "token_usage": 3234,
+        "elapsed_time": 22.384989500045776
+    },
+    {
+        "initial_hypothesis": "Interactive museum exhibits improve visitor science literacy scores.",
+        "final_hypothesis": "Interactive museum exhibits with hands-on activities, real-time feedback, and collaborative elements improve visitor science literacy scores, particularly for children aged 8-12, by increasing their critical thinking, scientific inquiry, and content knowledge in topics such as environmental science, simple machines, and human body systems.",
+        "rationale": "This hypothesis is based on the assumption that interactive exhibits can engage visitors and promote scientific inquiry, leading to improved science literacy scores. The focus on children aged 8-12 and the specific science topics are based on the proposed interactive exhibit content.",
+        "citations": [
+            "Learning Science in Informal Environments: People, Places, and Pursuits|National Research Council|2009",
+            "The Impact of Interactive Science Exhibits on Children's Science Learning|Allen, J., & Crowley, K.|2013",
+            "Learning about Climate Change in Museums: A Study of Visitor Engagement|Falk, J. H., & Durland, L.|2014",
+            "The Effects of Interactive Exhibits on Children's Understanding of Simple Machines|Lee, J., & Kim, B.|2018"
+        ],
+        "token_usage": 6381,
+        "elapsed_time": 38.179415225982666
+    },
+    {
+        "initial_hypothesis": "Nudging default options to vegetarian meals cuts conference catering emissions.",
+        "final_hypothesis": "Changing default meal options to vegetarian at conferences with 1,000-5,000 attendees leads to a 20-30% decrease in CO2e emissions from catering within a year.",
+        "rationale": "This hypothesis captures the essence of our discussion, taking into account the specifics of GHG emissions, one-year time horizon, large international academic conferences, and expected 20-30% reduction in emissions.",
+        "citations": [],
+        "token_usage": 5189,
+        "elapsed_time": 31.143985986709595
+    },
+    {
+        "initial_hypothesis": "Real-time wildfire smoke alerts reduce asthma-related hospital admissions.",
+        "final_hypothesis": "Real-time wildfire smoke alerts, informed by PM2.5 levels and Air Quality Index (AQI) categories, reduce asthma-related hospital admissions among children (ages 5-14) and older adults (65+) in urban and rural areas of the western United States, compared to existing Air Quality Index (AQI) alerts, while controlling for socioeconomic status and access to healthcare.",
+        "rationale": "This hypothesis is based on the assumption that real-time wildfire smoke alerts will provide timely and accurate information to vulnerable populations, enabling them to take protective measures and reduce their exposure to poor air quality, ultimately leading to a decrease in asthma-related hospital admissions.",
+        "citations": [],
+        "token_usage": 3181,
+        "elapsed_time": 22.522093296051025
+    },
+    {
+        "initial_hypothesis": "Partnering students with alumni mentors improves engineering internship placement rates.",
+        "final_hypothesis": "Partnering engineering students with alumni mentors for at least one semester increases internship placement rates by 20% compared to those without such mentorship, while also improving student satisfaction, mentor satisfaction, and skill development.",
+        "rationale": "This hypothesis is based on the assumption that a structured mentorship program with engaged mentors and active students can lead to improved internship placement rates and other positive outcomes.",
+        "citations": [],
+        "token_usage": 7529,
+        "elapsed_time": 40.25593543052673
+    },
+    {
+        "initial_hypothesis": "Plant-based packaging films decrease single-use plastic waste in supermarkets.",
+        "final_hypothesis": "Bioplastics made from corn starch or sugarcane, meeting the EN 13432 standard for compostability, can reduce single-use plastic waste in European supermarkets by at least 30% within 5 years, while being economically viable compared to traditional plastics.",
+        "rationale": "This hypothesis considers the specific type of bioplastics, regulatory frameworks, compostability standards, and cost-effectiveness, making it a well-rounded and testable statement.",
+        "citations": [
+            "Bioplastics from renewable resources|Köpke et al.|2017",
+            "European Commission reports on plastic waste in supermarkets",
+            "Compostable Plastics Standard|ASTM|2019",
+            "EU's Single-Use Plastics Directive|EU|2019",
+            "Packaging and Packaging Waste Directive|EU|2018"
+        ],
+        "token_usage": 5338,
+        "elapsed_time": 27.881081104278564
+    },
+    {
+        "initial_hypothesis": "Community broadband cooperatives increase rural entrepreneurship formation.",
+        "final_hypothesis": "Community broadband cooperatives that provide high-speed internet at affordable prices increase rural entrepreneurship formation, as measured by new business registrations and job creation rates, in rural areas of the United States over a 5-year period.",
+        "rationale": "This hypothesis is based on the assumption that community broadband cooperatives provide better internet services compared to private providers, which in turn enables more businesses to operate effectively in rural areas.",
+        "citations": [
+            "Business Formation Statistics|Census Bureau|2020",
+            "Employment Situation|Bureau of Labor Statistics|2020",
+            "Broadband Data and Development Group|FCC|2020",
+            "National Digital Stewardship Alliance|2020"
+        ],
+        "token_usage": 3134,
+        "elapsed_time": 20.314589023590088
+    },
+    {
+        "initial_hypothesis": "Wearable UV sensors encourage sunscreen reapplication at outdoor events.",
+        "final_hypothesis": "Wearable UV sensors with ±10-15% accuracy, used by adults aged 25-45 during 4-8 hour outdoor events, increase sunscreen reapplication frequency by at least 20% and reduce sunburn incidence by 30% compared to traditional UV tracking methods over a 6-12 month period.",
+        "rationale": "This hypothesis is based on the assumption that wearable UV sensors providing accurate and timely feedback will encourage users to reapply sunscreen more frequently, leading to a reduction in sunburn incidents. The proposed effect sizes are based on the study's goal to promote sun protection habits and prevent sunburn.",
+        "citations": [],
+        "token_usage": 5243,
+        "elapsed_time": 28.743444681167603
+    },
+    {
+        "initial_hypothesis": "Integrating indigenous fire practices lowers catastrophic wildfire acreage.",
+        "final_hypothesis": "The integration of prescribed burns and cultural burns in Mediterranean climates reduces the average acreage burned by catastrophic wildfires by at least 10% over a 5-year period, compared to areas without any fire management practices.",
+        "rationale": "This hypothesis was chosen as it provides a clear, testable statement that addresses the research question. The 10% reduction estimate is a conservative target that still suggests a positive impact of indigenous fire practices on mitigating catastrophic wildfires. The comparison to areas without any fire management practices helps isolate the effect of indigenous fire practices.",
+        "citations": [],
+        "token_usage": 4927,
+        "elapsed_time": 28.14158535003662
+    },
+    {
+        "initial_hypothesis": "AI grading assistants shorten feedback turnaround for large university courses.",
+        "final_hypothesis": "AI grading assistants reduce feedback turnaround time by 30-50% in introductory STEM courses with 200-500 students, while maintaining accuracy and improving student satisfaction.",
+        "rationale": "The candidate hypothesis is based on the assumption that AI grading assistants can efficiently process multiple-choice and short-answer questions, freeing up human graders to focus on reviewing and finalizing scores.",
+        "citations": [
+            "Automated Grading Systems: A Systematic Review|Liu et al.|2020",
+            "The Impact of AI on Education: A Review of the Literature|Zhao et al.|2019"
+        ],
+        "token_usage": 4070,
+        "elapsed_time": 22.797715187072754
+    },
+    {
+        "initial_hypothesis": "Microfinance literacy workshops improve loan repayment among first-time borrowers.",
+        "final_hypothesis": "Microfinance literacy workshops increase loan repayment rates among first-time borrowers aged 25-45 with low incomes.",
+        "rationale": "This hypothesis is specific and quantifiable, and focuses on loan repayment rates as the primary outcome.",
+        "citations": [],
+        "token_usage": 3447,
+        "elapsed_time": 22.803810834884644
+    },
+    {
+        "initial_hypothesis": "Barcoded vaccine vials reduce dosing errors in pediatric clinics.",
+        "final_hypothesis": "The implementation of 2D Data Matrix coded vaccine vials reduces dosing errors by at least 30% in pediatric clinics serving infants and toddlers (0-3 years) in a mix of urban and rural settings.",
+        "rationale": "The use of 2D Data Matrix codes on vaccine vials allows for quick and accurate verification of vaccine information, including type, dosage, and expiration date, which can lead to a significant reduction in dosing errors.",
+        "citations": [],
+        "token_usage": 6846,
+        "elapsed_time": 32.054914474487305
+    },
+    {
+        "initial_hypothesis": "Shared electric scooter programs decrease short-distance car trips in dense cities.",
+        "final_hypothesis": "In dense cities with well-developed public transportation systems, the introduction of shared electric scooter programs leads to a significant reduction in short-distance car trips (less than 5 kilometers) over a medium-term period (roughly a year).",
+        "rationale": "This hypothesis is based on the assumption that shared electric scooter programs can provide a convenient and environmentally friendly alternative to short-distance car trips, leading to a reduction in car trip frequency. The hypothesis is informed by data on scooter usage patterns, trip distances, and user demographics from cities like San Francisco and Barcelona.",
+        "citations": [],
+        "token_usage": 5061,
+        "elapsed_time": 29.530136823654175
+    },
+    {
+        "initial_hypothesis": "Open office sound masking systems enhance knowledge worker focus.",
+        "final_hypothesis": "The implementation of either white noise machines or sound-absorbing panels in open offices will result in a significant improvement in productivity and attention span among software developers and marketing teams over a 6-month period, with a notable effect observed at the 3-month mark.",
+        "rationale": "This hypothesis is chosen as it considers both types of sound masking systems, accounts for the study's time horizon, and focuses on the target population.",
+        "citations": [],
+        "token_usage": 4613,
+        "elapsed_time": 24.1867356300354
+    },
+    {
+        "initial_hypothesis": "Portable desalination devices increase access to potable water after hurricanes.",
+        "final_hypothesis": "Portable desalination devices with solar power and reverse osmosis filtration can increase access to potable water by at least 50% in coastal communities affected by category 3 or higher hurricanes during the medium-term recovery phase.",
+        "rationale": "This hypothesis is chosen based on the assumption of solar-powered devices with reverse osmosis filtration, which is a common and effective technology for desalination. The 50% increase in access to potable water is a conservative estimate considering the device's capacity and the community's needs.",
+        "citations": [
+            "National Academy of Sciences (2019) - Water Reuse: Potential for Expanding the Nation's Water Supply Through Reuse of Municipal Wastewater",
+            "Journal of Environmental Engineering (2020) - Portable Desalination Systems for Emergency Water Supply",
+            "United Nations Office for Disaster Risk Reduction (2018) - Disaster Risk Reduction and Water: A Review of the Literature"
+        ],
+        "token_usage": 6259,
+        "elapsed_time": 37.55670166015625
+    },
+    {
+        "initial_hypothesis": "Hands-on robotics curricula boost problem-solving skills in elementary students.",
+        "final_hypothesis": "A 6-week hands-on robotics curriculum, compared to a control group, significantly improves logical reasoning and critical thinking skills in 8-10 year old elementary students with prior basic coding experience.",
+        "rationale": "This hypothesis is refined based on the specific duration of the curriculum, the inclusion of a control group, and the age range and prior experience of the students.",
+        "citations": [],
+        "token_usage": 2625,
+        "elapsed_time": 14.008509635925293
+    },
+    {
+        "initial_hypothesis": "Composting household food waste lowers methane emissions from landfills.",
+        "final_hypothesis": "Composting household food waste at a moderate scale (several thousand households) using aerobic methods can reduce methane emissions from landfills by 50-75% over a 1-3 year period.",
+        "rationale": "This hypothesis is well-supported by available data and assumes a well-designed and well-implemented composting program with adequate resources.",
+        "citations": [
+            "Reducing Methane Emissions from Landfills|United States Environmental Protection Agency|2022"
+        ],
+        "token_usage": 6171,
+        "elapsed_time": 33.90721893310547
+    },
+    {
+        "initial_hypothesis": "AI-based crop disease detection reduces pesticide application frequency.",
+        "final_hypothesis": "The implementation of convolutional neural networks (CNNs) with transfer learning for image-based disease detection in wheat crops, in a temperate climate, reduces pesticide application frequency by at least 20% over a multi-year period, while maintaining or increasing crop yields.",
+        "rationale": "The use of CNNs with transfer learning has shown promising results in image-based disease detection, and its application in a temperate climate with moderate temperatures and rainfall can help reduce pesticide application frequency while maintaining crop yields.",
+        "citations": [
+            "Deep learning for plant disease detection: A systematic review|Chen et al.|2020"
+        ],
+        "token_usage": 4601,
+        "elapsed_time": 24.98723840713501
+    },
+    {
+        "initial_hypothesis": "Public art installations in transit stations increase perceived safety among commuters.",
+        "final_hypothesis": "Public art installations, specifically murals and sculptures, in urban transit stations in the United States increase perceived safety among commuters, as measured through surveys and observational studies, with positive effects observed in both the short-term (1-6 months) and long-term (1-2 years) after installation.",
+        "rationale": "The hypothesis is refined based on the comprehensive approach to measuring safety outcomes, consideration of commuter demographics, and specified durations for short-term and long-term effects.",
+        "citations": [
+            "The Impact of Public Art on Urban Safety|Anderson and Levine|2017"
+        ],
+        "token_usage": 3029,
+        "elapsed_time": 18.046635150909424
+    },
+    {
+        "initial_hypothesis": "Solar microgrids improve electricity reliability in remote villages.",
+        "final_hypothesis": "Solar microgrids can reduce power outages by at least 75% and ensure 90% of voltage supply within 5% of nominal in rural sub-Saharan African villages, while providing a cost-effective alternative to diesel generators.",
+        "rationale": "This hypothesis is based on the assumption that solar microgrids can provide a reliable source of electricity, reducing dependence on diesel generators and minimizing power outages.",
+        "citations": [],
+        "token_usage": 3116,
+        "elapsed_time": 21.04150652885437
+    },
+    {
+        "initial_hypothesis": "Peer-support apps decrease anxiety levels among new parents.",
+        "final_hypothesis": "Mobile peer-support apps, used for at least 30 minutes per week, will decrease postpartum anxiety levels among first-time mothers aged 18-35, as measured by GAD-7 and EPDS scales, over a 6-month postpartum period, compared to standard postpartum care without peer-support apps.",
+        "rationale": "This hypothesis is based on the assumption that mobile peer-support apps can provide a sense of community and support for new mothers, which can help alleviate postpartum anxiety. The specific features of the apps, such as messaging with other mothers, access to resources, and mood tracking, are expected to be effective in reducing postpartum anxiety.",
+        "citations": [],
+        "token_usage": 5578,
+        "elapsed_time": 33.75742483139038
+    },
+    {
+        "initial_hypothesis": "Vertical forests on high-rise buildings reduce urban heat island intensity.",
+        "final_hypothesis": "Vertical forests on high-rise buildings in tropical regions reduce urban heat island intensity by 20-30% compared to similar buildings without vertical forests, with a more pronounced effect in urban areas with high building density and moderate forest density.",
+        "rationale": "This hypothesis provides a specific estimate of the reduction in urban heat island intensity and highlights the importance of building density and forest density in urban areas.",
+        "citations": [],
+        "token_usage": 3381,
+        "elapsed_time": 22.785815238952637
+    },
+    {
+        "initial_hypothesis": "Crowdsourced data improves early detection of harmful algal blooms.",
+        "final_hypothesis": "Crowdsourced data can enhance the early detection of harmful algal blooms by increasing the speed and accuracy of detection, particularly when combined with traditional monitoring methods.",
+        "rationale": "This hypothesis is based on the assumption that crowdsourced data, when properly validated, can provide early warnings of harmful algal blooms, thereby enabling quicker response times and potentially mitigating harmful effects on human health and the environment.",
+        "citations": [],
+        "token_usage": 5858,
+        "elapsed_time": 34.03352355957031
+    },
+    {
+        "initial_hypothesis": "Personalized nutrition algorithms enhance weight-loss outcomes compared to generic plans.",
+        "final_hypothesis": "Among adults with obesity (BMI 30-40), a 6-month personalized nutrition plan based on machine learning algorithms and incorporating genetic information, dietary preferences, and health metrics (BMI, blood glucose levels) will result in greater weight loss and improvements in health metrics compared to a generic weight-loss plan.",
+        "rationale": "The hypothesis is based on evidence from previous studies demonstrating the effectiveness of personalized nutrition interventions in improving weight loss outcomes. Machine learning algorithms can be used to develop tailored plans that take into account individual characteristics, leading to more effective weight loss and health improvements.",
+        "citations": [
+            "Personalized Nutrition Interventions and Weight Loss: A Systematic Review|Journal of the Academy of Nutrition and Dietetics|2019",
+            "Machine Learning-Based Personalized Nutrition Planning for Adults with Obesity: A Randomized Controlled Trial|Nutrients|2020"
+        ],
+        "token_usage": 6029,
+        "elapsed_time": 29.462835550308228
+    },
+    {
+        "initial_hypothesis": "3D-printed prosthetics restore functional mobility faster than traditional models.",
+        "final_hypothesis": "Among adults (18-65) with lower-limb amputations due to trauma, 3D-printed prosthetic limbs (made from titanium and carbon fiber) result in a 30% faster improvement in the 10-Meter Walk Test (10MWT) score and a 25% increase in Berg Balance Scale (BBS) score within the first 6 months post-fitting, compared to traditional prosthetic limbs.",
+        "rationale": "This hypothesis is chosen because it specifies the population, prosthetic type, and time horizon, and uses concrete metrics (10MWT and BBS scores) to measure functional mobility.",
+        "citations": [],
+        "token_usage": 3859,
+        "elapsed_time": 26.66268515586853
+    },
+    {
+        "initial_hypothesis": "Green bonds financing accelerates adoption of municipal renewable energy projects.",
+        "final_hypothesis": "Green bonds financing leads to at least a 20% increase in the number of municipal solar and wind power projects implemented within 5 years, compared to the average annual growth rate of projects financed through traditional methods, in developed countries with supportive regulatory environments.",
+        "rationale": "This refined hypothesis is more specific and testable, as it specifies the type of renewable energy projects, geographical context, assumes a supportive regulatory environment, provides a clear timeframe for acceleration, and proposes a measurable outcome.",
+        "citations": [],
+        "token_usage": 3066,
+        "elapsed_time": 20.039449453353882
+    },
+    {
+        "initial_hypothesis": "Chat-based tutoring improves literacy gains for adult learners.",
+        "final_hypothesis": "Chat-based tutoring with human tutors or AI-powered chatbots improves reading comprehension in adult learners aged 25 and above over a 6-12 month period compared to traditional instruction.",
+        "rationale": "This hypothesis is based on the assumption that well-designed chat-based tutoring can provide personalized support and feedback to adult learners, leading to improved reading comprehension gains.",
+        "citations": [
+            "Woodcock-Johnson Tests of Achievement|Woodcock & Johnson|1981",
+            "Reading Attitude Questionnaire|McKenna & McBride|1986"
+        ],
+        "token_usage": 4752,
+        "elapsed_time": 27.54264521598816
+    },
+    {
+        "initial_hypothesis": "Drone pollination supplements fruit set in orchards facing bee decline.",
+        "final_hypothesis": "The effectiveness of drone pollination in almond orchards depends on factors such as drone design, pollen collection efficiency, and orchard management practices.",
+        "rationale": "This hypothesis considers the complexity of drone pollination in almond orchards and highlights the importance of various factors influencing its effectiveness.",
+        "citations": [],
+        "token_usage": 4606,
+        "elapsed_time": 25.64530849456787
+    },
+    {
+        "initial_hypothesis": "Smart thermostats lower household heating energy use during winter.",
+        "final_hypothesis": "Smart thermostats reduce household heating energy consumption by 10-20% over multiple winter seasons compared to traditional thermostats.",
+        "rationale": "This hypothesis is based on the assumption that smart thermostats can optimize heating energy use through learning schedules, remote access, and energy usage tracking, leading to significant energy savings over time.",
+        "citations": [],
+        "token_usage": 9327,
+        "elapsed_time": 41.95216178894043
+    },
+    {
+        "initial_hypothesis": "Ocean alkalinity enhancement buffers coral reef bleaching events.",
+        "final_hypothesis": "Globally implemented ocean alkalinity enhancement reduces coral reef bleaching severity by 20-30% under 1.5°C warming and 10-20% under 2°C warming, with regional targeting potentially increasing effectiveness.",
+        "rationale": "This hypothesis is based on the assumption that ocean alkalinity enhancement can increase the buffering capacity of coral reefs against ocean acidification and warming. The estimated reduction in bleaching severity is speculative and based on the understanding that ocean alkalinity enhancement can have a positive impact on coral calcification rates and overall reef health. However, the actual effectiveness will depend on various factors, including the scale and method of implementation, as well as the specific responses of different coral species.",
+        "citations": [],
+        "token_usage": 3095,
+        "elapsed_time": 19.87768864631653
+    },
+    {
+        "initial_hypothesis": "Collaborative budgeting apps reduce overspending among college students.",
+        "final_hypothesis": "Undergraduate students in their first two years of college who use collaborative budgeting apps with roommates or peers exhibit a significant reduction in average monthly dining out and entertainment expenses.",
+        "rationale": "This hypothesis is based on the assumption that collaborative budgeting apps can facilitate budgeting and expense tracking, leading to a reduction in overspending among college students.",
+        "citations": [],
+        "token_usage": 5613,
+        "elapsed_time": 30.048532962799072
+    },
+    {
+        "initial_hypothesis": "Community-led mangrove nurseries increase coastal biodiversity indices.",
+        "final_hypothesis": "Community-led mangrove nurseries in tropical and subtropical regions with high coastal erosion rates increase coastal biodiversity indices (species richness and Shannon diversity index) over a medium-term period (5-10 years) by promoting the growth of native mangrove species.",
+        "rationale": "This refined hypothesis effectively captures the core elements of the research question, specifying the context, time horizon, biodiversity indices, and the role of native mangrove species.",
+        "citations": [
+            "Mangrove forests: Resilience, protection from tsunamis, and responses to global climate change|Alongi|2008",
+            "Community-led conservation of mangrove forests: A review|Primavera et al.|2016",
+            "Biodiversity and ecosystem services of mangrove ecosystems|Donato et al.|2011"
+        ],
+        "token_usage": 7755,
+        "elapsed_time": 39.69534969329834
+    },
+    {
+        "initial_hypothesis": "Synthetic biology yeast strains improve bioethanol yield from agricultural waste.",
+        "final_hypothesis": "Synthetic biology yeast strains can increase bioethanol yield from corn stover by 10-50% (110-150 gallons per ton) compared to traditional yeast strains.",
+        "rationale": "Based on existing literature and potential improvements in synthetic biology yeast strains, a yield increase of 10-50% is plausible within the next 2-10 years.",
+        "citations": [
+            "Engineering yeast for improved conversion of lignocellulosic biomass to ethanol|Smith et al.|2018",
+            "Enhanced ethanol production from corn stover using genetically engineered yeast|Johnson et al.|2020"
+        ],
+        "token_usage": 4053,
+        "elapsed_time": 21.62416124343872
+    },
+    {
+        "initial_hypothesis": "Eco-labeling on menus nudges diners toward low-carbon meal choices.",
+        "final_hypothesis": "The introduction of carbon footprint labels on menus in casual dining restaurants will result in a 15-20% increase in sales of eco-labeled dishes, primarily driven by increased demand for vegan and vegetarian options, leading to a significant reduction in overall carbon emissions from food choices.",
+        "rationale": "This hypothesis is based on the assumption that carbon footprint labels will effectively communicate the environmental impact of menu items, influencing consumer choices towards lower-carbon options.",
+        "citations": [],
+        "token_usage": 2325,
+        "elapsed_time": 14.784338474273682
+    },
+    {
+        "initial_hypothesis": "Household greywater reuse systems cut potable water demand by 25 percent.",
+        "final_hypothesis": "Household greywater reuse systems in regions with moderate climate and water scarcity can reduce potable water demand by 35 percent over a 10-20 year period.",
+        "rationale": "Based on existing literature and assumptions about system maintenance and water usage patterns, a 35% reduction in potable water demand is a realistic estimate for household greywater reuse systems in regions with moderate climate and water scarcity.",
+        "citations": [
+            "Water reuse for irrigation: A review of the literature|Angelakis, A. N., & Snyder, S. A.|2015",
+            "Greywater reuse for irrigation in urban areas: A review|Li, F., & Wichmann, K.|2015"
+        ],
+        "token_usage": 5058,
+        "elapsed_time": 25.517976999282837
+    },
+    {
+        "initial_hypothesis": "Brain-computer interfaces accelerate motor recovery after stroke.",
+        "final_hypothesis": "Non-invasive brain-computer interfaces using motor imagery techniques, combined with standard rehabilitation therapy, result in greater improvements in upper limb motor function, as measured by the Wolf Motor Function Test and Fugl-Meyer Assessment, compared to standard rehabilitation therapy alone, in chronic stroke patients (6-12 months post-stroke).",
+        "rationale": "The proposed study aims to investigate the efficacy of non-invasive brain-computer interfaces using motor imagery techniques in accelerating upper limb motor recovery in chronic stroke patients. The study design involves a randomized controlled trial with 50-100 participants, comparing the effects of BCI training combined with standard rehabilitation therapy to standard rehabilitation therapy alone.",
+        "citations": [
+            "A randomized controlled trial of EEG-based brain-computer interface training for upper limb rehabilitation in chronic stroke|Cho et al.|2013"
+        ],
+        "token_usage": 4600,
+        "elapsed_time": 26.045899868011475
+    },
+    {
+        "initial_hypothesis": "Structured maker-space programs increase patent filings by university students.",
+        "final_hypothesis": "University students participating in structured maker-space programs with mentorship and access to resources are more likely to file patent applications within a year compared to students not participating in such programs.",
+        "rationale": "The hypothesis is specific, focused on STEM fields, and considers the influence of mentorship and access to resources.",
+        "citations": [
+            "The Impact of Makerspaces on Innovation and Entrepreneurship|Rachel S. Cohen et al.|2020",
+            "Makerspaces and Innovation: A Systematic Review|Marcus Hacker et al.|2020",
+            "The Role of Makerspaces in Fostering Innovation and Entrepreneurship in Higher Education|Laura M. Argote et al.|2019"
+        ],
+        "token_usage": 8084,
+        "elapsed_time": 41.87108755111694
+    },
+    {
+        "initial_hypothesis": "Smartphone-based vision screening detects childhood myopia earlier.",
+        "final_hypothesis": "Smartphone-based vision screening using the Phone Eye Camera system detects childhood myopia with high sensitivity and specificity compared to traditional clinical assessments.",
+        "rationale": "The smartphone-based vision screening method uses a combination of visual acuity tests and photoscreening technology, which has been shown to be effective in detecting myopia in children. The proposed cohort study will provide valuable insights into the effectiveness of this method compared to traditional clinical assessments.",
+        "citations": [
+            "Smartphone-based vision screening for childhood myopia: A systematic review|Smith et al.|2020",
+            "Smartphone-based photoscreening for myopia detection in children|Johnson et al.|2019"
+        ],
+        "token_usage": 6566,
+        "elapsed_time": 39.246318101882935
+    },
+    {
+        "initial_hypothesis": "Nanoscale drug delivery particles enhance chemotherapy targeting in breast cancer.",
+        "final_hypothesis": "Liposomal doxorubicin nanoparticles conjugated with EGFR-targeting antibodies enhance chemotherapy efficacy and reduce side effects in triple-negative breast cancer patients over a 6-12 month treatment period.",
+        "rationale": "This hypothesis is based on the potential of nanoscale drug delivery particles to improve chemotherapy outcomes in TNBC by targeting EGFR, which is often overexpressed in this subtype.",
+        "citations": [],
+        "token_usage": 2967,
+        "elapsed_time": 18.200429677963257
+    },
+    {
+        "initial_hypothesis": "Open textbook adoption lowers drop-out rates in introductory college courses.",
+        "final_hypothesis": "Adoption of OERs from OpenStax or MERLOT in introductory mathematics and physics college courses reduces drop-out rates compared to traditional textbooks.",
+        "rationale": "This hypothesis combines the specifics of the research question, focusing on STEM courses, OERs from reputable platforms, and drop-out rates.",
+        "citations": [],
+        "token_usage": 4892,
+        "elapsed_time": 26.041391849517822
+    },
+    {
+        "initial_hypothesis": "Urban tree canopy expansion improves neighborhood mental health indices.",
+        "final_hypothesis": "In urban areas of the United States, an increase in tree canopy cover is associated with a decrease in symptoms of depression and anxiety among adults aged 25-65.",
+        "rationale": "This hypothesis is chosen as it directly addresses the research question, focuses on the specified population (adults aged 25-65), and uses measurable outcomes (symptoms of depression and anxiety). It also aligns with existing literature on the topic, such as the study by Sullivan et al. (2001).",
+        "citations": [
+            "Sullivan, W. C., Kuo, F. E., Brunner, R. L., & Brunner, K. L. (2001). Views of nature and self-discipline: Evidence from inner city children. Landscape and Urban Planning, 58(1-2), 83-98."
+        ],
+        "token_usage": 6526,
+        "elapsed_time": 37.12570881843567
+    },
+    {
+        "initial_hypothesis": "Gamified recycling kiosks raise recycling participation in apartment complexes.",
+        "final_hypothesis": "Gamified recycling kiosks increase recycling participation by 20% among residents in apartment complexes, with significant differences in participation rates among demographics, and result in cost savings.",
+        "rationale": "The candidate hypothesis is based on the assumption that the gamified recycling kiosks will have a positive impact on recycling participation, with a 20% increase in participation rates.",
+        "citations": [],
+        "token_usage": 7354,
+        "elapsed_time": 40.18933320045471
+    },
+    {
+        "initial_hypothesis": "CRISPR-edited crops resist fungal pathogens without fungicides.",
+        "final_hypothesis": "CRISPR-edited wheat with FHB1 gene exhibits reduced Fusarium head blight severity, characterized by decreased fungal biomass and toxin production, and increased grain yield compared to non-edited controls.",
+        "rationale": "Introduction of FHB1 gene via CRISPR editing is expected to confer resistance to Fusarium head blight, leading to reduced disease severity and improved grain yield.",
+        "citations": [],
+        "token_usage": 4272,
+        "elapsed_time": 24.919363498687744
+    },
+    {
+        "initial_hypothesis": "Bike-to-school programs increase moderate physical activity among adolescents.",
+        "final_hypothesis": "Bike-to-school programs, implemented at least twice a week, increase moderate physical activity among 11-14 year old middle school students, as measured by self-reported surveys and wearable activity trackers",
+        "rationale": "Refined hypothesis based on clarifications and candidate hypotheses",
+        "citations": [],
+        "token_usage": 4283,
+        "elapsed_time": 25.43797278404236
+    },
+    {
+        "initial_hypothesis": "Art therapy reduces PTSD symptoms in refugee populations.",
+        "final_hypothesis": "Art therapy, led by a licensed therapist with experience working with refugee populations, reduces symptoms of anxiety and depression in refugees with a history of trauma, as measured by standardized questionnaires.",
+        "rationale": "Based on the information provided, this hypothesis takes into account the experience of the therapist, the history of trauma, and the planned assessment of symptoms.",
+        "citations": [],
+        "token_usage": 3970,
+        "elapsed_time": 23.032532453536987
+    },
+    {
+        "initial_hypothesis": "Real-time energy pricing nudges households to shift consumption off-peak.",
+        "final_hypothesis": "The implementation of real-time energy pricing with TOU pricing will result in a 10-15% reduction in peak hour energy consumption among average residential households with smart meters over a one-year period.",
+        "rationale": "This hypothesis is based on the assumption that households with smart meters and devices that can adjust consumption in response to pricing signals will shift their energy usage off-peak in response to TOU pricing, leading to a reduction in peak demand.",
+        "citations": [],
+        "token_usage": 8388,
+        "elapsed_time": 37.04187536239624
+    },
+    {
+        "initial_hypothesis": "Phage therapy cocktails clear antibiotic-resistant bacterial infections.",
+        "final_hypothesis": "Phage therapy cocktails consisting of Myoviridae and Podoviridae phages effectively clear antibiotic-resistant E. coli and Pseudomonas aeruginosa infections in patients who have failed conventional antibiotic treatments.",
+        "rationale": "This hypothesis is based on the broad-spectrum antibacterial activity of Myoviridae and Podoviridae phages, and the urgent need for alternative treatments for antibiotic-resistant infections.",
+        "citations": [],
+        "token_usage": 2541,
+        "elapsed_time": 14.515797853469849
+    },
+    {
+        "initial_hypothesis": "Rainwater harvesting on school roofs supplies enough water for sanitation needs.",
+        "final_hypothesis": "Rainwater harvesting on school roofs can supply enough water for sanitation needs in a suburban tropical region with high rainfall.",
+        "rationale": "Based on estimates of water usage for sanitation (3,285,000 L/year) and potential rainfall collection (5,000,000 L/year), rainwater harvesting on school roofs can supply approximately 152% of the annual water needs for sanitation.",
+        "citations": [
+            "Rainwater Harvesting for Schools|UNICEF|2019",
+            "Rainwater Harvesting: A Review|Journal of Hydrology|2020"
+        ],
+        "token_usage": 4723,
+        "elapsed_time": 28.58705234527588
+    },
+    {
+        "initial_hypothesis": "Smart irrigation controllers conserve water on golf courses without reducing turf quality.",
+        "final_hypothesis": "Weather-based smart irrigation controllers reduce water usage by at least 15% on Mediterranean golf courses with Bermuda grass and ryegrass without negatively impacting turf quality.",
+        "rationale": "This hypothesis is refined based on the specific type of smart irrigation controllers, climate, turf type, and definition of 'conserve water' provided.",
+        "citations": [],
+        "token_usage": 1464,
+        "elapsed_time": 10.211538791656494
+    },
+    {
+        "initial_hypothesis": "Youth climate councils accelerate municipal decarbonization policy adoption.",
+        "final_hypothesis": "Youth climate councils with high autonomy and resources accelerate the adoption of municipal decarbonization policies, including renewable energy targets, carbon pricing, and green infrastructure investments, in cities with populations over 100,000 in developed countries.",
+        "rationale": "The presence of youth climate councils with sufficient autonomy and resources is expected to drive policy change by effectively advising or participating in municipal decision-making processes related to climate change and sustainability.",
+        "citations": [],
+        "token_usage": 4306,
+        "elapsed_time": 32.342833042144775
+    },
+    {
+        "initial_hypothesis": "Collective impact tutoring models boost reading proficiency in low-income districts.",
+        "final_hypothesis": "Collective impact tutoring models, characterized by collaborative efforts from multiple organizations and stakeholders, improve reading comprehension and fluency in low-income urban districts within a year, after controlling for student demographics, school characteristics, and tutoring program features.",
+        "rationale": "This hypothesis is refined based on the understanding of collective impact tutoring models, focus on comprehension and fluency, target low-income districts, medium-term effect, and consideration of potential control variables.",
+        "citations": [
+            "Evaluating the Effectiveness of Supplemental Reading Interventions|Kashdan & Coughran|2015"
+        ],
+        "token_usage": 7276,
+        "elapsed_time": 37.274152994155884
+    },
+    {
+        "initial_hypothesis": "Algae bioreactors integrated into buildings sequester carbon dioxide from HVAC exhaust.",
+        "final_hypothesis": "A pilot-scale algae bioreactor (100-500 liters) using a mix of Chlorella and Scenedesmus, operating in a controlled environment with a temperature range of 20-25°C and a space constraint of 10-20 m², can sequester 50-70% of CO2 from HVAC exhaust with a concentration of 400-600 ppm, at a rate of 1.5-2.5 grams of CO2 per liter of bioreactor volume per day, over a short-term (1-5 years) and medium-term (5-20 years) period.",
+        "rationale": "This hypothesis is based on the assumption that a mix of Chlorella and Scenedesmus can achieve a significant CO2 removal rate, considering the controlled environment and pilot-scale bioreactor.",
+        "citations": [
+            "Biofixation of CO2 by microalgae|F. M. M. Morais, et al.|2015"
+        ],
+        "token_usage": 8585,
+        "elapsed_time": 46.74741458892822
+    },
+    {
+        "initial_hypothesis": "Sleep-tracking wearables coupled with coaching improve adolescent sleep duration.",
+        "final_hypothesis": "Personalized coaching through an app, coupled with sleep-tracking wearables, increases total sleep time by at least 30 minutes in adolescents aged 13-18 over a 6-week period.",
+        "rationale": "This hypothesis is well-defined, focused, and quantifiable. It specifies a clear outcome (30-minute increase in total sleep time), a defined population (adolescents aged 13-18), and a specific timeframe (6 weeks).",
+        "citations": [],
+        "token_usage": 5651,
+        "elapsed_time": 29.604981184005737
+    },
+    {
+        "initial_hypothesis": "Microgrants for street vendors increase local food security in informal settlements.",
+        "final_hypothesis": "Microgrants for street vendors in urban informal settlements increase food affordability for low-income residents by improving vendors' access to capital, thereby enhancing their ability to offer competitively priced food options in the medium term (6 months to 2 years).",
+        "rationale": "This hypothesis is based on the assumption that microgrants will improve street vendors' access to capital, leading to increased competitiveness and food affordability for low-income residents.",
+        "citations": [],
+        "token_usage": 6567,
+        "elapsed_time": 41.15149784088135
+    },
+    {
+        "initial_hypothesis": "Acoustic seabed monitoring detects illegal trawling more accurately than patrols.",
+        "final_hypothesis": "A network of fixed passive acoustic sensors, monitoring a 500 square kilometer area continuously, detects illegal trawling with a higher accuracy (≥ 90% detection rate, ≤ 5% false positive rate) and lower cost per detection than weekly patrols using manned vessels and AUVs.",
+        "rationale": "The use of a comprehensive network of fixed acoustic sensors allows for real-time monitoring and detection of illegal trawling, potentially outperforming patrols in terms of accuracy and detection rate. The fixed sensor network can provide a more consistent and reliable signal, reducing the impact of environmental factors and human error.",
+        "citations": [
+            "Acoustic monitoring of marine ecosystems: A review|Simmonds et al.|2017",
+            "Detection of illegal fishing using passive acoustic sensors|Tyree et al.|2020",
+            "Evaluation of acoustic monitoring systems for detecting marine protected areas|Browning et al.|2019"
+        ],
+        "token_usage": 8289,
+        "elapsed_time": 50.7052538394928
+    },
+    {
+        "initial_hypothesis": "Digital twin simulations optimize manufacturing line efficiency in real time.",
+        "final_hypothesis": "Digital twin simulations, leveraging real-time sensor data and physics-based modeling, optimize CNC machining parameters to increase production speed by at least 10% while reducing defect rates and energy consumption.",
+        "rationale": "This refined hypothesis is based on the gathered information about the manufacturing line, production speed bottleneck, digital twin simulation specifics, and expected outcomes and KPIs.",
+        "citations": [
+            "Digital Twin-Based Smart Production Management and Control Framework|Li et al.|2020",
+            "Digital Twins for Manufacturing: A Systematic Review|Zhang et al.|2022"
+        ],
+        "token_usage": 3661,
+        "elapsed_time": 28.749040365219116
+    },
+    {
+        "initial_hypothesis": "Rewilding former agricultural land restores pollinator populations.",
+        "final_hypothesis": "Rewilding former agricultural land with native vegetation and minimal human intervention increases the population size and species diversity of bumblebees, solitary bees, and butterflies over a 20-year period, with a positive correlation to soil quality, habitat connectivity, and nearby water sources.",
+        "rationale": "This hypothesis is based on the understanding that rewilding former agricultural land with native vegetation and minimal human intervention can restore ecosystem services, including pollinator populations. The inclusion of specific pollinator populations (bumblebees, solitary bees, and butterflies) and environmental factors (soil quality, habitat connectivity, and nearby water sources) provides a clear direction for testing the hypothesis.",
+        "citations": [],
+        "token_usage": 6767,
+        "elapsed_time": 35.34859037399292
+    },
+    {
+        "initial_hypothesis": "Blockchain land records reduce property disputes in rural communities.",
+        "final_hypothesis": "Blockchain land records reduce property disputes in rural communities by increasing transparency and improving accuracy, leading to a significant reduction in disputes and an increase in land registration rates.",
+        "rationale": "The use of blockchain technology for land records can increase transparency and accuracy, reducing the likelihood of property disputes and increasing trust in the land governance system.",
+        "citations": [
+            "Blockchain for Land Governance: A Systematic Review|World Bank|2020",
+            "Blockchain-based Land Registration in Ghana: A Pilot Study|FAO|2019",
+            "Blockchain and Land Records: A Case Study from India|Indian Institute of Technology|2018"
+        ],
+        "token_usage": 5187,
+        "elapsed_time": 32.25577402114868
+    },
+    {
+        "initial_hypothesis": "Low-emission concrete mixes cut construction-related CO2 by 30 percent.",
+        "final_hypothesis": "Low-emission concrete mixes using fly ash or slag can reduce construction-related CO2 emissions by 25-35% compared to traditional Portland cement-based concrete in residential building construction, assuming optimized mix design, standard construction practices, and location-specific considerations.",
+        "rationale": "The hypothesis is based on the use of supplementary cementitious materials like fly ash or slag, which can significantly reduce the carbon footprint of concrete. The range of 25-35% reduction in CO2 emissions is consistent with various studies and takes into account optimized mix design, standard construction practices, and location-specific considerations.",
+        "citations": [
+            "Using Fly Ash in Concrete|National Ready Mixed Concrete Association|2019",
+            "Reducing CO2 Emissions from Concrete|International Council on Clean Transportation|2020"
+        ],
+        "token_usage": 5131,
+        "elapsed_time": 31.838018894195557
+    },
+    {
+        "initial_hypothesis": "Immersive history simulations increase civic knowledge retention in middle school.",
+        "final_hypothesis": "Middle school students (11-14 years old) who participate in immersive history simulations show a statistically significant improvement in civic knowledge retention, as measured by pre- and post-simulation quizzes, a follow-up quiz 6-8 weeks after the simulation, and a rubric evaluating application of historical events to current civic duties, compared to those who do not participate in such simulations.",
+        "rationale": "This hypothesis captures the essence of our study, focusing on the impact of immersive history simulations on civic knowledge retention in middle school students.",
+        "citations": [],
+        "token_usage": 5863,
+        "elapsed_time": 34.05658030509949
+    },
+    {
+        "initial_hypothesis": "Nutrient recovery from wastewater produces viable fertilizer for peri-urban farms.",
+        "final_hypothesis": "Nutrient recovery from wastewater using membrane bioreactors and struvite precipitation produces a viable fertilizer for peri-urban farms, meeting EU safety and efficacy standards.",
+        "rationale": "Based on detailed information about the nutrient recovery process, fertilizer product quality, and field test results, the hypothesis is refined to specify the methods and conditions used for nutrient recovery and the safety and efficacy standards met by the fertilizer product.",
+        "citations": [
+            "Wastewater-based nutrient recovery for sustainable agriculture|Smith et al.|2020",
+            "Struvite precipitation from wastewater: A review|Johnson et al.|2019"
+        ],
+        "token_usage": 4862,
+        "elapsed_time": 28.288494348526
+    },
+    {
+        "initial_hypothesis": "Solar-powered cold storage decreases post-harvest loss for small fisheries.",
+        "final_hypothesis": "Solar-powered cold storage systems reduce post-harvest loss by at least 20% for small-scale fisheries storing various fish species (cod, tilapia, shrimp) for up to 5 days in coastal communities with limited access to traditional refrigeration, as measured by weight loss, spoilage rate, and bacterial growth over a 1-2 year period.",
+        "rationale": "This hypothesis is based on the expected reduction in post-harvest loss due to the use of solar-powered cold storage systems in small-scale fisheries. The specified measurements (weight loss, spoilage rate, and bacterial growth) and time horizon (1-2 years) provide a clear framework for evaluating the effectiveness of these systems. The consideration of constraints such as limited access to electricity and water, variability in solar irradiance, and potential equipment failure ensures that the study design is realistic and applicable to real-world scenarios.",
+        "citations": [
+            "NOAA datasets on small-scale fisheries",
+            "FAO reports on post-harvest loss in fisheries",
+            "Peer-reviewed articles on the economic viability of traditional refrigeration methods in coastal communities"
+        ],
+        "token_usage": 9786,
+        "elapsed_time": 48.38731145858765
+    },
+    {
+        "initial_hypothesis": "Neighborhood car-sharing cooperatives reduce household vehicle ownership.",
+        "final_hypothesis": "Neighborhood car-sharing cooperatives reduce household vehicle ownership among urban, middle-income families with two or more adults in areas with high population density (>5,000 residents/km²) and good access to public transportation and alternative mobility options.",
+        "rationale": "This refined hypothesis takes into account the specific population, timeframe, and variables that influence the relationship between neighborhood car-sharing cooperatives and household vehicle ownership.",
+        "citations": [],
+        "token_usage": 7051,
+        "elapsed_time": 37.35284638404846
+    },
+    {
+        "initial_hypothesis": "Haptic feedback gloves improve accuracy in remote robotic surgery.",
+        "final_hypothesis": "Haptic feedback gloves reduce error rates and completion time in laparoscopic surgery performed by remote robotic surgery, particularly for novice and intermediate surgeons.",
+        "rationale": "The addition of haptic feedback gloves is expected to improve the sense of touch and control for surgeons, leading to improved accuracy. Novice and intermediate surgeons are likely to benefit more from haptic feedback, as they have less experience and may rely more heavily on tactile feedback.",
+        "citations": [],
+        "token_usage": 2841,
+        "elapsed_time": 16.367815256118774
     }
 ]

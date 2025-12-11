@@ -4,3 +4,4 @@ __pycache__/
 *.log
 *.parquet
 *.sqlite3
+test.py
